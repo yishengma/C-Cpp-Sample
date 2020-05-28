@@ -95,6 +95,9 @@
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/5-array-and-pointer-array/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/6-function-pointer/Sample.cpp">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/main.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>

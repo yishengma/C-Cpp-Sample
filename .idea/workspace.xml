@@ -20,11 +20,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C 二级或多级指针">
-      <change afterPath="$PROJECT_DIR$/CModule/5-array-and-pointer-array/Sample.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C 数组和指针">
+      <change afterPath="$PROJECT_DIR$/CModule/6-function-pointer/Sample.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CModule/4-muti-pointer/Sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CModule/4-muti-pointer/Sample.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CModule/5-array-and-pointer-array/Sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CModule/5-array-and-pointer-array/Sample.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" afterDir="false" />
@@ -47,6 +47,9 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitRewordedCommitMessages">
+    <option name="onto" value="dc765c43eb7b34fe789d1c039105df04fc5719b7" />
   </component>
   <component name="ProjectId" id="1cXHqV6CArJATzkMaXhbfJcsAyd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -76,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590668208519</updated>
-      <workItem from="1590668209714" duration="5235000" />
+      <workItem from="1590668209714" duration="6343000" />
     </task>
     <task id="LOCAL-00001" summary="C and Cpp Sample">
       <created>1590668242386</created>
@@ -113,7 +116,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590671560422</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="C 数组和指针">
+      <created>1590673469424</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590673469424</updated>
+    </task>
+    <task id="LOCAL-00007" summary="C 数组和指针">
+      <created>1590673479189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590673479189</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,25 +153,30 @@
     <MESSAGE value="C 指针变量和地址，%p打印地址" />
     <MESSAGE value="C 指针修改值" />
     <MESSAGE value="C 二级或多级指针" />
-    <option name="LAST_COMMIT_MESSAGE" value="C 二级或多级指针" />
+    <MESSAGE value="C 数组和指针" />
+    <option name="LAST_COMMIT_MESSAGE" value="C 数组和指针" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1310" height="217" key="GridCell.Tab.0.bottom" timestamp="1590672287551">
+    <state x="185" y="152" key="Git.Interactive.Rebase.Dialog" timestamp="1590673531669">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1375.877@0.23.1375.877" timestamp="1590672287551" />
-    <state width="1310" height="217" key="GridCell.Tab.0.center" timestamp="1590672287550">
+    <state x="185" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1375.877@0.23.1375.877" timestamp="1590673531669" />
+    <state width="1310" height="217" key="GridCell.Tab.0.bottom" timestamp="1590674555615">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1375.877@0.23.1375.877" timestamp="1590672287550" />
-    <state width="1310" height="217" key="GridCell.Tab.0.left" timestamp="1590672287549">
+    <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1375.877@0.23.1375.877" timestamp="1590674555615" />
+    <state width="1310" height="217" key="GridCell.Tab.0.center" timestamp="1590674555614">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1375.877@0.23.1375.877" timestamp="1590672287549" />
-    <state width="1310" height="217" key="GridCell.Tab.0.right" timestamp="1590672287550">
+    <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1375.877@0.23.1375.877" timestamp="1590674555614" />
+    <state width="1310" height="217" key="GridCell.Tab.0.left" timestamp="1590674555614">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1375.877@0.23.1375.877" timestamp="1590672287550" />
+    <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1375.877@0.23.1375.877" timestamp="1590674555614" />
+    <state width="1310" height="217" key="GridCell.Tab.0.right" timestamp="1590674555615">
+      <screen x="0" y="23" width="1375" height="877" />
+    </state>
+    <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1375.877@0.23.1375.877" timestamp="1590674555615" />
     <state width="1310" height="270" key="GridCell.Tab.1.bottom" timestamp="1590670061620">
       <screen x="0" y="23" width="1375" height="877" />
     </state>

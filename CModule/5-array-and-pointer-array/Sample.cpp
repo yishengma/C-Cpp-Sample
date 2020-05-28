@@ -28,6 +28,6 @@ void def_array() {
 
 }
 
-int main() {
-    def_array();
-}
+//int main() {
+//    def_array();
+//}

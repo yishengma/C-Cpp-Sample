@@ -11,5 +11,7 @@ CMakeFiles/C_Cpp_Sample.dir/CModule/4-muti-pointer/Sample.cpp.o: ../CModule/4-mu
 
 CMakeFiles/C_Cpp_Sample.dir/CModule/5-array-and-pointer-array/Sample.cpp.o: ../CModule/5-array-and-pointer-array/Sample.cpp
 
+CMakeFiles/C_Cpp_Sample.dir/CModule/6-function-pointer/Sample.cpp.o: ../CModule/6-function-pointer/Sample.cpp
+
 CMakeFiles/C_Cpp_Sample.dir/main.cpp.o: ../main.cpp
 

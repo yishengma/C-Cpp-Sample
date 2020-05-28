@@ -258,6 +258,33 @@ CModule/5-array-and-pointer-array/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/5-array-and-pointer-array/Sample.cpp.s
 .PHONY : CModule/5-array-and-pointer-array/Sample.cpp.s
 
+CModule/6-function-pointer/Sample.o: CModule/6-function-pointer/Sample.cpp.o
+
+.PHONY : CModule/6-function-pointer/Sample.o
+
+# target to build an object file
+CModule/6-function-pointer/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/6-function-pointer/Sample.cpp.o
+.PHONY : CModule/6-function-pointer/Sample.cpp.o
+
+CModule/6-function-pointer/Sample.i: CModule/6-function-pointer/Sample.cpp.i
+
+.PHONY : CModule/6-function-pointer/Sample.i
+
+# target to preprocess a source file
+CModule/6-function-pointer/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/6-function-pointer/Sample.cpp.i
+.PHONY : CModule/6-function-pointer/Sample.cpp.i
+
+CModule/6-function-pointer/Sample.s: CModule/6-function-pointer/Sample.cpp.s
+
+.PHONY : CModule/6-function-pointer/Sample.s
+
+# target to generate assembly for a file
+CModule/6-function-pointer/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/6-function-pointer/Sample.cpp.s
+.PHONY : CModule/6-function-pointer/Sample.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -309,6 +336,9 @@ help:
 	@echo "... CModule/5-array-and-pointer-array/Sample.o"
 	@echo "... CModule/5-array-and-pointer-array/Sample.i"
 	@echo "... CModule/5-array-and-pointer-array/Sample.s"
+	@echo "... CModule/6-function-pointer/Sample.o"
+	@echo "... CModule/6-function-pointer/Sample.i"
+	@echo "... CModule/6-function-pointer/Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
