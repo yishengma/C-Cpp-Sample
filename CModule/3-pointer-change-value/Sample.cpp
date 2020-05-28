@@ -46,12 +46,12 @@ void changeValue(){
 
 
 
-int main() {
-    pointer_change_value();
-
-    int j = 100;
-    printf("j的修改前值是：%d\n",j);
-    address_change_value(&j);
-    printf("j的值修改后是：%d\n",j);
-
-}
+//int main() {
+//    pointer_change_value();
+//
+//    int j = 100;
+//    printf("j的修改前值是：%d\n",j);
+//    address_change_value(&j);
+//    printf("j的值修改后是：%d\n",j);
+//
+//}

@@ -204,6 +204,33 @@ CModule/3-pointer-change-value/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.s
 .PHONY : CModule/3-pointer-change-value/Sample.cpp.s
 
+CModule/4-muti-pointer/Sample.o: CModule/4-muti-pointer/Sample.cpp.o
+
+.PHONY : CModule/4-muti-pointer/Sample.o
+
+# target to build an object file
+CModule/4-muti-pointer/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/4-muti-pointer/Sample.cpp.o
+.PHONY : CModule/4-muti-pointer/Sample.cpp.o
+
+CModule/4-muti-pointer/Sample.i: CModule/4-muti-pointer/Sample.cpp.i
+
+.PHONY : CModule/4-muti-pointer/Sample.i
+
+# target to preprocess a source file
+CModule/4-muti-pointer/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/4-muti-pointer/Sample.cpp.i
+.PHONY : CModule/4-muti-pointer/Sample.cpp.i
+
+CModule/4-muti-pointer/Sample.s: CModule/4-muti-pointer/Sample.cpp.s
+
+.PHONY : CModule/4-muti-pointer/Sample.s
+
+# target to generate assembly for a file
+CModule/4-muti-pointer/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/4-muti-pointer/Sample.cpp.s
+.PHONY : CModule/4-muti-pointer/Sample.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -249,6 +276,9 @@ help:
 	@echo "... CModule/3-pointer-change-value/Sample.o"
 	@echo "... CModule/3-pointer-change-value/Sample.i"
 	@echo "... CModule/3-pointer-change-value/Sample.s"
+	@echo "... CModule/4-muti-pointer/Sample.o"
+	@echo "... CModule/4-muti-pointer/Sample.i"
+	@echo "... CModule/4-muti-pointer/Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
