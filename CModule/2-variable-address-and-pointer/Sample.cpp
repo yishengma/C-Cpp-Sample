@@ -29,8 +29,8 @@ void pointer_variable() {
 
     return;
 }
-int main() {
-    variable_address();
-    byte_number();
-    return 0;
-}
+//int main() {
+//    variable_address();
+//    byte_number();
+//    return 0;
+//}

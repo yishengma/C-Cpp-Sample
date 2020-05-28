@@ -5,5 +5,7 @@ CMakeFiles/C_Cpp_Sample.dir/CModule/1-basic-data-type/Sample.cpp.o: ../CModule/1
 
 CMakeFiles/C_Cpp_Sample.dir/CModule/2-variable-address-and-pointer/Sample.cpp.o: ../CModule/2-variable-address-and-pointer/Sample.cpp
 
+CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.o: ../CModule/3-pointer-change-value/Sample.cpp
+
 CMakeFiles/C_Cpp_Sample.dir/main.cpp.o: ../main.cpp
 

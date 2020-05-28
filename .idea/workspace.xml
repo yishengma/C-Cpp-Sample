@@ -20,11 +20,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C 6个基本数据类型和占位符">
-      <change afterPath="$PROJECT_DIR$/CModule/2-variable-address-and-pointer/Sample.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C 指针变量和地址，%p打印地址">
+      <change afterPath="$PROJECT_DIR$/CModule/3-pointer-change-value/Sample.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CModule/1-basic-data-type/Sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CModule/1-basic-data-type/Sample.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CModule/2-variable-address-and-pointer/Sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CModule/2-variable-address-and-pointer/Sample.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" afterDir="false" />
@@ -76,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590668208519</updated>
-      <workItem from="1590668209714" duration="975000" />
+      <workItem from="1590668209714" duration="2682000" />
     </task>
     <task id="LOCAL-00001" summary="C and Cpp Sample">
       <created>1590668242386</created>
@@ -92,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590668404314</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="C 指针变量和地址，%p打印地址">
+      <created>1590669219158</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590669219158</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,24 +119,41 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="C and Cpp Sample" />
     <MESSAGE value="C 6个基本数据类型和占位符" />
-    <option name="LAST_COMMIT_MESSAGE" value="C 6个基本数据类型和占位符" />
+    <MESSAGE value="C 指针变量和地址，%p打印地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="C 指针变量和地址，%p打印地址" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1310" height="270" key="GridCell.Tab.0.bottom" timestamp="1590668789589">
+    <state width="1310" height="217" key="GridCell.Tab.0.bottom" timestamp="1590670130355">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1310" height="270" key="GridCell.Tab.0.bottom/0.23.1375.877@0.23.1375.877" timestamp="1590668789589" />
-    <state width="1310" height="270" key="GridCell.Tab.0.center" timestamp="1590668789588">
+    <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1375.877@0.23.1375.877" timestamp="1590670130355" />
+    <state width="1310" height="217" key="GridCell.Tab.0.center" timestamp="1590670130355">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1310" height="270" key="GridCell.Tab.0.center/0.23.1375.877@0.23.1375.877" timestamp="1590668789588" />
-    <state width="1310" height="270" key="GridCell.Tab.0.left" timestamp="1590668789588">
+    <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1375.877@0.23.1375.877" timestamp="1590670130355" />
+    <state width="1310" height="217" key="GridCell.Tab.0.left" timestamp="1590670130354">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1310" height="270" key="GridCell.Tab.0.left/0.23.1375.877@0.23.1375.877" timestamp="1590668789588" />
-    <state width="1310" height="270" key="GridCell.Tab.0.right" timestamp="1590668789588">
+    <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1375.877@0.23.1375.877" timestamp="1590670130354" />
+    <state width="1310" height="217" key="GridCell.Tab.0.right" timestamp="1590670130355">
       <screen x="0" y="23" width="1375" height="877" />
     </state>
-    <state width="1310" height="270" key="GridCell.Tab.0.right/0.23.1375.877@0.23.1375.877" timestamp="1590668789588" />
+    <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1375.877@0.23.1375.877" timestamp="1590670130355" />
+    <state width="1310" height="270" key="GridCell.Tab.1.bottom" timestamp="1590670061620">
+      <screen x="0" y="23" width="1375" height="877" />
+    </state>
+    <state width="1310" height="270" key="GridCell.Tab.1.bottom/0.23.1375.877@0.23.1375.877" timestamp="1590670061620" />
+    <state width="1310" height="270" key="GridCell.Tab.1.center" timestamp="1590670061620">
+      <screen x="0" y="23" width="1375" height="877" />
+    </state>
+    <state width="1310" height="270" key="GridCell.Tab.1.center/0.23.1375.877@0.23.1375.877" timestamp="1590670061620" />
+    <state width="1310" height="270" key="GridCell.Tab.1.left" timestamp="1590670061620">
+      <screen x="0" y="23" width="1375" height="877" />
+    </state>
+    <state width="1310" height="270" key="GridCell.Tab.1.left/0.23.1375.877@0.23.1375.877" timestamp="1590670061620" />
+    <state width="1310" height="270" key="GridCell.Tab.1.right" timestamp="1590670061620">
+      <screen x="0" y="23" width="1375" height="877" />
+    </state>
+    <state width="1310" height="270" key="GridCell.Tab.1.right/0.23.1375.877@0.23.1375.877" timestamp="1590670061620" />
   </component>
 </project>

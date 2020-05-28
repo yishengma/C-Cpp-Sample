@@ -86,6 +86,9 @@
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/2-variable-address-and-pointer/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/3-pointer-change-value/Sample.cpp">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/main.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>

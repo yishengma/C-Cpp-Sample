@@ -177,6 +177,33 @@ CModule/2-variable-address-and-pointer/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/2-variable-address-and-pointer/Sample.cpp.s
 .PHONY : CModule/2-variable-address-and-pointer/Sample.cpp.s
 
+CModule/3-pointer-change-value/Sample.o: CModule/3-pointer-change-value/Sample.cpp.o
+
+.PHONY : CModule/3-pointer-change-value/Sample.o
+
+# target to build an object file
+CModule/3-pointer-change-value/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.o
+.PHONY : CModule/3-pointer-change-value/Sample.cpp.o
+
+CModule/3-pointer-change-value/Sample.i: CModule/3-pointer-change-value/Sample.cpp.i
+
+.PHONY : CModule/3-pointer-change-value/Sample.i
+
+# target to preprocess a source file
+CModule/3-pointer-change-value/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.i
+.PHONY : CModule/3-pointer-change-value/Sample.cpp.i
+
+CModule/3-pointer-change-value/Sample.s: CModule/3-pointer-change-value/Sample.cpp.s
+
+.PHONY : CModule/3-pointer-change-value/Sample.s
+
+# target to generate assembly for a file
+CModule/3-pointer-change-value/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.s
+.PHONY : CModule/3-pointer-change-value/Sample.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -219,6 +246,9 @@ help:
 	@echo "... CModule/2-variable-address-and-pointer/Sample.o"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.i"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.s"
+	@echo "... CModule/3-pointer-change-value/Sample.o"
+	@echo "... CModule/3-pointer-change-value/Sample.i"
+	@echo "... CModule/3-pointer-change-value/Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
