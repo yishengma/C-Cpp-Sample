@@ -21,7 +21,7 @@ int basic_data_type() {
     printf("c的值:%c\n",c);
 }
 
-int main() {
-    basic_data_type();
-    return 0;
-}
+//int main() {
+//    basic_data_type();
+//    return 0;
+//}
