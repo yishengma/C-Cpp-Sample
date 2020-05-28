@@ -123,6 +123,33 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
+CModule/1-basic-data-type/Sample.o: CModule/1-basic-data-type/Sample.cpp.o
+
+.PHONY : CModule/1-basic-data-type/Sample.o
+
+# target to build an object file
+CModule/1-basic-data-type/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/1-basic-data-type/Sample.cpp.o
+.PHONY : CModule/1-basic-data-type/Sample.cpp.o
+
+CModule/1-basic-data-type/Sample.i: CModule/1-basic-data-type/Sample.cpp.i
+
+.PHONY : CModule/1-basic-data-type/Sample.i
+
+# target to preprocess a source file
+CModule/1-basic-data-type/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/1-basic-data-type/Sample.cpp.i
+.PHONY : CModule/1-basic-data-type/Sample.cpp.i
+
+CModule/1-basic-data-type/Sample.s: CModule/1-basic-data-type/Sample.cpp.s
+
+.PHONY : CModule/1-basic-data-type/Sample.s
+
+# target to generate assembly for a file
+CModule/1-basic-data-type/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/1-basic-data-type/Sample.cpp.s
+.PHONY : CModule/1-basic-data-type/Sample.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
+	@echo "... CModule/1-basic-data-type/Sample.o"
+	@echo "... CModule/1-basic-data-type/Sample.i"
+	@echo "... CModule/1-basic-data-type/Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

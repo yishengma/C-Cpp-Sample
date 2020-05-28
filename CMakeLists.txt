@@ -3,4 +3,4 @@ project(C_Cpp_Sample)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(C_Cpp_Sample main.cpp)
+add_executable(C_Cpp_Sample main.cpp CModule/1-basic-data-type/Sample.cpp)
