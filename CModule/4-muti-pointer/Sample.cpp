@@ -17,7 +17,7 @@ void double_pointer() {
 }
 
 
-
-int main() {
-    double_pointer();
-}
+//
+//int main() {
+//    double_pointer();
+//}

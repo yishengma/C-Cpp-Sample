@@ -231,6 +231,33 @@ CModule/4-muti-pointer/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/4-muti-pointer/Sample.cpp.s
 .PHONY : CModule/4-muti-pointer/Sample.cpp.s
 
+CModule/5-array-and-pointer-array/Sample.o: CModule/5-array-and-pointer-array/Sample.cpp.o
+
+.PHONY : CModule/5-array-and-pointer-array/Sample.o
+
+# target to build an object file
+CModule/5-array-and-pointer-array/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/5-array-and-pointer-array/Sample.cpp.o
+.PHONY : CModule/5-array-and-pointer-array/Sample.cpp.o
+
+CModule/5-array-and-pointer-array/Sample.i: CModule/5-array-and-pointer-array/Sample.cpp.i
+
+.PHONY : CModule/5-array-and-pointer-array/Sample.i
+
+# target to preprocess a source file
+CModule/5-array-and-pointer-array/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/5-array-and-pointer-array/Sample.cpp.i
+.PHONY : CModule/5-array-and-pointer-array/Sample.cpp.i
+
+CModule/5-array-and-pointer-array/Sample.s: CModule/5-array-and-pointer-array/Sample.cpp.s
+
+.PHONY : CModule/5-array-and-pointer-array/Sample.s
+
+# target to generate assembly for a file
+CModule/5-array-and-pointer-array/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/5-array-and-pointer-array/Sample.cpp.s
+.PHONY : CModule/5-array-and-pointer-array/Sample.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -279,6 +306,9 @@ help:
 	@echo "... CModule/4-muti-pointer/Sample.o"
 	@echo "... CModule/4-muti-pointer/Sample.i"
 	@echo "... CModule/4-muti-pointer/Sample.s"
+	@echo "... CModule/5-array-and-pointer-array/Sample.o"
+	@echo "... CModule/5-array-and-pointer-array/Sample.i"
+	@echo "... CModule/5-array-and-pointer-array/Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
