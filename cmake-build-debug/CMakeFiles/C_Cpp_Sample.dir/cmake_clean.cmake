@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Cpp_Sample.dir/CModule/6-function-pointer/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/7-random/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/8-deap-stack-memory/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CModule/9-string/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/main.cpp.o"
   "C_Cpp_Sample"
   "C_Cpp_Sample.pdb"

@@ -25,38 +25,38 @@ void dynamic_alloc() {
 
 }
 
-
-int main() {
-    int num;
-    printf("请输入数的个数：\n");
-    scanf("%d", &num);
-
-    int *arr = (int *) malloc(sizeof(int) * num);
-    int input = 0;
-    for (int i = 0; i < num; ++i) {
-        printf("输入第%d的值\n", i);
-        scanf("%d\n", &input);
-        arr[i] = input;
-        printf("%d,%p\n", *(arr + i), arr + i);
-    }
-
-    int new_num = 5;
-    //重新开辟空间
-    //有些情况返回的指针不是原来的指针相同的值，后面连续内存不足的情况下会重新找到新的内存，
-    //然后会copy内容，释放掉原来的内存
-
-    //新增内存可能会失败，失败的时候返回的是 NULL
-    int *new_arr = (int *) realloc(arr, sizeof(int) * (num + new_num));
-
-
-    //这个时候的free
-    //free(null)
-    if (new_arr) {//非空即true
-        free(new_arr);
-    } else {
-        free(arr);
-    }
-
-    //不要反复的释放，因为那块地址释放后可能会被新的程序占用，释放会引起错误
-
-}
+//
+//int main() {
+//    int num;
+//    printf("请输入数的个数：\n");
+//    scanf("%d", &num);
+//
+//    int *arr = (int *) malloc(sizeof(int) * num);
+//    int input = 0;
+//    for (int i = 0; i < num; ++i) {
+//        printf("输入第%d的值\n", i);
+//        scanf("%d\n", &input);
+//        arr[i] = input;
+//        printf("%d,%p\n", *(arr + i), arr + i);
+//    }
+//
+//    int new_num = 5;
+//    //重新开辟空间
+//    //有些情况返回的指针不是原来的指针相同的值，后面连续内存不足的情况下会重新找到新的内存，
+//    //然后会copy内容，释放掉原来的内存
+//
+//    //新增内存可能会失败，失败的时候返回的是 NULL
+//    int *new_arr = (int *) realloc(arr, sizeof(int) * (num + new_num));
+//
+//
+//    //这个时候的free
+//    //free(null)
+//    if (new_arr) {//非空即true
+//        free(new_arr);
+//    } else {
+//        free(arr);
+//    }
+//
+//    //不要反复的释放，因为那块地址释放后可能会被新的程序占用，释放会引起错误
+//
+//}

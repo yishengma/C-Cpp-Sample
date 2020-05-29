@@ -339,6 +339,33 @@ CModule/8-deap-stack-memory/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/8-deap-stack-memory/Sample.cpp.s
 .PHONY : CModule/8-deap-stack-memory/Sample.cpp.s
 
+CModule/9-string/Sample.o: CModule/9-string/Sample.cpp.o
+
+.PHONY : CModule/9-string/Sample.o
+
+# target to build an object file
+CModule/9-string/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/9-string/Sample.cpp.o
+.PHONY : CModule/9-string/Sample.cpp.o
+
+CModule/9-string/Sample.i: CModule/9-string/Sample.cpp.i
+
+.PHONY : CModule/9-string/Sample.i
+
+# target to preprocess a source file
+CModule/9-string/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/9-string/Sample.cpp.i
+.PHONY : CModule/9-string/Sample.cpp.i
+
+CModule/9-string/Sample.s: CModule/9-string/Sample.cpp.s
+
+.PHONY : CModule/9-string/Sample.s
+
+# target to generate assembly for a file
+CModule/9-string/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/9-string/Sample.cpp.s
+.PHONY : CModule/9-string/Sample.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -399,6 +426,9 @@ help:
 	@echo "... CModule/8-deap-stack-memory/Sample.o"
 	@echo "... CModule/8-deap-stack-memory/Sample.i"
 	@echo "... CModule/8-deap-stack-memory/Sample.s"
+	@echo "... CModule/9-string/Sample.o"
+	@echo "... CModule/9-string/Sample.i"
+	@echo "... CModule/9-string/Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
