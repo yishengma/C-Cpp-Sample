@@ -150,6 +150,33 @@ CModule/1-basic-data-type/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/1-basic-data-type/Sample.cpp.s
 .PHONY : CModule/1-basic-data-type/Sample.cpp.s
 
+CModule/10-struct/Sample.o: CModule/10-struct/Sample.cpp.o
+
+.PHONY : CModule/10-struct/Sample.o
+
+# target to build an object file
+CModule/10-struct/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/10-struct/Sample.cpp.o
+.PHONY : CModule/10-struct/Sample.cpp.o
+
+CModule/10-struct/Sample.i: CModule/10-struct/Sample.cpp.i
+
+.PHONY : CModule/10-struct/Sample.i
+
+# target to preprocess a source file
+CModule/10-struct/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/10-struct/Sample.cpp.i
+.PHONY : CModule/10-struct/Sample.cpp.i
+
+CModule/10-struct/Sample.s: CModule/10-struct/Sample.cpp.s
+
+.PHONY : CModule/10-struct/Sample.s
+
+# target to generate assembly for a file
+CModule/10-struct/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/10-struct/Sample.cpp.s
+.PHONY : CModule/10-struct/Sample.cpp.s
+
 CModule/2-variable-address-and-pointer/Sample.o: CModule/2-variable-address-and-pointer/Sample.cpp.o
 
 .PHONY : CModule/2-variable-address-and-pointer/Sample.o
@@ -405,6 +432,9 @@ help:
 	@echo "... CModule/1-basic-data-type/Sample.o"
 	@echo "... CModule/1-basic-data-type/Sample.i"
 	@echo "... CModule/1-basic-data-type/Sample.s"
+	@echo "... CModule/10-struct/Sample.o"
+	@echo "... CModule/10-struct/Sample.i"
+	@echo "... CModule/10-struct/Sample.s"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.o"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.i"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.s"
