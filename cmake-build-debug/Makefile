@@ -312,6 +312,33 @@ CModule/7-random/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/7-random/Sample.cpp.s
 .PHONY : CModule/7-random/Sample.cpp.s
 
+CModule/8-deap-stack-memory/Sample.o: CModule/8-deap-stack-memory/Sample.cpp.o
+
+.PHONY : CModule/8-deap-stack-memory/Sample.o
+
+# target to build an object file
+CModule/8-deap-stack-memory/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/8-deap-stack-memory/Sample.cpp.o
+.PHONY : CModule/8-deap-stack-memory/Sample.cpp.o
+
+CModule/8-deap-stack-memory/Sample.i: CModule/8-deap-stack-memory/Sample.cpp.i
+
+.PHONY : CModule/8-deap-stack-memory/Sample.i
+
+# target to preprocess a source file
+CModule/8-deap-stack-memory/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/8-deap-stack-memory/Sample.cpp.i
+.PHONY : CModule/8-deap-stack-memory/Sample.cpp.i
+
+CModule/8-deap-stack-memory/Sample.s: CModule/8-deap-stack-memory/Sample.cpp.s
+
+.PHONY : CModule/8-deap-stack-memory/Sample.s
+
+# target to generate assembly for a file
+CModule/8-deap-stack-memory/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/8-deap-stack-memory/Sample.cpp.s
+.PHONY : CModule/8-deap-stack-memory/Sample.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -369,6 +396,9 @@ help:
 	@echo "... CModule/7-random/Sample.o"
 	@echo "... CModule/7-random/Sample.i"
 	@echo "... CModule/7-random/Sample.s"
+	@echo "... CModule/8-deap-stack-memory/Sample.o"
+	@echo "... CModule/8-deap-stack-memory/Sample.i"
+	@echo "... CModule/8-deap-stack-memory/Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

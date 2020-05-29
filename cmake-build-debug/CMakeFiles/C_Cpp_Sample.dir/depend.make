@@ -15,5 +15,7 @@ CMakeFiles/C_Cpp_Sample.dir/CModule/6-function-pointer/Sample.cpp.o: ../CModule/
 
 CMakeFiles/C_Cpp_Sample.dir/CModule/7-random/Sample.cpp.o: ../CModule/7-random/Sample.cpp
 
+CMakeFiles/C_Cpp_Sample.dir/CModule/8-deap-stack-memory/Sample.cpp.o: ../CModule/8-deap-stack-memory/Sample.cpp
+
 CMakeFiles/C_Cpp_Sample.dir/main.cpp.o: ../main.cpp
 

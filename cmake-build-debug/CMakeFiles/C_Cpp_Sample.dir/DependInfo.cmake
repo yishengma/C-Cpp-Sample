@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/5-array-and-pointer-array/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/5-array-and-pointer-array/Sample.cpp.o"
   "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/6-function-pointer/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/6-function-pointer/Sample.cpp.o"
   "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/7-random/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/7-random/Sample.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/8-deap-stack-memory/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/8-deap-stack-memory/Sample.cpp.o"
   "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/main.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -101,6 +101,9 @@
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/7-random/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/8-deap-stack-memory/Sample.cpp">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/main.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
