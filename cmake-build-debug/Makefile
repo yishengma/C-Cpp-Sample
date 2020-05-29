@@ -177,6 +177,33 @@ CModule/10-struct/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/10-struct/Sample.cpp.s
 .PHONY : CModule/10-struct/Sample.cpp.s
 
+CModule/11-union-enum/Sample.o: CModule/11-union-enum/Sample.cpp.o
+
+.PHONY : CModule/11-union-enum/Sample.o
+
+# target to build an object file
+CModule/11-union-enum/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/11-union-enum/Sample.cpp.o
+.PHONY : CModule/11-union-enum/Sample.cpp.o
+
+CModule/11-union-enum/Sample.i: CModule/11-union-enum/Sample.cpp.i
+
+.PHONY : CModule/11-union-enum/Sample.i
+
+# target to preprocess a source file
+CModule/11-union-enum/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/11-union-enum/Sample.cpp.i
+.PHONY : CModule/11-union-enum/Sample.cpp.i
+
+CModule/11-union-enum/Sample.s: CModule/11-union-enum/Sample.cpp.s
+
+.PHONY : CModule/11-union-enum/Sample.s
+
+# target to generate assembly for a file
+CModule/11-union-enum/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/11-union-enum/Sample.cpp.s
+.PHONY : CModule/11-union-enum/Sample.cpp.s
+
 CModule/2-variable-address-and-pointer/Sample.o: CModule/2-variable-address-and-pointer/Sample.cpp.o
 
 .PHONY : CModule/2-variable-address-and-pointer/Sample.o
@@ -435,6 +462,9 @@ help:
 	@echo "... CModule/10-struct/Sample.o"
 	@echo "... CModule/10-struct/Sample.i"
 	@echo "... CModule/10-struct/Sample.s"
+	@echo "... CModule/11-union-enum/Sample.o"
+	@echo "... CModule/11-union-enum/Sample.i"
+	@echo "... CModule/11-union-enum/Sample.s"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.o"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.i"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.s"

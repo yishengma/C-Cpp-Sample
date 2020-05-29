@@ -56,11 +56,11 @@ int struct_size() {
    //3.字节对齐为 最大字节数 的倍数
 }
 
-int main() {
-    //这里的没有默认初始值
-    struct Worker worker = {"Name",10,100.0};
-//    worker.name = "Ethan";
-    strcpy(worker.name,"Joker");
-    worker.age = 10;
-
-}
+//int main() {
+//    //这里的没有默认初始值
+//    struct Worker worker = {"Name",10,100.0};
+////    worker.name = "Ethan";
+//    strcpy(worker.name,"Joker");
+//    worker.age = 10;
+//
+//}

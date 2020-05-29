@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/C_Cpp_Sample.dir/CModule/1-basic-data-type/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/10-struct/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CModule/11-union-enum/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/2-variable-address-and-pointer/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/4-muti-pointer/Sample.cpp.o"

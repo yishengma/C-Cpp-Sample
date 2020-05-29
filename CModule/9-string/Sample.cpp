@@ -50,7 +50,7 @@ int replace(char* str,char* src,char* dst) {
     //3.进行拼接 aabbcc
 }
 
-int main() {
+int main_() {
     //字符串定义
 
     //第一种
