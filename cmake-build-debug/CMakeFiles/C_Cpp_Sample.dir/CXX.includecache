@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/6-function-pointer/Sample.cpp
+stdio.h
+-
+
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/7-random/Sample.cpp
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+

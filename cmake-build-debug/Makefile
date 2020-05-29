@@ -285,6 +285,33 @@ CModule/6-function-pointer/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/6-function-pointer/Sample.cpp.s
 .PHONY : CModule/6-function-pointer/Sample.cpp.s
 
+CModule/7-random/Sample.o: CModule/7-random/Sample.cpp.o
+
+.PHONY : CModule/7-random/Sample.o
+
+# target to build an object file
+CModule/7-random/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/7-random/Sample.cpp.o
+.PHONY : CModule/7-random/Sample.cpp.o
+
+CModule/7-random/Sample.i: CModule/7-random/Sample.cpp.i
+
+.PHONY : CModule/7-random/Sample.i
+
+# target to preprocess a source file
+CModule/7-random/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/7-random/Sample.cpp.i
+.PHONY : CModule/7-random/Sample.cpp.i
+
+CModule/7-random/Sample.s: CModule/7-random/Sample.cpp.s
+
+.PHONY : CModule/7-random/Sample.s
+
+# target to generate assembly for a file
+CModule/7-random/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/7-random/Sample.cpp.s
+.PHONY : CModule/7-random/Sample.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -339,6 +366,9 @@ help:
 	@echo "... CModule/6-function-pointer/Sample.o"
 	@echo "... CModule/6-function-pointer/Sample.i"
 	@echo "... CModule/6-function-pointer/Sample.s"
+	@echo "... CModule/7-random/Sample.o"
+	@echo "... CModule/7-random/Sample.i"
+	@echo "... CModule/7-random/Sample.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

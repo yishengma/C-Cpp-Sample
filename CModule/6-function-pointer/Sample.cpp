@@ -29,6 +29,6 @@ void operate(void (/* 这里可省略* */method)(int,int ),int a,int b) {
     call(a,b);
 }
 
-int main() {
-    operate(add,100,200);
-}
+//int main() {
+//    operate(add,100,200);
+//}
