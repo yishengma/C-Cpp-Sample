@@ -98,6 +98,9 @@
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/14-data-type/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/15-memory/Sample.cpp">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/2-variable-address-and-pointer/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>

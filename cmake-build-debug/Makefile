@@ -285,6 +285,33 @@ CModule/14-data-type/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/14-data-type/Sample.cpp.s
 .PHONY : CModule/14-data-type/Sample.cpp.s
 
+CModule/15-memory/Sample.o: CModule/15-memory/Sample.cpp.o
+
+.PHONY : CModule/15-memory/Sample.o
+
+# target to build an object file
+CModule/15-memory/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/15-memory/Sample.cpp.o
+.PHONY : CModule/15-memory/Sample.cpp.o
+
+CModule/15-memory/Sample.i: CModule/15-memory/Sample.cpp.i
+
+.PHONY : CModule/15-memory/Sample.i
+
+# target to preprocess a source file
+CModule/15-memory/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/15-memory/Sample.cpp.i
+.PHONY : CModule/15-memory/Sample.cpp.i
+
+CModule/15-memory/Sample.s: CModule/15-memory/Sample.cpp.s
+
+.PHONY : CModule/15-memory/Sample.s
+
+# target to generate assembly for a file
+CModule/15-memory/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/15-memory/Sample.cpp.s
+.PHONY : CModule/15-memory/Sample.cpp.s
+
 CModule/2-variable-address-and-pointer/Sample.o: CModule/2-variable-address-and-pointer/Sample.cpp.o
 
 .PHONY : CModule/2-variable-address-and-pointer/Sample.o
@@ -555,6 +582,9 @@ help:
 	@echo "... CModule/14-data-type/Sample.o"
 	@echo "... CModule/14-data-type/Sample.i"
 	@echo "... CModule/14-data-type/Sample.s"
+	@echo "... CModule/15-memory/Sample.o"
+	@echo "... CModule/15-memory/Sample.i"
+	@echo "... CModule/15-memory/Sample.s"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.o"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.i"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.s"
