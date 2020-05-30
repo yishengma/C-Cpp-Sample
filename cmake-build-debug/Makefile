@@ -339,6 +339,33 @@ CModule/16-pointer/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/16-pointer/Sample.cpp.s
 .PHONY : CModule/16-pointer/Sample.cpp.s
 
+CModule/17-define-string/Sample.o: CModule/17-define-string/Sample.cpp.o
+
+.PHONY : CModule/17-define-string/Sample.o
+
+# target to build an object file
+CModule/17-define-string/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/17-define-string/Sample.cpp.o
+.PHONY : CModule/17-define-string/Sample.cpp.o
+
+CModule/17-define-string/Sample.i: CModule/17-define-string/Sample.cpp.i
+
+.PHONY : CModule/17-define-string/Sample.i
+
+# target to preprocess a source file
+CModule/17-define-string/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/17-define-string/Sample.cpp.i
+.PHONY : CModule/17-define-string/Sample.cpp.i
+
+CModule/17-define-string/Sample.s: CModule/17-define-string/Sample.cpp.s
+
+.PHONY : CModule/17-define-string/Sample.s
+
+# target to generate assembly for a file
+CModule/17-define-string/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/17-define-string/Sample.cpp.s
+.PHONY : CModule/17-define-string/Sample.cpp.s
+
 CModule/2-variable-address-and-pointer/Sample.o: CModule/2-variable-address-and-pointer/Sample.cpp.o
 
 .PHONY : CModule/2-variable-address-and-pointer/Sample.o
@@ -615,6 +642,9 @@ help:
 	@echo "... CModule/16-pointer/Sample.o"
 	@echo "... CModule/16-pointer/Sample.i"
 	@echo "... CModule/16-pointer/Sample.s"
+	@echo "... CModule/17-define-string/Sample.o"
+	@echo "... CModule/17-define-string/Sample.i"
+	@echo "... CModule/17-define-string/Sample.s"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.o"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.i"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.s"
