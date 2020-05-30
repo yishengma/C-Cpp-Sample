@@ -6,9 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/11-union-enum/Sample.cpp
+stdio.h
+-
+
 /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/12-file/Sample.cpp
 stdio.h
 -
 stdlib.h
+-
+
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/13-array-variable-pass/Sample.cpp
+stdio.h
 -
 

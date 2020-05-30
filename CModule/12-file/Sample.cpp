@@ -71,15 +71,12 @@ void split_file() {
         sprintf(fileName,"%d",i);
     }
 
-    for (int j = 0; j < ; ++j) {
-
-    }
 
     free(fileNames);
 
     fclose(file);
 }
 
-int main() {
-    write_file();
-}
+//int main() {
+//    write_file();
+//}

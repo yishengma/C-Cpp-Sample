@@ -231,6 +231,33 @@ CModule/12-file/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/12-file/Sample.cpp.s
 .PHONY : CModule/12-file/Sample.cpp.s
 
+CModule/13-array-variable-pass/Sample.o: CModule/13-array-variable-pass/Sample.cpp.o
+
+.PHONY : CModule/13-array-variable-pass/Sample.o
+
+# target to build an object file
+CModule/13-array-variable-pass/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/13-array-variable-pass/Sample.cpp.o
+.PHONY : CModule/13-array-variable-pass/Sample.cpp.o
+
+CModule/13-array-variable-pass/Sample.i: CModule/13-array-variable-pass/Sample.cpp.i
+
+.PHONY : CModule/13-array-variable-pass/Sample.i
+
+# target to preprocess a source file
+CModule/13-array-variable-pass/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/13-array-variable-pass/Sample.cpp.i
+.PHONY : CModule/13-array-variable-pass/Sample.cpp.i
+
+CModule/13-array-variable-pass/Sample.s: CModule/13-array-variable-pass/Sample.cpp.s
+
+.PHONY : CModule/13-array-variable-pass/Sample.s
+
+# target to generate assembly for a file
+CModule/13-array-variable-pass/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/13-array-variable-pass/Sample.cpp.s
+.PHONY : CModule/13-array-variable-pass/Sample.cpp.s
+
 CModule/2-variable-address-and-pointer/Sample.o: CModule/2-variable-address-and-pointer/Sample.cpp.o
 
 .PHONY : CModule/2-variable-address-and-pointer/Sample.o
@@ -495,6 +522,9 @@ help:
 	@echo "... CModule/12-file/Sample.o"
 	@echo "... CModule/12-file/Sample.i"
 	@echo "... CModule/12-file/Sample.s"
+	@echo "... CModule/13-array-variable-pass/Sample.o"
+	@echo "... CModule/13-array-variable-pass/Sample.i"
+	@echo "... CModule/13-array-variable-pass/Sample.s"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.o"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.i"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.s"
