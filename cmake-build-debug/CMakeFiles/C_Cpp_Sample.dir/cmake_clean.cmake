@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Cpp_Sample.dir/CModule/13-array-variable-pass/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/14-data-type/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/15-memory/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CModule/16-pointer/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/2-variable-address-and-pointer/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/4-muti-pointer/Sample.cpp.o"
