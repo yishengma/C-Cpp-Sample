@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/ld/3kk3hydx47ncrjtkrg73qht40000gn/T/AppTranslocation/8AAC08D6-FEE4-48B7-9BBF-54F9CBCE19C8/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/ld/3kk3hydx47ncrjtkrg73qht40000gn/T/AppTranslocation/8AAC08D6-FEE4-48B7-9BBF-54F9CBCE19C8/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-b
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/ld/3kk3hydx47ncrjtkrg73qht40000gn/T/AppTranslocation/8AAC08D6-FEE4-48B7-9BBF-54F9CBCE19C8/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/ld/3kk3hydx47ncrjtkrg73qht40000gn/T/AppTranslocation/8AAC08D6-FEE4-48B7-9BBF-54F9CBCE19C8/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -366,6 +366,33 @@ CModule/17-define-string/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/17-define-string/Sample.cpp.s
 .PHONY : CModule/17-define-string/Sample.cpp.s
 
+CModule/18-struct-copy/Sample.o: CModule/18-struct-copy/Sample.cpp.o
+
+.PHONY : CModule/18-struct-copy/Sample.o
+
+# target to build an object file
+CModule/18-struct-copy/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/18-struct-copy/Sample.cpp.o
+.PHONY : CModule/18-struct-copy/Sample.cpp.o
+
+CModule/18-struct-copy/Sample.i: CModule/18-struct-copy/Sample.cpp.i
+
+.PHONY : CModule/18-struct-copy/Sample.i
+
+# target to preprocess a source file
+CModule/18-struct-copy/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/18-struct-copy/Sample.cpp.i
+.PHONY : CModule/18-struct-copy/Sample.cpp.i
+
+CModule/18-struct-copy/Sample.s: CModule/18-struct-copy/Sample.cpp.s
+
+.PHONY : CModule/18-struct-copy/Sample.s
+
+# target to generate assembly for a file
+CModule/18-struct-copy/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/18-struct-copy/Sample.cpp.s
+.PHONY : CModule/18-struct-copy/Sample.cpp.s
+
 CModule/2-variable-address-and-pointer/Sample.o: CModule/2-variable-address-and-pointer/Sample.cpp.o
 
 .PHONY : CModule/2-variable-address-and-pointer/Sample.o
@@ -645,6 +672,9 @@ help:
 	@echo "... CModule/17-define-string/Sample.o"
 	@echo "... CModule/17-define-string/Sample.i"
 	@echo "... CModule/17-define-string/Sample.s"
+	@echo "... CModule/18-struct-copy/Sample.o"
+	@echo "... CModule/18-struct-copy/Sample.i"
+	@echo "... CModule/18-struct-copy/Sample.s"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.o"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.i"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.s"

@@ -107,6 +107,9 @@
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/17-define-string/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/18-struct-copy/Sample.cpp">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/2-variable-address-and-pointer/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>

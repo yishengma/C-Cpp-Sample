@@ -13,6 +13,14 @@ CMakeFiles/C_Cpp_Sample.dir/CModule/13-array-variable-pass/Sample.cpp.o: ../CMod
 
 CMakeFiles/C_Cpp_Sample.dir/CModule/14-data-type/Sample.cpp.o: ../CModule/14-data-type/Sample.cpp
 
+CMakeFiles/C_Cpp_Sample.dir/CModule/15-memory/Sample.cpp.o: ../CModule/15-memory/Sample.cpp
+
+CMakeFiles/C_Cpp_Sample.dir/CModule/16-pointer/Sample.cpp.o: ../CModule/16-pointer/Sample.cpp
+
+CMakeFiles/C_Cpp_Sample.dir/CModule/17-define-string/Sample.cpp.o: ../CModule/17-define-string/Sample.cpp
+
+CMakeFiles/C_Cpp_Sample.dir/CModule/18-struct-copy/Sample.cpp.o: ../CModule/18-struct-copy/Sample.cpp
+
 CMakeFiles/C_Cpp_Sample.dir/CModule/2-variable-address-and-pointer/Sample.cpp.o: ../CModule/2-variable-address-and-pointer/Sample.cpp
 
 CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.o: ../CModule/3-pointer-change-value/Sample.cpp

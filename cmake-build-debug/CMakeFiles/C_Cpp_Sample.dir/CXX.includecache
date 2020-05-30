@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/14-data-type/Sample.cpp
-stdio.h
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/18-struct-copy/Sample.cpp
+cstring
 -
 
