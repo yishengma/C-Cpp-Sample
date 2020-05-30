@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Cpp_Sample.dir/CModule/11-union-enum/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/12-file/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/13-array-variable-pass/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CModule/14-data-type/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/2-variable-address-and-pointer/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CModule/4-muti-pointer/Sample.cpp.o"

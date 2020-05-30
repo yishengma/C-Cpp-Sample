@@ -17,11 +17,11 @@ void print(int arr[]) {//int * arr
 void print(int arr[],int len) {
 
 }
-
-int main() {
-    int arr[] = {1,2,3,4,5};
-    int size = sizeof(arr) / sizeof(int);
-    printf("size = %d\n",size);
-    print(arr);
-}
+//
+//int main() {
+//    int arr[] = {1,2,3,4,5};
+//    int size = sizeof(arr) / sizeof(int);
+//    printf("size = %d\n",size);
+//    print(arr);
+//}
 

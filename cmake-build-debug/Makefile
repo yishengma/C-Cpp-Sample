@@ -258,6 +258,33 @@ CModule/13-array-variable-pass/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/13-array-variable-pass/Sample.cpp.s
 .PHONY : CModule/13-array-variable-pass/Sample.cpp.s
 
+CModule/14-data-type/Sample.o: CModule/14-data-type/Sample.cpp.o
+
+.PHONY : CModule/14-data-type/Sample.o
+
+# target to build an object file
+CModule/14-data-type/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/14-data-type/Sample.cpp.o
+.PHONY : CModule/14-data-type/Sample.cpp.o
+
+CModule/14-data-type/Sample.i: CModule/14-data-type/Sample.cpp.i
+
+.PHONY : CModule/14-data-type/Sample.i
+
+# target to preprocess a source file
+CModule/14-data-type/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/14-data-type/Sample.cpp.i
+.PHONY : CModule/14-data-type/Sample.cpp.i
+
+CModule/14-data-type/Sample.s: CModule/14-data-type/Sample.cpp.s
+
+.PHONY : CModule/14-data-type/Sample.s
+
+# target to generate assembly for a file
+CModule/14-data-type/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CModule/14-data-type/Sample.cpp.s
+.PHONY : CModule/14-data-type/Sample.cpp.s
+
 CModule/2-variable-address-and-pointer/Sample.o: CModule/2-variable-address-and-pointer/Sample.cpp.o
 
 .PHONY : CModule/2-variable-address-and-pointer/Sample.o
@@ -525,6 +552,9 @@ help:
 	@echo "... CModule/13-array-variable-pass/Sample.o"
 	@echo "... CModule/13-array-variable-pass/Sample.i"
 	@echo "... CModule/13-array-variable-pass/Sample.s"
+	@echo "... CModule/14-data-type/Sample.o"
+	@echo "... CModule/14-data-type/Sample.i"
+	@echo "... CModule/14-data-type/Sample.s"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.o"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.i"
 	@echo "... CModule/2-variable-address-and-pointer/Sample.s"
