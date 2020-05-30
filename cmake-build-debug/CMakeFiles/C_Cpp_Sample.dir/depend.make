@@ -7,6 +7,8 @@ CMakeFiles/C_Cpp_Sample.dir/CModule/10-struct/Sample.cpp.o: ../CModule/10-struct
 
 CMakeFiles/C_Cpp_Sample.dir/CModule/11-union-enum/Sample.cpp.o: ../CModule/11-union-enum/Sample.cpp
 
+CMakeFiles/C_Cpp_Sample.dir/CModule/12-file/Sample.cpp.o: ../CModule/12-file/Sample.cpp
+
 CMakeFiles/C_Cpp_Sample.dir/CModule/2-variable-address-and-pointer/Sample.cpp.o: ../CModule/2-variable-address-and-pointer/Sample.cpp
 
 CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.o: ../CModule/3-pointer-change-value/Sample.cpp

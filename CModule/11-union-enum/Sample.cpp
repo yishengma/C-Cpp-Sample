@@ -22,10 +22,10 @@ enum Type{
     IMAGE
 };
 
-int main() {
-    //最多只能出现一个，
-    //大小计算（不用累加，找最大值）
-    //扩大为基本数据类型整除
-    Student student;
-    printf("Student%d",sizeof(Student));
-}
+//int main() {
+//    //最多只能出现一个，
+//    //大小计算（不用累加，找最大值）
+//    //扩大为基本数据类型整除
+//    Student student;
+//    printf("Student%d",sizeof(Student));
+//}
