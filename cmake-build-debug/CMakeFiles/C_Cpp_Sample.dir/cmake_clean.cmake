@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Student.cpp.o"
   "C_Cpp_Sample"
   "C_Cpp_Sample.pdb"
 )

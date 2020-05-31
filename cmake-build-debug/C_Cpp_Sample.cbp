@@ -80,7 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/6-variable-params/Sample.cpp">
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/7-static/Sample.cpp">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/7-static/Student.cpp">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/7-static/Student.h">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CMakeLists.txt">

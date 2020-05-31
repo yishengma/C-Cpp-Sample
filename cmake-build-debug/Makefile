@@ -123,32 +123,59 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/6-variable-params/Sample.o: CppModule/6-variable-params/Sample.cpp.o
+CppModule/7-static/Sample.o: CppModule/7-static/Sample.cpp.o
 
-.PHONY : CppModule/6-variable-params/Sample.o
+.PHONY : CppModule/7-static/Sample.o
 
 # target to build an object file
-CppModule/6-variable-params/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o
-.PHONY : CppModule/6-variable-params/Sample.cpp.o
+CppModule/7-static/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Sample.cpp.o
+.PHONY : CppModule/7-static/Sample.cpp.o
 
-CppModule/6-variable-params/Sample.i: CppModule/6-variable-params/Sample.cpp.i
+CppModule/7-static/Sample.i: CppModule/7-static/Sample.cpp.i
 
-.PHONY : CppModule/6-variable-params/Sample.i
+.PHONY : CppModule/7-static/Sample.i
 
 # target to preprocess a source file
-CppModule/6-variable-params/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.i
-.PHONY : CppModule/6-variable-params/Sample.cpp.i
+CppModule/7-static/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Sample.cpp.i
+.PHONY : CppModule/7-static/Sample.cpp.i
 
-CppModule/6-variable-params/Sample.s: CppModule/6-variable-params/Sample.cpp.s
+CppModule/7-static/Sample.s: CppModule/7-static/Sample.cpp.s
 
-.PHONY : CppModule/6-variable-params/Sample.s
+.PHONY : CppModule/7-static/Sample.s
 
 # target to generate assembly for a file
-CppModule/6-variable-params/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.s
-.PHONY : CppModule/6-variable-params/Sample.cpp.s
+CppModule/7-static/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Sample.cpp.s
+.PHONY : CppModule/7-static/Sample.cpp.s
+
+CppModule/7-static/Student.o: CppModule/7-static/Student.cpp.o
+
+.PHONY : CppModule/7-static/Student.o
+
+# target to build an object file
+CppModule/7-static/Student.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Student.cpp.o
+.PHONY : CppModule/7-static/Student.cpp.o
+
+CppModule/7-static/Student.i: CppModule/7-static/Student.cpp.i
+
+.PHONY : CppModule/7-static/Student.i
+
+# target to preprocess a source file
+CppModule/7-static/Student.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Student.cpp.i
+.PHONY : CppModule/7-static/Student.cpp.i
+
+CppModule/7-static/Student.s: CppModule/7-static/Student.cpp.s
+
+.PHONY : CppModule/7-static/Student.s
+
+# target to generate assembly for a file
+CppModule/7-static/Student.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Student.cpp.s
+.PHONY : CppModule/7-static/Student.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/6-variable-params/Sample.o"
-	@echo "... CppModule/6-variable-params/Sample.i"
-	@echo "... CppModule/6-variable-params/Sample.s"
+	@echo "... CppModule/7-static/Sample.o"
+	@echo "... CppModule/7-static/Sample.i"
+	@echo "... CppModule/7-static/Sample.s"
+	@echo "... CppModule/7-static/Student.o"
+	@echo "... CppModule/7-static/Student.i"
+	@echo "... CppModule/7-static/Student.s"
 .PHONY : help
 
 
