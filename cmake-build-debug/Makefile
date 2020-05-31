@@ -177,6 +177,33 @@ CppModule/7-static/Student.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Student.cpp.s
 .PHONY : CppModule/7-static/Student.cpp.s
 
+CppModule/8-const-function/Sample.o: CppModule/8-const-function/Sample.cpp.o
+
+.PHONY : CppModule/8-const-function/Sample.o
+
+# target to build an object file
+CppModule/8-const-function/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/8-const-function/Sample.cpp.o
+.PHONY : CppModule/8-const-function/Sample.cpp.o
+
+CppModule/8-const-function/Sample.i: CppModule/8-const-function/Sample.cpp.i
+
+.PHONY : CppModule/8-const-function/Sample.i
+
+# target to preprocess a source file
+CppModule/8-const-function/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/8-const-function/Sample.cpp.i
+.PHONY : CppModule/8-const-function/Sample.cpp.i
+
+CppModule/8-const-function/Sample.s: CppModule/8-const-function/Sample.cpp.s
+
+.PHONY : CppModule/8-const-function/Sample.s
+
+# target to generate assembly for a file
+CppModule/8-const-function/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/8-const-function/Sample.cpp.s
+.PHONY : CppModule/8-const-function/Sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... CppModule/7-static/Student.o"
 	@echo "... CppModule/7-static/Student.i"
 	@echo "... CppModule/7-static/Student.s"
+	@echo "... CppModule/8-const-function/Sample.o"
+	@echo "... CppModule/8-const-function/Sample.i"
+	@echo "... CppModule/8-const-function/Sample.s"
 .PHONY : help
 
 
