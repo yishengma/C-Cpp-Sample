@@ -57,75 +57,30 @@ include CMakeFiles/C_Cpp_Sample.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_Cpp_Sample.dir/flags.make
 
-CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o: ../CppModule/1-cpp-and-c/Sample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/1-cpp-and-c/Sample.cpp
+CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
+CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o: ../CppModule/6-variable-params/Sample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/6-variable-params/Sample.cpp
 
-CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/1-cpp-and-c/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.i
+CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/6-variable-params/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.i
 
-CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/1-cpp-and-c/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.s
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o: ../CppModule/2-class-basic/Sample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/2-class-basic/Sample.cpp
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/2-class-basic/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.i
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/2-class-basic/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.s
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o: ../CppModule/3-consruct/Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/3-consruct/Student.cpp
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/3-consruct/Student.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.i
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/3-consruct/Student.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.s
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o: ../CppModule/5-copy-constructor/Student.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/5-copy-constructor/Student.cpp
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/5-copy-constructor/Student.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.i
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/5-copy-constructor/Student.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.s
+CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/6-variable-params/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.s
 
 # Object files for target C_Cpp_Sample
 C_Cpp_Sample_OBJECTS = \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o" \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o" \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o" \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o"
+"CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o"
 
 # External object files for target C_Cpp_Sample
 C_Cpp_Sample_EXTERNAL_OBJECTS =
 
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o
+C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o
 C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/build.make
 C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable C_Cpp_Sample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C_Cpp_Sample"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C_Cpp_Sample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

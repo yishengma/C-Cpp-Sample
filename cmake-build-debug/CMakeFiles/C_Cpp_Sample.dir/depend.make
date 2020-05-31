@@ -4,4 +4,13 @@
 CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o: ../CppModule/1-cpp-and-c/Sample.cpp
 
 CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o: ../CppModule/2-class-basic/Sample.cpp
+CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o: ../CppModule/2-class-basic/Student.h
+
+CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o: ../CppModule/3-consruct/Student.cpp
+CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o: ../CppModule/3-consruct/Student.h
+
+CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o: ../CppModule/5-copy-constructor/Student.cpp
+CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o: ../CppModule/5-copy-constructor/Student.h
+
+CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o: ../CppModule/6-variable-params/Sample.cpp
 

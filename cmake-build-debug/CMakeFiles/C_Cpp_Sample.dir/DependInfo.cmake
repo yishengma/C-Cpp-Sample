@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/1-cpp-and-c/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/2-class-basic/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/3-consruct/Student.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/5-copy-constructor/Student.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/6-variable-params/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

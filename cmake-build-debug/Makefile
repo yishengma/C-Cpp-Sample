@@ -123,113 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/1-cpp-and-c/Sample.o: CppModule/1-cpp-and-c/Sample.cpp.o
+CppModule/6-variable-params/Sample.o: CppModule/6-variable-params/Sample.cpp.o
 
-.PHONY : CppModule/1-cpp-and-c/Sample.o
-
-# target to build an object file
-CppModule/1-cpp-and-c/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o
-.PHONY : CppModule/1-cpp-and-c/Sample.cpp.o
-
-CppModule/1-cpp-and-c/Sample.i: CppModule/1-cpp-and-c/Sample.cpp.i
-
-.PHONY : CppModule/1-cpp-and-c/Sample.i
-
-# target to preprocess a source file
-CppModule/1-cpp-and-c/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.i
-.PHONY : CppModule/1-cpp-and-c/Sample.cpp.i
-
-CppModule/1-cpp-and-c/Sample.s: CppModule/1-cpp-and-c/Sample.cpp.s
-
-.PHONY : CppModule/1-cpp-and-c/Sample.s
-
-# target to generate assembly for a file
-CppModule/1-cpp-and-c/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.s
-.PHONY : CppModule/1-cpp-and-c/Sample.cpp.s
-
-CppModule/2-class-basic/Sample.o: CppModule/2-class-basic/Sample.cpp.o
-
-.PHONY : CppModule/2-class-basic/Sample.o
+.PHONY : CppModule/6-variable-params/Sample.o
 
 # target to build an object file
-CppModule/2-class-basic/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o
-.PHONY : CppModule/2-class-basic/Sample.cpp.o
+CppModule/6-variable-params/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.o
+.PHONY : CppModule/6-variable-params/Sample.cpp.o
 
-CppModule/2-class-basic/Sample.i: CppModule/2-class-basic/Sample.cpp.i
+CppModule/6-variable-params/Sample.i: CppModule/6-variable-params/Sample.cpp.i
 
-.PHONY : CppModule/2-class-basic/Sample.i
-
-# target to preprocess a source file
-CppModule/2-class-basic/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.i
-.PHONY : CppModule/2-class-basic/Sample.cpp.i
-
-CppModule/2-class-basic/Sample.s: CppModule/2-class-basic/Sample.cpp.s
-
-.PHONY : CppModule/2-class-basic/Sample.s
-
-# target to generate assembly for a file
-CppModule/2-class-basic/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.s
-.PHONY : CppModule/2-class-basic/Sample.cpp.s
-
-CppModule/3-consruct/Student.o: CppModule/3-consruct/Student.cpp.o
-
-.PHONY : CppModule/3-consruct/Student.o
-
-# target to build an object file
-CppModule/3-consruct/Student.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o
-.PHONY : CppModule/3-consruct/Student.cpp.o
-
-CppModule/3-consruct/Student.i: CppModule/3-consruct/Student.cpp.i
-
-.PHONY : CppModule/3-consruct/Student.i
+.PHONY : CppModule/6-variable-params/Sample.i
 
 # target to preprocess a source file
-CppModule/3-consruct/Student.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.i
-.PHONY : CppModule/3-consruct/Student.cpp.i
+CppModule/6-variable-params/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.i
+.PHONY : CppModule/6-variable-params/Sample.cpp.i
 
-CppModule/3-consruct/Student.s: CppModule/3-consruct/Student.cpp.s
+CppModule/6-variable-params/Sample.s: CppModule/6-variable-params/Sample.cpp.s
 
-.PHONY : CppModule/3-consruct/Student.s
-
-# target to generate assembly for a file
-CppModule/3-consruct/Student.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.s
-.PHONY : CppModule/3-consruct/Student.cpp.s
-
-CppModule/5-copy-constructor/Student.o: CppModule/5-copy-constructor/Student.cpp.o
-
-.PHONY : CppModule/5-copy-constructor/Student.o
-
-# target to build an object file
-CppModule/5-copy-constructor/Student.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o
-.PHONY : CppModule/5-copy-constructor/Student.cpp.o
-
-CppModule/5-copy-constructor/Student.i: CppModule/5-copy-constructor/Student.cpp.i
-
-.PHONY : CppModule/5-copy-constructor/Student.i
-
-# target to preprocess a source file
-CppModule/5-copy-constructor/Student.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.i
-.PHONY : CppModule/5-copy-constructor/Student.cpp.i
-
-CppModule/5-copy-constructor/Student.s: CppModule/5-copy-constructor/Student.cpp.s
-
-.PHONY : CppModule/5-copy-constructor/Student.s
+.PHONY : CppModule/6-variable-params/Sample.s
 
 # target to generate assembly for a file
-CppModule/5-copy-constructor/Student.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.s
-.PHONY : CppModule/5-copy-constructor/Student.cpp.s
+CppModule/6-variable-params/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/6-variable-params/Sample.cpp.s
+.PHONY : CppModule/6-variable-params/Sample.cpp.s
 
 # Help Target
 help:
@@ -240,18 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/1-cpp-and-c/Sample.o"
-	@echo "... CppModule/1-cpp-and-c/Sample.i"
-	@echo "... CppModule/1-cpp-and-c/Sample.s"
-	@echo "... CppModule/2-class-basic/Sample.o"
-	@echo "... CppModule/2-class-basic/Sample.i"
-	@echo "... CppModule/2-class-basic/Sample.s"
-	@echo "... CppModule/3-consruct/Student.o"
-	@echo "... CppModule/3-consruct/Student.i"
-	@echo "... CppModule/3-consruct/Student.s"
-	@echo "... CppModule/5-copy-constructor/Student.o"
-	@echo "... CppModule/5-copy-constructor/Student.i"
-	@echo "... CppModule/5-copy-constructor/Student.s"
+	@echo "... CppModule/6-variable-params/Sample.o"
+	@echo "... CppModule/6-variable-params/Sample.i"
+	@echo "... CppModule/6-variable-params/Sample.s"
 .PHONY : help
 
 
