@@ -4,25 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/1-basic-data-type/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/1-basic-data-type/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/10-struct/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/10-struct/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/11-union-enum/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/11-union-enum/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/12-file/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/12-file/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/13-array-variable-pass/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/13-array-variable-pass/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/14-data-type/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/14-data-type/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/15-memory/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/15-memory/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/16-pointer/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/16-pointer/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/17-define-string/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/17-define-string/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/18-struct-copy/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/18-struct-copy/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/2-variable-address-and-pointer/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/2-variable-address-and-pointer/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/3-pointer-change-value/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/3-pointer-change-value/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/4-muti-pointer/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/4-muti-pointer/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/5-array-and-pointer-array/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/5-array-and-pointer-array/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/6-function-pointer/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/6-function-pointer/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/7-random/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/7-random/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/8-deap-stack-memory/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/8-deap-stack-memory/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CModule/9-string/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CModule/9-string/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/main.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/main.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/1-cpp-and-c/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
