@@ -86,6 +86,12 @@
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/2-class-basic/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/3-consruct/Student.cpp">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/3-consruct/Student.h">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

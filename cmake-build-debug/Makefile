@@ -177,6 +177,33 @@ CppModule/2-class-basic/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.s
 .PHONY : CppModule/2-class-basic/Sample.cpp.s
 
+CppModule/3-consruct/Student.o: CppModule/3-consruct/Student.cpp.o
+
+.PHONY : CppModule/3-consruct/Student.o
+
+# target to build an object file
+CppModule/3-consruct/Student.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o
+.PHONY : CppModule/3-consruct/Student.cpp.o
+
+CppModule/3-consruct/Student.i: CppModule/3-consruct/Student.cpp.i
+
+.PHONY : CppModule/3-consruct/Student.i
+
+# target to preprocess a source file
+CppModule/3-consruct/Student.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.i
+.PHONY : CppModule/3-consruct/Student.cpp.i
+
+CppModule/3-consruct/Student.s: CppModule/3-consruct/Student.cpp.s
+
+.PHONY : CppModule/3-consruct/Student.s
+
+# target to generate assembly for a file
+CppModule/3-consruct/Student.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.s
+.PHONY : CppModule/3-consruct/Student.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... CppModule/2-class-basic/Sample.o"
 	@echo "... CppModule/2-class-basic/Sample.i"
 	@echo "... CppModule/2-class-basic/Sample.s"
+	@echo "... CppModule/3-consruct/Student.o"
+	@echo "... CppModule/3-consruct/Student.i"
+	@echo "... CppModule/3-consruct/Student.s"
 .PHONY : help
 
 
