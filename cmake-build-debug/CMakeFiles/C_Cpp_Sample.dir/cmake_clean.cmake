@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o"
   "C_Cpp_Sample"
   "C_Cpp_Sample.pdb"
 )

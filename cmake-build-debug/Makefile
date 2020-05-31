@@ -204,6 +204,33 @@ CppModule/3-consruct/Student.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/3-consruct/Student.cpp.s
 .PHONY : CppModule/3-consruct/Student.cpp.s
 
+CppModule/5-copy-constructor/Student.o: CppModule/5-copy-constructor/Student.cpp.o
+
+.PHONY : CppModule/5-copy-constructor/Student.o
+
+# target to build an object file
+CppModule/5-copy-constructor/Student.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.o
+.PHONY : CppModule/5-copy-constructor/Student.cpp.o
+
+CppModule/5-copy-constructor/Student.i: CppModule/5-copy-constructor/Student.cpp.i
+
+.PHONY : CppModule/5-copy-constructor/Student.i
+
+# target to preprocess a source file
+CppModule/5-copy-constructor/Student.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.i
+.PHONY : CppModule/5-copy-constructor/Student.cpp.i
+
+CppModule/5-copy-constructor/Student.s: CppModule/5-copy-constructor/Student.cpp.s
+
+.PHONY : CppModule/5-copy-constructor/Student.s
+
+# target to generate assembly for a file
+CppModule/5-copy-constructor/Student.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/5-copy-constructor/Student.cpp.s
+.PHONY : CppModule/5-copy-constructor/Student.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... CppModule/3-consruct/Student.o"
 	@echo "... CppModule/3-consruct/Student.i"
 	@echo "... CppModule/3-consruct/Student.s"
+	@echo "... CppModule/5-copy-constructor/Student.o"
+	@echo "... CppModule/5-copy-constructor/Student.i"
+	@echo "... CppModule/5-copy-constructor/Student.s"
 .PHONY : help
 
 
