@@ -204,6 +204,33 @@ CppModule/8-const-function/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/8-const-function/Sample.cpp.s
 .PHONY : CppModule/8-const-function/Sample.cpp.s
 
+CppModule/9-friendly-function/Sample.o: CppModule/9-friendly-function/Sample.cpp.o
+
+.PHONY : CppModule/9-friendly-function/Sample.o
+
+# target to build an object file
+CppModule/9-friendly-function/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/9-friendly-function/Sample.cpp.o
+.PHONY : CppModule/9-friendly-function/Sample.cpp.o
+
+CppModule/9-friendly-function/Sample.i: CppModule/9-friendly-function/Sample.cpp.i
+
+.PHONY : CppModule/9-friendly-function/Sample.i
+
+# target to preprocess a source file
+CppModule/9-friendly-function/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/9-friendly-function/Sample.cpp.i
+.PHONY : CppModule/9-friendly-function/Sample.cpp.i
+
+CppModule/9-friendly-function/Sample.s: CppModule/9-friendly-function/Sample.cpp.s
+
+.PHONY : CppModule/9-friendly-function/Sample.s
+
+# target to generate assembly for a file
+CppModule/9-friendly-function/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/9-friendly-function/Sample.cpp.s
+.PHONY : CppModule/9-friendly-function/Sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... CppModule/8-const-function/Sample.o"
 	@echo "... CppModule/8-const-function/Sample.i"
 	@echo "... CppModule/8-const-function/Sample.s"
+	@echo "... CppModule/9-friendly-function/Sample.o"
+	@echo "... CppModule/9-friendly-function/Sample.i"
+	@echo "... CppModule/9-friendly-function/Sample.s"
 .PHONY : help
 
 
