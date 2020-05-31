@@ -150,6 +150,33 @@ CppModule/1-cpp-and-c/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.s
 .PHONY : CppModule/1-cpp-and-c/Sample.cpp.s
 
+CppModule/2-class-basic/Sample.o: CppModule/2-class-basic/Sample.cpp.o
+
+.PHONY : CppModule/2-class-basic/Sample.o
+
+# target to build an object file
+CppModule/2-class-basic/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o
+.PHONY : CppModule/2-class-basic/Sample.cpp.o
+
+CppModule/2-class-basic/Sample.i: CppModule/2-class-basic/Sample.cpp.i
+
+.PHONY : CppModule/2-class-basic/Sample.i
+
+# target to preprocess a source file
+CppModule/2-class-basic/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.i
+.PHONY : CppModule/2-class-basic/Sample.cpp.i
+
+CppModule/2-class-basic/Sample.s: CppModule/2-class-basic/Sample.cpp.s
+
+.PHONY : CppModule/2-class-basic/Sample.s
+
+# target to generate assembly for a file
+CppModule/2-class-basic/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.s
+.PHONY : CppModule/2-class-basic/Sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... CppModule/1-cpp-and-c/Sample.o"
 	@echo "... CppModule/1-cpp-and-c/Sample.i"
 	@echo "... CppModule/1-cpp-and-c/Sample.s"
+	@echo "... CppModule/2-class-basic/Sample.o"
+	@echo "... CppModule/2-class-basic/Sample.i"
+	@echo "... CppModule/2-class-basic/Sample.s"
 .PHONY : help
 
 

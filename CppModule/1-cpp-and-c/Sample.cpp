@@ -43,7 +43,7 @@ int add(int num1,int num2,int num3) {
 
 }
 
-int main() {
+int main_() {
 
     std::cout << "Hello world" << std::endl;
 

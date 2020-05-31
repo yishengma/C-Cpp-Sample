@@ -3,3 +3,5 @@
 
 CMakeFiles/C_Cpp_Sample.dir/CppModule/1-cpp-and-c/Sample.cpp.o: ../CppModule/1-cpp-and-c/Sample.cpp
 
+CMakeFiles/C_Cpp_Sample.dir/CppModule/2-class-basic/Sample.cpp.o: ../CppModule/2-class-basic/Sample.cpp
+

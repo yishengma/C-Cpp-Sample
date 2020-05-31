@@ -26,10 +26,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C 深浅拷贝和结构体的偏移量">
-      <change afterPath="$PROJECT_DIR$/CppModule/1-cpp-and-c/Sample.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C++ 常量，引用和函数">
+      <change afterPath="$PROJECT_DIR$/CppModule/2-class-basic/Sample.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/2-class-basic/Student.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/2-class-basic/Student.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppModule/1-cpp-and-c/Sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CppModule/1-cpp-and-c/Sample.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
@@ -77,6 +80,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CppModule/2-class-basic" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="C_Cpp_Sample" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="C_Cpp_Sample" TARGET_NAME="C_Cpp_Sample" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="C_Cpp_Sample" RUN_TARGET_NAME="C_Cpp_Sample">
       <method v="2">
@@ -95,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590668208519</updated>
       <workItem from="1590668209714" duration="25901000" />
-      <workItem from="1590845001401" duration="4805000" />
+      <workItem from="1590845001401" duration="6477000" />
     </task>
     <task id="LOCAL-00001" summary="C and Cpp Sample">
       <created>1590668242386</created>
@@ -230,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590848013070</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="C++ 常量，引用和函数">
+      <created>1590893730790</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590893730790</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +294,8 @@
     <MESSAGE value="C 野指针和NULL" />
     <MESSAGE value="C 指针和字符串" />
     <MESSAGE value="C 深浅拷贝和结构体的偏移量" />
-    <option name="LAST_COMMIT_MESSAGE" value="C 深浅拷贝和结构体的偏移量" />
+    <MESSAGE value="C++ 常量，引用和函数" />
+    <option name="LAST_COMMIT_MESSAGE" value="C++ 常量，引用和函数" />
   </component>
   <component name="WindowStateProjectService">
     <state x="124" y="124" width="1152" height="637" key="DiffContextDialog" timestamp="1590807007264">
@@ -292,33 +308,33 @@
     <state x="185" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1375.877@0.23.1375.877" timestamp="1590673531669" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1378.877@0.23.1378.877" timestamp="1590807130586" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1380.877@0.23.1380.877" timestamp="1590806991560" />
-    <state width="1310" height="270" key="GridCell.Tab.0.bottom" timestamp="1590844952334">
-      <screen x="0" y="23" width="1372" height="877" />
+    <state width="1310" height="217" key="GridCell.Tab.0.bottom" timestamp="1590895537729">
+      <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.bottom/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1375.877@0.23.1375.877" timestamp="1590719527986" />
-    <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1378.877@0.23.1378.877" timestamp="1590808443013" />
+    <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1378.877@0.23.1378.877" timestamp="1590895537729" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
-    <state width="1310" height="270" key="GridCell.Tab.0.center" timestamp="1590844952334">
-      <screen x="0" y="23" width="1372" height="877" />
+    <state width="1310" height="217" key="GridCell.Tab.0.center" timestamp="1590895537728">
+      <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.center/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1375.877@0.23.1375.877" timestamp="1590719527985" />
-    <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1378.877@0.23.1378.877" timestamp="1590808443012" />
+    <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1378.877@0.23.1378.877" timestamp="1590895537728" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
-    <state width="1310" height="270" key="GridCell.Tab.0.left" timestamp="1590844952333">
-      <screen x="0" y="23" width="1372" height="877" />
+    <state width="1310" height="217" key="GridCell.Tab.0.left" timestamp="1590895537728">
+      <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.left/0.23.1372.877@0.23.1372.877" timestamp="1590844952333" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1375.877@0.23.1375.877" timestamp="1590719527985" />
-    <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1378.877@0.23.1378.877" timestamp="1590808443012" />
+    <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1378.877@0.23.1378.877" timestamp="1590895537728" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
-    <state width="1310" height="270" key="GridCell.Tab.0.right" timestamp="1590844952334">
-      <screen x="0" y="23" width="1372" height="877" />
+    <state width="1310" height="217" key="GridCell.Tab.0.right" timestamp="1590895537728">
+      <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.right/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1375.877@0.23.1375.877" timestamp="1590719527986" />
-    <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1378.877@0.23.1378.877" timestamp="1590808443013" />
+    <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1378.877@0.23.1378.877" timestamp="1590895537728" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="270" key="GridCell.Tab.1.bottom" timestamp="1590844952337">
       <screen x="0" y="23" width="1372" height="877" />
