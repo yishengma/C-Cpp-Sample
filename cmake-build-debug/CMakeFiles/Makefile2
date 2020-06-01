@@ -74,12 +74,12 @@ clean: CMakeFiles/C_Cpp_Sample.dir/clean
 CMakeFiles/C_Cpp_Sample.dir/all:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/depend
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target C_Cpp_Sample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target C_Cpp_Sample"
 .PHONY : CMakeFiles/C_Cpp_Sample.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/C_Cpp_Sample.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/C_Cpp_Sample.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/C_Cpp_Sample.dir/rule

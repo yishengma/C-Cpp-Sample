@@ -123,86 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/7-static/Sample.o: CppModule/7-static/Sample.cpp.o
+CppModule/10-class-demo/Student.o: CppModule/10-class-demo/Student.cpp.o
 
-.PHONY : CppModule/7-static/Sample.o
-
-# target to build an object file
-CppModule/7-static/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Sample.cpp.o
-.PHONY : CppModule/7-static/Sample.cpp.o
-
-CppModule/7-static/Sample.i: CppModule/7-static/Sample.cpp.i
-
-.PHONY : CppModule/7-static/Sample.i
-
-# target to preprocess a source file
-CppModule/7-static/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Sample.cpp.i
-.PHONY : CppModule/7-static/Sample.cpp.i
-
-CppModule/7-static/Sample.s: CppModule/7-static/Sample.cpp.s
-
-.PHONY : CppModule/7-static/Sample.s
-
-# target to generate assembly for a file
-CppModule/7-static/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Sample.cpp.s
-.PHONY : CppModule/7-static/Sample.cpp.s
-
-CppModule/7-static/Student.o: CppModule/7-static/Student.cpp.o
-
-.PHONY : CppModule/7-static/Student.o
+.PHONY : CppModule/10-class-demo/Student.o
 
 # target to build an object file
-CppModule/7-static/Student.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Student.cpp.o
-.PHONY : CppModule/7-static/Student.cpp.o
+CppModule/10-class-demo/Student.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/10-class-demo/Student.cpp.o
+.PHONY : CppModule/10-class-demo/Student.cpp.o
 
-CppModule/7-static/Student.i: CppModule/7-static/Student.cpp.i
+CppModule/10-class-demo/Student.i: CppModule/10-class-demo/Student.cpp.i
 
-.PHONY : CppModule/7-static/Student.i
-
-# target to preprocess a source file
-CppModule/7-static/Student.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Student.cpp.i
-.PHONY : CppModule/7-static/Student.cpp.i
-
-CppModule/7-static/Student.s: CppModule/7-static/Student.cpp.s
-
-.PHONY : CppModule/7-static/Student.s
-
-# target to generate assembly for a file
-CppModule/7-static/Student.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/7-static/Student.cpp.s
-.PHONY : CppModule/7-static/Student.cpp.s
-
-CppModule/8-const-function/Sample.o: CppModule/8-const-function/Sample.cpp.o
-
-.PHONY : CppModule/8-const-function/Sample.o
-
-# target to build an object file
-CppModule/8-const-function/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/8-const-function/Sample.cpp.o
-.PHONY : CppModule/8-const-function/Sample.cpp.o
-
-CppModule/8-const-function/Sample.i: CppModule/8-const-function/Sample.cpp.i
-
-.PHONY : CppModule/8-const-function/Sample.i
+.PHONY : CppModule/10-class-demo/Student.i
 
 # target to preprocess a source file
-CppModule/8-const-function/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/8-const-function/Sample.cpp.i
-.PHONY : CppModule/8-const-function/Sample.cpp.i
+CppModule/10-class-demo/Student.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/10-class-demo/Student.cpp.i
+.PHONY : CppModule/10-class-demo/Student.cpp.i
 
-CppModule/8-const-function/Sample.s: CppModule/8-const-function/Sample.cpp.s
+CppModule/10-class-demo/Student.s: CppModule/10-class-demo/Student.cpp.s
 
-.PHONY : CppModule/8-const-function/Sample.s
+.PHONY : CppModule/10-class-demo/Student.s
 
 # target to generate assembly for a file
-CppModule/8-const-function/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/8-const-function/Sample.cpp.s
-.PHONY : CppModule/8-const-function/Sample.cpp.s
+CppModule/10-class-demo/Student.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/10-class-demo/Student.cpp.s
+.PHONY : CppModule/10-class-demo/Student.cpp.s
 
 CppModule/9-friendly-function/Sample.o: CppModule/9-friendly-function/Sample.cpp.o
 
@@ -240,15 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/7-static/Sample.o"
-	@echo "... CppModule/7-static/Sample.i"
-	@echo "... CppModule/7-static/Sample.s"
-	@echo "... CppModule/7-static/Student.o"
-	@echo "... CppModule/7-static/Student.i"
-	@echo "... CppModule/7-static/Student.s"
-	@echo "... CppModule/8-const-function/Sample.o"
-	@echo "... CppModule/8-const-function/Sample.i"
-	@echo "... CppModule/8-const-function/Sample.s"
+	@echo "... CppModule/10-class-demo/Student.o"
+	@echo "... CppModule/10-class-demo/Student.i"
+	@echo "... CppModule/10-class-demo/Student.s"
 	@echo "... CppModule/9-friendly-function/Sample.o"
 	@echo "... CppModule/9-friendly-function/Sample.i"
 	@echo "... CppModule/9-friendly-function/Sample.s"

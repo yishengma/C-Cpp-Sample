@@ -80,19 +80,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/7-static/Sample.cpp">
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/10-class-demo/Student.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/7-static/Student.cpp">
-			<Option target="C_Cpp_Sample"/>
-		</Unit>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/7-static/Student.h">
-			<Option target="C_Cpp_Sample"/>
-		</Unit>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/8-const-function/Sample.cpp">
-			<Option target="C_Cpp_Sample"/>
-		</Unit>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/8-const-function/Sample.h">
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/10-class-demo/Student.h">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/9-friendly-function/Sample.cpp">

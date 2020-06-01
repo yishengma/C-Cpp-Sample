@@ -36,8 +36,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C++ const 修饰方法">
-      <change afterPath="$PROJECT_DIR$/CppModule/9-friendly-function/Sample.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C++ 友元">
+      <change afterPath="$PROJECT_DIR$/CppModule/10-class-demo/Student.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/10-class-demo/Student.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
@@ -116,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590668208519</updated>
       <workItem from="1590668209714" duration="25901000" />
-      <workItem from="1590845001401" duration="15310000" />
+      <workItem from="1590845001401" duration="16688000" />
     </task>
     <task id="LOCAL-00001" summary="C and Cpp Sample">
       <created>1590668242386</created>
@@ -328,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590927541554</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="C++ 友元">
+      <created>1590929027913</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1590929027913</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +367,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C 指针变量和地址，%p打印地址" />
     <MESSAGE value="C 指针修改值" />
     <MESSAGE value="C 二级或多级指针" />
     <MESSAGE value="C 数组和指针" />
@@ -384,7 +391,8 @@
     <MESSAGE value="C++ 可变参数" />
     <MESSAGE value="C++ static 变量" />
     <MESSAGE value="C++ const 修饰方法" />
-    <option name="LAST_COMMIT_MESSAGE" value="C++ const 修饰方法" />
+    <MESSAGE value="C++ 友元" />
+    <option name="LAST_COMMIT_MESSAGE" value="C++ 友元" />
   </component>
   <component name="WindowStateProjectService">
     <state x="124" y="124" width="1151" height="637" key="DiffContextDialog" timestamp="1590912087564">
