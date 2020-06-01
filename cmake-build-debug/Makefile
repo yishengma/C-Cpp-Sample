@@ -204,6 +204,33 @@ CppModule/14-template/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/14-template/Sample.cpp.s
 .PHONY : CppModule/14-template/Sample.cpp.s
 
+CppModule/15-type-cast/Sample.o: CppModule/15-type-cast/Sample.cpp.o
+
+.PHONY : CppModule/15-type-cast/Sample.o
+
+# target to build an object file
+CppModule/15-type-cast/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/15-type-cast/Sample.cpp.o
+.PHONY : CppModule/15-type-cast/Sample.cpp.o
+
+CppModule/15-type-cast/Sample.i: CppModule/15-type-cast/Sample.cpp.i
+
+.PHONY : CppModule/15-type-cast/Sample.i
+
+# target to preprocess a source file
+CppModule/15-type-cast/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/15-type-cast/Sample.cpp.i
+.PHONY : CppModule/15-type-cast/Sample.cpp.i
+
+CppModule/15-type-cast/Sample.s: CppModule/15-type-cast/Sample.cpp.s
+
+.PHONY : CppModule/15-type-cast/Sample.s
+
+# target to generate assembly for a file
+CppModule/15-type-cast/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/15-type-cast/Sample.cpp.s
+.PHONY : CppModule/15-type-cast/Sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... CppModule/14-template/Sample.o"
 	@echo "... CppModule/14-template/Sample.i"
 	@echo "... CppModule/14-template/Sample.s"
+	@echo "... CppModule/15-type-cast/Sample.o"
+	@echo "... CppModule/15-type-cast/Sample.i"
+	@echo "... CppModule/15-type-cast/Sample.s"
 .PHONY : help
 
 

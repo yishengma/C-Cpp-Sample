@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/C_Cpp_Sample.dir/CppModule/12-mutil-state/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CppModule/13-virtual-function/Sample.cpp.o"
   "CMakeFiles/C_Cpp_Sample.dir/CppModule/14-template/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/15-type-cast/Sample.cpp.o"
   "C_Cpp_Sample"
   "C_Cpp_Sample.pdb"
 )
