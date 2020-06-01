@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/12-mutil-state/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/12-mutil-state/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/13-virtual-function/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/13-virtual-function/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/14-template/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/14-template/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/15-type-cast/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/15-type-cast/Sample.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/16-string/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/16-string/Sample.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

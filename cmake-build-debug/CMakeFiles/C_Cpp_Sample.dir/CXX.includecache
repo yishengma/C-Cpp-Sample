@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/12-mutil-state/Sample.cpp
-string
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/16-string/Sample.cpp
+cstring
 -
-iostream
+string
 -
 

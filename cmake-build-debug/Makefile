@@ -123,113 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/12-mutil-state/Sample.o: CppModule/12-mutil-state/Sample.cpp.o
+CppModule/16-string/Sample.o: CppModule/16-string/Sample.cpp.o
 
-.PHONY : CppModule/12-mutil-state/Sample.o
-
-# target to build an object file
-CppModule/12-mutil-state/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/12-mutil-state/Sample.cpp.o
-.PHONY : CppModule/12-mutil-state/Sample.cpp.o
-
-CppModule/12-mutil-state/Sample.i: CppModule/12-mutil-state/Sample.cpp.i
-
-.PHONY : CppModule/12-mutil-state/Sample.i
-
-# target to preprocess a source file
-CppModule/12-mutil-state/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/12-mutil-state/Sample.cpp.i
-.PHONY : CppModule/12-mutil-state/Sample.cpp.i
-
-CppModule/12-mutil-state/Sample.s: CppModule/12-mutil-state/Sample.cpp.s
-
-.PHONY : CppModule/12-mutil-state/Sample.s
-
-# target to generate assembly for a file
-CppModule/12-mutil-state/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/12-mutil-state/Sample.cpp.s
-.PHONY : CppModule/12-mutil-state/Sample.cpp.s
-
-CppModule/13-virtual-function/Sample.o: CppModule/13-virtual-function/Sample.cpp.o
-
-.PHONY : CppModule/13-virtual-function/Sample.o
+.PHONY : CppModule/16-string/Sample.o
 
 # target to build an object file
-CppModule/13-virtual-function/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/13-virtual-function/Sample.cpp.o
-.PHONY : CppModule/13-virtual-function/Sample.cpp.o
+CppModule/16-string/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/16-string/Sample.cpp.o
+.PHONY : CppModule/16-string/Sample.cpp.o
 
-CppModule/13-virtual-function/Sample.i: CppModule/13-virtual-function/Sample.cpp.i
+CppModule/16-string/Sample.i: CppModule/16-string/Sample.cpp.i
 
-.PHONY : CppModule/13-virtual-function/Sample.i
-
-# target to preprocess a source file
-CppModule/13-virtual-function/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/13-virtual-function/Sample.cpp.i
-.PHONY : CppModule/13-virtual-function/Sample.cpp.i
-
-CppModule/13-virtual-function/Sample.s: CppModule/13-virtual-function/Sample.cpp.s
-
-.PHONY : CppModule/13-virtual-function/Sample.s
-
-# target to generate assembly for a file
-CppModule/13-virtual-function/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/13-virtual-function/Sample.cpp.s
-.PHONY : CppModule/13-virtual-function/Sample.cpp.s
-
-CppModule/14-template/Sample.o: CppModule/14-template/Sample.cpp.o
-
-.PHONY : CppModule/14-template/Sample.o
-
-# target to build an object file
-CppModule/14-template/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/14-template/Sample.cpp.o
-.PHONY : CppModule/14-template/Sample.cpp.o
-
-CppModule/14-template/Sample.i: CppModule/14-template/Sample.cpp.i
-
-.PHONY : CppModule/14-template/Sample.i
+.PHONY : CppModule/16-string/Sample.i
 
 # target to preprocess a source file
-CppModule/14-template/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/14-template/Sample.cpp.i
-.PHONY : CppModule/14-template/Sample.cpp.i
+CppModule/16-string/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/16-string/Sample.cpp.i
+.PHONY : CppModule/16-string/Sample.cpp.i
 
-CppModule/14-template/Sample.s: CppModule/14-template/Sample.cpp.s
+CppModule/16-string/Sample.s: CppModule/16-string/Sample.cpp.s
 
-.PHONY : CppModule/14-template/Sample.s
-
-# target to generate assembly for a file
-CppModule/14-template/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/14-template/Sample.cpp.s
-.PHONY : CppModule/14-template/Sample.cpp.s
-
-CppModule/15-type-cast/Sample.o: CppModule/15-type-cast/Sample.cpp.o
-
-.PHONY : CppModule/15-type-cast/Sample.o
-
-# target to build an object file
-CppModule/15-type-cast/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/15-type-cast/Sample.cpp.o
-.PHONY : CppModule/15-type-cast/Sample.cpp.o
-
-CppModule/15-type-cast/Sample.i: CppModule/15-type-cast/Sample.cpp.i
-
-.PHONY : CppModule/15-type-cast/Sample.i
-
-# target to preprocess a source file
-CppModule/15-type-cast/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/15-type-cast/Sample.cpp.i
-.PHONY : CppModule/15-type-cast/Sample.cpp.i
-
-CppModule/15-type-cast/Sample.s: CppModule/15-type-cast/Sample.cpp.s
-
-.PHONY : CppModule/15-type-cast/Sample.s
+.PHONY : CppModule/16-string/Sample.s
 
 # target to generate assembly for a file
-CppModule/15-type-cast/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/15-type-cast/Sample.cpp.s
-.PHONY : CppModule/15-type-cast/Sample.cpp.s
+CppModule/16-string/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/16-string/Sample.cpp.s
+.PHONY : CppModule/16-string/Sample.cpp.s
 
 # Help Target
 help:
@@ -240,18 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/12-mutil-state/Sample.o"
-	@echo "... CppModule/12-mutil-state/Sample.i"
-	@echo "... CppModule/12-mutil-state/Sample.s"
-	@echo "... CppModule/13-virtual-function/Sample.o"
-	@echo "... CppModule/13-virtual-function/Sample.i"
-	@echo "... CppModule/13-virtual-function/Sample.s"
-	@echo "... CppModule/14-template/Sample.o"
-	@echo "... CppModule/14-template/Sample.i"
-	@echo "... CppModule/14-template/Sample.s"
-	@echo "... CppModule/15-type-cast/Sample.o"
-	@echo "... CppModule/15-type-cast/Sample.i"
-	@echo "... CppModule/15-type-cast/Sample.s"
+	@echo "... CppModule/16-string/Sample.o"
+	@echo "... CppModule/16-string/Sample.i"
+	@echo "... CppModule/16-string/Sample.s"
 .PHONY : help
 
 
