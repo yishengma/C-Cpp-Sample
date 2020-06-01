@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/10-class-demo/Student.cpp.o"
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/11-inherit/Sample.cpp.o"
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/9-friendly-function/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/12-mutil-state/Sample.cpp.o"
   "C_Cpp_Sample"
   "C_Cpp_Sample.pdb"
 )

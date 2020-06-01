@@ -6,33 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/1-cpp-and-c/Sample.cpp
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/12-mutil-state/Sample.cpp
+string
+-
 iostream
--
-
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/2-class-basic/Sample.cpp
-iostream
--
-Student.h
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/2-class-basic/Student.h
-
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/2-class-basic/Student.h
-
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/3-consruct/Student.cpp
-cstdlib
--
-Student.h
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/3-consruct/Student.h
-
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/3-consruct/Student.h
-
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/5-copy-constructor/Student.cpp
-Student.h
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/5-copy-constructor/Student.h
-
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/5-copy-constructor/Student.h
-
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/6-variable-params/Sample.cpp
-stdarg.h
 -
 
