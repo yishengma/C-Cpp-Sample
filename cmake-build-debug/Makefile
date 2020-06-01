@@ -150,6 +150,33 @@ CppModule/10-class-demo/Student.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/10-class-demo/Student.cpp.s
 .PHONY : CppModule/10-class-demo/Student.cpp.s
 
+CppModule/11-inherit/Sample.o: CppModule/11-inherit/Sample.cpp.o
+
+.PHONY : CppModule/11-inherit/Sample.o
+
+# target to build an object file
+CppModule/11-inherit/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/11-inherit/Sample.cpp.o
+.PHONY : CppModule/11-inherit/Sample.cpp.o
+
+CppModule/11-inherit/Sample.i: CppModule/11-inherit/Sample.cpp.i
+
+.PHONY : CppModule/11-inherit/Sample.i
+
+# target to preprocess a source file
+CppModule/11-inherit/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/11-inherit/Sample.cpp.i
+.PHONY : CppModule/11-inherit/Sample.cpp.i
+
+CppModule/11-inherit/Sample.s: CppModule/11-inherit/Sample.cpp.s
+
+.PHONY : CppModule/11-inherit/Sample.s
+
+# target to generate assembly for a file
+CppModule/11-inherit/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/11-inherit/Sample.cpp.s
+.PHONY : CppModule/11-inherit/Sample.cpp.s
+
 CppModule/9-friendly-function/Sample.o: CppModule/9-friendly-function/Sample.cpp.o
 
 .PHONY : CppModule/9-friendly-function/Sample.o
@@ -189,6 +216,9 @@ help:
 	@echo "... CppModule/10-class-demo/Student.o"
 	@echo "... CppModule/10-class-demo/Student.i"
 	@echo "... CppModule/10-class-demo/Student.s"
+	@echo "... CppModule/11-inherit/Sample.o"
+	@echo "... CppModule/11-inherit/Sample.i"
+	@echo "... CppModule/11-inherit/Sample.s"
 	@echo "... CppModule/9-friendly-function/Sample.o"
 	@echo "... CppModule/9-friendly-function/Sample.i"
 	@echo "... CppModule/9-friendly-function/Sample.s"
