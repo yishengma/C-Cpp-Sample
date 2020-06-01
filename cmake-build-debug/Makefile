@@ -177,6 +177,33 @@ CppModule/13-virtual-function/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/13-virtual-function/Sample.cpp.s
 .PHONY : CppModule/13-virtual-function/Sample.cpp.s
 
+CppModule/14-template/Sample.o: CppModule/14-template/Sample.cpp.o
+
+.PHONY : CppModule/14-template/Sample.o
+
+# target to build an object file
+CppModule/14-template/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/14-template/Sample.cpp.o
+.PHONY : CppModule/14-template/Sample.cpp.o
+
+CppModule/14-template/Sample.i: CppModule/14-template/Sample.cpp.i
+
+.PHONY : CppModule/14-template/Sample.i
+
+# target to preprocess a source file
+CppModule/14-template/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/14-template/Sample.cpp.i
+.PHONY : CppModule/14-template/Sample.cpp.i
+
+CppModule/14-template/Sample.s: CppModule/14-template/Sample.cpp.s
+
+.PHONY : CppModule/14-template/Sample.s
+
+# target to generate assembly for a file
+CppModule/14-template/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/14-template/Sample.cpp.s
+.PHONY : CppModule/14-template/Sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -192,6 +219,9 @@ help:
 	@echo "... CppModule/13-virtual-function/Sample.o"
 	@echo "... CppModule/13-virtual-function/Sample.i"
 	@echo "... CppModule/13-virtual-function/Sample.s"
+	@echo "... CppModule/14-template/Sample.o"
+	@echo "... CppModule/14-template/Sample.i"
+	@echo "... CppModule/14-template/Sample.s"
 .PHONY : help
 
 

@@ -8,4 +8,4 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(C_Cpp_Sample CppModule/7-static/Sample.cpp CppModule/7-static/Student.cpp CppModule/8-const-function/Sample.cpp CppModule/8-const-function/Sample.h CppModule/9-friendly-function/Sample.cpp)
 #add_executable(C_Cpp_Sample CppModule/9-friendly-function/Sample.cpp CppModule/10-class-demo/Student.cpp CppModule/10-class-demo/Student.h CppModule/11-inherit/Sample.cpp CppModule/12-attribute-init.cpp)
 
-add_executable(C_Cpp_Sample CppModule/12-mutil-state/Sample.cpp CppModule/13-virtual-function/Sample.cpp)
+add_executable(C_Cpp_Sample CppModule/12-mutil-state/Sample.cpp CppModule/13-virtual-function/Sample.cpp CppModule/14-template/Sample.cpp)
