@@ -150,6 +150,33 @@ CppModule/12-mutil-state/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/12-mutil-state/Sample.cpp.s
 .PHONY : CppModule/12-mutil-state/Sample.cpp.s
 
+CppModule/13-virtual-function/Sample.o: CppModule/13-virtual-function/Sample.cpp.o
+
+.PHONY : CppModule/13-virtual-function/Sample.o
+
+# target to build an object file
+CppModule/13-virtual-function/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/13-virtual-function/Sample.cpp.o
+.PHONY : CppModule/13-virtual-function/Sample.cpp.o
+
+CppModule/13-virtual-function/Sample.i: CppModule/13-virtual-function/Sample.cpp.i
+
+.PHONY : CppModule/13-virtual-function/Sample.i
+
+# target to preprocess a source file
+CppModule/13-virtual-function/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/13-virtual-function/Sample.cpp.i
+.PHONY : CppModule/13-virtual-function/Sample.cpp.i
+
+CppModule/13-virtual-function/Sample.s: CppModule/13-virtual-function/Sample.cpp.s
+
+.PHONY : CppModule/13-virtual-function/Sample.s
+
+# target to generate assembly for a file
+CppModule/13-virtual-function/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/13-virtual-function/Sample.cpp.s
+.PHONY : CppModule/13-virtual-function/Sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... CppModule/12-mutil-state/Sample.o"
 	@echo "... CppModule/12-mutil-state/Sample.i"
 	@echo "... CppModule/12-mutil-state/Sample.s"
+	@echo "... CppModule/13-virtual-function/Sample.o"
+	@echo "... CppModule/13-virtual-function/Sample.i"
+	@echo "... CppModule/13-virtual-function/Sample.s"
 .PHONY : help
 
 
