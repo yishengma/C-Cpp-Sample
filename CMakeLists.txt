@@ -11,4 +11,5 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(C_Cpp_Sample CppModule/12-mutil-state/Sample.cpp CppModule/13-virtual-function/Sample.cpp CppModule/14-template/Sample.cpp CppModule/15-type-cast/Sample.cpp CppModule/16-string/Sample.cpp)
 
 #add_executable(C_Cpp_Sample CppModule/16-string/Sample.cpp CppModule/17-register/Sample.cpp CppModule/18-stl/Sample.cpp)
-add_executable(C_Cpp_Sample CppModule/18-stl/Sample.cpp)
+#add_executable(C_Cpp_Sample CppModule/18-stl/Sample.cpp CppModule/19-predicate/Sample.cpp)
+add_executable(C_Cpp_Sample CppModule/19-predicate/Sample.cpp)

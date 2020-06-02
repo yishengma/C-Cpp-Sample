@@ -6,19 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/18-stl/Sample.cpp
-vector
--
-iostream
--
-stack
--
-queue
--
-list
--
-set
--
-map
--
-
