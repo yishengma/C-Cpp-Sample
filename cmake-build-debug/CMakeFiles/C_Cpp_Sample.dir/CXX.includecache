@@ -6,9 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/16-string/Sample.cpp
-cstring
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/18-stl/Sample.cpp
+vector
 -
-string
+iostream
+-
+stack
+-
+queue
+-
+list
+-
+set
+-
+map
 -
 

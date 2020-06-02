@@ -123,59 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/16-string/Sample.o: CppModule/16-string/Sample.cpp.o
+CppModule/18-stl/Sample.o: CppModule/18-stl/Sample.cpp.o
 
-.PHONY : CppModule/16-string/Sample.o
-
-# target to build an object file
-CppModule/16-string/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/16-string/Sample.cpp.o
-.PHONY : CppModule/16-string/Sample.cpp.o
-
-CppModule/16-string/Sample.i: CppModule/16-string/Sample.cpp.i
-
-.PHONY : CppModule/16-string/Sample.i
-
-# target to preprocess a source file
-CppModule/16-string/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/16-string/Sample.cpp.i
-.PHONY : CppModule/16-string/Sample.cpp.i
-
-CppModule/16-string/Sample.s: CppModule/16-string/Sample.cpp.s
-
-.PHONY : CppModule/16-string/Sample.s
-
-# target to generate assembly for a file
-CppModule/16-string/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/16-string/Sample.cpp.s
-.PHONY : CppModule/16-string/Sample.cpp.s
-
-CppModule/17-register/Sample.o: CppModule/17-register/Sample.cpp.o
-
-.PHONY : CppModule/17-register/Sample.o
+.PHONY : CppModule/18-stl/Sample.o
 
 # target to build an object file
-CppModule/17-register/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/17-register/Sample.cpp.o
-.PHONY : CppModule/17-register/Sample.cpp.o
+CppModule/18-stl/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/18-stl/Sample.cpp.o
+.PHONY : CppModule/18-stl/Sample.cpp.o
 
-CppModule/17-register/Sample.i: CppModule/17-register/Sample.cpp.i
+CppModule/18-stl/Sample.i: CppModule/18-stl/Sample.cpp.i
 
-.PHONY : CppModule/17-register/Sample.i
+.PHONY : CppModule/18-stl/Sample.i
 
 # target to preprocess a source file
-CppModule/17-register/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/17-register/Sample.cpp.i
-.PHONY : CppModule/17-register/Sample.cpp.i
+CppModule/18-stl/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/18-stl/Sample.cpp.i
+.PHONY : CppModule/18-stl/Sample.cpp.i
 
-CppModule/17-register/Sample.s: CppModule/17-register/Sample.cpp.s
+CppModule/18-stl/Sample.s: CppModule/18-stl/Sample.cpp.s
 
-.PHONY : CppModule/17-register/Sample.s
+.PHONY : CppModule/18-stl/Sample.s
 
 # target to generate assembly for a file
-CppModule/17-register/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/17-register/Sample.cpp.s
-.PHONY : CppModule/17-register/Sample.cpp.s
+CppModule/18-stl/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/18-stl/Sample.cpp.s
+.PHONY : CppModule/18-stl/Sample.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/16-string/Sample.o"
-	@echo "... CppModule/16-string/Sample.i"
-	@echo "... CppModule/16-string/Sample.s"
-	@echo "... CppModule/17-register/Sample.o"
-	@echo "... CppModule/17-register/Sample.i"
-	@echo "... CppModule/17-register/Sample.s"
+	@echo "... CppModule/18-stl/Sample.o"
+	@echo "... CppModule/18-stl/Sample.i"
+	@echo "... CppModule/18-stl/Sample.s"
 .PHONY : help
 
 

@@ -35,13 +35,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C++ string">
-      <change afterPath="$PROJECT_DIR$/CppModule/17-register/Sample.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C++ 基础加强">
+      <change afterPath="$PROJECT_DIR$/CppModule/18-stl/Sample.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -116,7 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1590668208519</updated>
       <workItem from="1590668209714" duration="25901000" />
-      <workItem from="1590845001401" duration="29942000" />
+      <workItem from="1590845001401" duration="34941000" />
     </task>
     <task id="LOCAL-00001" summary="C and Cpp Sample">
       <created>1590668242386</created>
@@ -391,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591013837112</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="C++ 基础加强">
+      <created>1591018388961</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1591018388961</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +432,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C union和enum" />
     <MESSAGE value="C 数组作为参数传递，退化为指针" />
     <MESSAGE value="C 变量本质和别名" />
     <MESSAGE value="C 四驱内存模型" />
@@ -447,7 +456,8 @@
     <MESSAGE value="C++ 模板类" />
     <MESSAGE value="C++ 类型转换cast" />
     <MESSAGE value="C++ string" />
-    <option name="LAST_COMMIT_MESSAGE" value="C++ string" />
+    <MESSAGE value="C++ 基础加强" />
+    <option name="LAST_COMMIT_MESSAGE" value="C++ 基础加强" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1590980859286">
@@ -465,38 +475,38 @@
     <state x="185" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1375.877@0.23.1375.877" timestamp="1590673531669" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1378.877@0.23.1378.877" timestamp="1590910700821" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1380.877@0.23.1380.877" timestamp="1590806991560" />
-    <state width="1310" height="217" key="GridCell.Tab.0.bottom" timestamp="1591012364007">
+    <state width="1310" height="217" key="GridCell.Tab.0.bottom" timestamp="1591064524618">
       <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.bottom/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1375.877@0.23.1375.877" timestamp="1590719527986" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1378.877@0.23.1378.877" timestamp="1590909865112" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
-    <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1386.877@0.23.1386.877" timestamp="1591012364007" />
-    <state width="1310" height="217" key="GridCell.Tab.0.center" timestamp="1591012364007">
+    <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1386.877@0.23.1386.877" timestamp="1591064524618" />
+    <state width="1310" height="217" key="GridCell.Tab.0.center" timestamp="1591064524617">
       <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.center/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1375.877@0.23.1375.877" timestamp="1590719527985" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1378.877@0.23.1378.877" timestamp="1590909865109" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
-    <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1386.877@0.23.1386.877" timestamp="1591012364007" />
-    <state width="1310" height="217" key="GridCell.Tab.0.left" timestamp="1591012364006">
+    <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1386.877@0.23.1386.877" timestamp="1591064524617" />
+    <state width="1310" height="217" key="GridCell.Tab.0.left" timestamp="1591064524617">
       <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.left/0.23.1372.877@0.23.1372.877" timestamp="1590844952333" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1375.877@0.23.1375.877" timestamp="1590719527985" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1378.877@0.23.1378.877" timestamp="1590909865107" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
-    <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1386.877@0.23.1386.877" timestamp="1591012364006" />
-    <state width="1310" height="217" key="GridCell.Tab.0.right" timestamp="1591012364007">
+    <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1386.877@0.23.1386.877" timestamp="1591064524617" />
+    <state width="1310" height="217" key="GridCell.Tab.0.right" timestamp="1591064524618">
       <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.right/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1375.877@0.23.1375.877" timestamp="1590719527986" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1378.877@0.23.1378.877" timestamp="1590909865110" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
-    <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1386.877@0.23.1386.877" timestamp="1591012364007" />
+    <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1386.877@0.23.1386.877" timestamp="1591064524618" />
     <state width="1310" height="270" key="GridCell.Tab.1.bottom" timestamp="1590844952337">
       <screen x="0" y="23" width="1372" height="877" />
     </state>
