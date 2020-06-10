@@ -6,3 +6,13 @@
 
 #IncludeRegexTransform: 
 
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/21-thread/Sample.cpp
+thread
+-
+iostream
+-
+mutex
+-
+stdlib.h
+-
+
