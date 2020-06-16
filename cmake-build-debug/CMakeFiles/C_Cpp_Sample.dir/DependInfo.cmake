@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/22-pthread/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/22-pthread/Sample.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/23-optimize-target/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/23-optimize-target/Sample2.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample2.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/23-optimize-target/Sample3.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample3.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/23-optimize-target/Sample4.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample4.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

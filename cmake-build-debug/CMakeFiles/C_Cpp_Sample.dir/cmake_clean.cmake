@@ -1,5 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/22-pthread/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample2.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample3.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample4.cpp.o"
   "C_Cpp_Sample"
   "C_Cpp_Sample.pdb"
 )

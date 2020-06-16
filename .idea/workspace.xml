@@ -19,8 +19,8 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
@@ -35,17 +35,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C++ 线程">
-      <change afterPath="$PROJECT_DIR$/CppModule/22-pthread/Sample.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="C++Thread补充">
+      <change afterPath="$PROJECT_DIR$/CppModule/23-optimize-target/Sample.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/23-optimize-target/Sample2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/23-optimize-target/Sample3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/23-optimize-target/Sample4.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/22-pthread/Sample.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
@@ -70,14 +78,7 @@
     <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="GitRewordedCommitMessages">
-    <option name="commitMessagesMapping">
-      <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="C++ 类的构造函数" />
-        <option name="rewordedMessage" value="C++ 类的构造函数&#10;&#10;&#10;C++ 类的构造函数" />
-      </RewordedCommitMessageMapping>
-    </option>
-    <option name="currentCommit" value="1" />
-    <option name="onto" value="cde5b87dd537914ee39c51a2f42a069cec124813" />
+    <option name="onto" value="5f03c7d0d56367d9fce0a03afe7e41d48243587f" />
   </component>
   <component name="ProjectId" id="1cXHqV6CArJATzkMaXhbfJcsAyd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -121,7 +122,7 @@
       <workItem from="1591362580463" duration="826000" />
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
-      <workItem from="1592291422382" duration="506000" />
+      <workItem from="1592291422382" duration="7718000" />
     </task>
     <task id="LOCAL-00001" summary="C and Cpp Sample">
       <created>1590668242386</created>
@@ -424,7 +425,21 @@
       <option name="project" value="LOCAL" />
       <updated>1591769609624</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="C++Thread补充">
+      <created>1592307224596</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1592307224596</updated>
+    </task>
+    <task id="LOCAL-00045" summary="C++Thread补充">
+      <created>1592307231826</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1592307231826</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +458,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C 野指针和NULL" />
     <MESSAGE value="C 指针和字符串" />
     <MESSAGE value="C 深浅拷贝和结构体的偏移量" />
     <MESSAGE value="C++ 常量，引用和函数" />
@@ -468,57 +482,59 @@
     <MESSAGE value="C++ 集合" />
     <MESSAGE value="C++ 谓词" />
     <MESSAGE value="C++ 线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="C++ 线程" />
+    <MESSAGE value="C++Thread补充" />
+    <option name="LAST_COMMIT_MESSAGE" value="C++Thread补充" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1590980859286">
-      <screen x="0" y="23" width="1386" height="877" />
+    <state x="479" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592309623290">
+      <screen x="0" y="23" width="1378" height="877" />
     </state>
+    <state x="479" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1378.877@0.23.1378.877" timestamp="1592309623290" />
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1386.877@0.23.1386.877" timestamp="1590980859286" />
     <state x="124" y="124" width="1151" height="637" key="DiffContextDialog" timestamp="1590912087564">
       <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state x="124" y="124" width="1151" height="637" key="DiffContextDialog/0.23.1378.877@0.23.1378.877" timestamp="1590912087564" />
     <state x="124" y="124" width="1152" height="637" key="DiffContextDialog/0.23.1380.877@0.23.1380.877" timestamp="1590807007264" />
-    <state x="186" y="152" key="Git.Interactive.Rebase.Dialog" timestamp="1590910700821">
+    <state x="186" y="152" key="Git.Interactive.Rebase.Dialog" timestamp="1592307293008">
       <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state x="185" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1375.877@0.23.1375.877" timestamp="1590673531669" />
-    <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1378.877@0.23.1378.877" timestamp="1590910700821" />
+    <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1378.877@0.23.1378.877" timestamp="1592307293008" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1380.877@0.23.1380.877" timestamp="1590806991560" />
-    <state width="1310" height="303" key="GridCell.Tab.0.bottom" timestamp="1591775543625">
-      <screen x="0" y="23" width="1388" height="877" />
+    <state width="1310" height="303" key="GridCell.Tab.0.bottom" timestamp="1592308520167">
+      <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.bottom/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1375.877@0.23.1375.877" timestamp="1590719527986" />
-    <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1378.877@0.23.1378.877" timestamp="1590909865112" />
+    <state width="1310" height="303" key="GridCell.Tab.0.bottom/0.23.1378.877@0.23.1378.877" timestamp="1592308520167" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1386.877@0.23.1386.877" timestamp="1591066746932" />
     <state width="1310" height="303" key="GridCell.Tab.0.bottom/0.23.1388.877@0.23.1388.877" timestamp="1591775543625" />
-    <state width="1310" height="303" key="GridCell.Tab.0.center" timestamp="1591775543624">
-      <screen x="0" y="23" width="1388" height="877" />
+    <state width="1310" height="303" key="GridCell.Tab.0.center" timestamp="1592308520166">
+      <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.center/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1375.877@0.23.1375.877" timestamp="1590719527985" />
-    <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1378.877@0.23.1378.877" timestamp="1590909865109" />
+    <state width="1310" height="303" key="GridCell.Tab.0.center/0.23.1378.877@0.23.1378.877" timestamp="1592308520166" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1386.877@0.23.1386.877" timestamp="1591066746931" />
     <state width="1310" height="303" key="GridCell.Tab.0.center/0.23.1388.877@0.23.1388.877" timestamp="1591775543624" />
-    <state width="1310" height="303" key="GridCell.Tab.0.left" timestamp="1591775543623">
-      <screen x="0" y="23" width="1388" height="877" />
+    <state width="1310" height="303" key="GridCell.Tab.0.left" timestamp="1592308520165">
+      <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.left/0.23.1372.877@0.23.1372.877" timestamp="1590844952333" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1375.877@0.23.1375.877" timestamp="1590719527985" />
-    <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1378.877@0.23.1378.877" timestamp="1590909865107" />
+    <state width="1310" height="303" key="GridCell.Tab.0.left/0.23.1378.877@0.23.1378.877" timestamp="1592308520165" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1386.877@0.23.1386.877" timestamp="1591066746930" />
     <state width="1310" height="303" key="GridCell.Tab.0.left/0.23.1388.877@0.23.1388.877" timestamp="1591775543623" />
-    <state width="1310" height="303" key="GridCell.Tab.0.right" timestamp="1591775543624">
-      <screen x="0" y="23" width="1388" height="877" />
+    <state width="1310" height="303" key="GridCell.Tab.0.right" timestamp="1592308520166">
+      <screen x="0" y="23" width="1378" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.right/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1375.877@0.23.1375.877" timestamp="1590719527986" />
-    <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1378.877@0.23.1378.877" timestamp="1590909865110" />
+    <state width="1310" height="303" key="GridCell.Tab.0.right/0.23.1378.877@0.23.1378.877" timestamp="1592308520166" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1386.877@0.23.1386.877" timestamp="1591066746931" />
     <state width="1310" height="303" key="GridCell.Tab.0.right/0.23.1388.877@0.23.1388.877" timestamp="1591775543624" />
@@ -550,10 +566,10 @@
       <screen x="0" y="23" width="1388" height="877" />
     </state>
     <state x="276" y="209" key="Vcs.Push.Dialog.v2/0.23.1388.877@0.23.1388.877" timestamp="1591770011167" />
-    <state x="467" y="351" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1590909920908">
+    <state x="467" y="351" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1592307268347">
       <screen x="0" y="23" width="1378" height="877" />
     </state>
-    <state x="467" y="351" key="git4idea.rebase.GitUnstructuredEditor/0.23.1378.877@0.23.1378.877" timestamp="1590909920908" />
+    <state x="467" y="351" key="git4idea.rebase.GitUnstructuredEditor/0.23.1378.877@0.23.1378.877" timestamp="1592307268347" />
     <state x="468" y="351" key="git4idea.rebase.GitUnstructuredEditor/0.23.1380.877@0.23.1380.877" timestamp="1590806900314" />
     <state x="422" y="234" key="refactoring.ChangeSignatureDialog" timestamp="1590829074733">
       <screen x="0" y="23" width="1378" height="877" />

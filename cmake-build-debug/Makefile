@@ -123,32 +123,113 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/22-pthread/Sample.o: CppModule/22-pthread/Sample.cpp.o
+CppModule/23-optimize-target/Sample.o: CppModule/23-optimize-target/Sample.cpp.o
 
-.PHONY : CppModule/22-pthread/Sample.o
+.PHONY : CppModule/23-optimize-target/Sample.o
 
 # target to build an object file
-CppModule/22-pthread/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/22-pthread/Sample.cpp.o
-.PHONY : CppModule/22-pthread/Sample.cpp.o
+CppModule/23-optimize-target/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample.cpp.o
+.PHONY : CppModule/23-optimize-target/Sample.cpp.o
 
-CppModule/22-pthread/Sample.i: CppModule/22-pthread/Sample.cpp.i
+CppModule/23-optimize-target/Sample.i: CppModule/23-optimize-target/Sample.cpp.i
 
-.PHONY : CppModule/22-pthread/Sample.i
+.PHONY : CppModule/23-optimize-target/Sample.i
 
 # target to preprocess a source file
-CppModule/22-pthread/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/22-pthread/Sample.cpp.i
-.PHONY : CppModule/22-pthread/Sample.cpp.i
+CppModule/23-optimize-target/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample.cpp.i
+.PHONY : CppModule/23-optimize-target/Sample.cpp.i
 
-CppModule/22-pthread/Sample.s: CppModule/22-pthread/Sample.cpp.s
+CppModule/23-optimize-target/Sample.s: CppModule/23-optimize-target/Sample.cpp.s
 
-.PHONY : CppModule/22-pthread/Sample.s
+.PHONY : CppModule/23-optimize-target/Sample.s
 
 # target to generate assembly for a file
-CppModule/22-pthread/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/22-pthread/Sample.cpp.s
-.PHONY : CppModule/22-pthread/Sample.cpp.s
+CppModule/23-optimize-target/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample.cpp.s
+.PHONY : CppModule/23-optimize-target/Sample.cpp.s
+
+CppModule/23-optimize-target/Sample2.o: CppModule/23-optimize-target/Sample2.cpp.o
+
+.PHONY : CppModule/23-optimize-target/Sample2.o
+
+# target to build an object file
+CppModule/23-optimize-target/Sample2.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample2.cpp.o
+.PHONY : CppModule/23-optimize-target/Sample2.cpp.o
+
+CppModule/23-optimize-target/Sample2.i: CppModule/23-optimize-target/Sample2.cpp.i
+
+.PHONY : CppModule/23-optimize-target/Sample2.i
+
+# target to preprocess a source file
+CppModule/23-optimize-target/Sample2.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample2.cpp.i
+.PHONY : CppModule/23-optimize-target/Sample2.cpp.i
+
+CppModule/23-optimize-target/Sample2.s: CppModule/23-optimize-target/Sample2.cpp.s
+
+.PHONY : CppModule/23-optimize-target/Sample2.s
+
+# target to generate assembly for a file
+CppModule/23-optimize-target/Sample2.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample2.cpp.s
+.PHONY : CppModule/23-optimize-target/Sample2.cpp.s
+
+CppModule/23-optimize-target/Sample3.o: CppModule/23-optimize-target/Sample3.cpp.o
+
+.PHONY : CppModule/23-optimize-target/Sample3.o
+
+# target to build an object file
+CppModule/23-optimize-target/Sample3.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample3.cpp.o
+.PHONY : CppModule/23-optimize-target/Sample3.cpp.o
+
+CppModule/23-optimize-target/Sample3.i: CppModule/23-optimize-target/Sample3.cpp.i
+
+.PHONY : CppModule/23-optimize-target/Sample3.i
+
+# target to preprocess a source file
+CppModule/23-optimize-target/Sample3.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample3.cpp.i
+.PHONY : CppModule/23-optimize-target/Sample3.cpp.i
+
+CppModule/23-optimize-target/Sample3.s: CppModule/23-optimize-target/Sample3.cpp.s
+
+.PHONY : CppModule/23-optimize-target/Sample3.s
+
+# target to generate assembly for a file
+CppModule/23-optimize-target/Sample3.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample3.cpp.s
+.PHONY : CppModule/23-optimize-target/Sample3.cpp.s
+
+CppModule/23-optimize-target/Sample4.o: CppModule/23-optimize-target/Sample4.cpp.o
+
+.PHONY : CppModule/23-optimize-target/Sample4.o
+
+# target to build an object file
+CppModule/23-optimize-target/Sample4.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample4.cpp.o
+.PHONY : CppModule/23-optimize-target/Sample4.cpp.o
+
+CppModule/23-optimize-target/Sample4.i: CppModule/23-optimize-target/Sample4.cpp.i
+
+.PHONY : CppModule/23-optimize-target/Sample4.i
+
+# target to preprocess a source file
+CppModule/23-optimize-target/Sample4.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample4.cpp.i
+.PHONY : CppModule/23-optimize-target/Sample4.cpp.i
+
+CppModule/23-optimize-target/Sample4.s: CppModule/23-optimize-target/Sample4.cpp.s
+
+.PHONY : CppModule/23-optimize-target/Sample4.s
+
+# target to generate assembly for a file
+CppModule/23-optimize-target/Sample4.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/23-optimize-target/Sample4.cpp.s
+.PHONY : CppModule/23-optimize-target/Sample4.cpp.s
 
 # Help Target
 help:
@@ -159,9 +240,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/22-pthread/Sample.o"
-	@echo "... CppModule/22-pthread/Sample.i"
-	@echo "... CppModule/22-pthread/Sample.s"
+	@echo "... CppModule/23-optimize-target/Sample.o"
+	@echo "... CppModule/23-optimize-target/Sample.i"
+	@echo "... CppModule/23-optimize-target/Sample.s"
+	@echo "... CppModule/23-optimize-target/Sample2.o"
+	@echo "... CppModule/23-optimize-target/Sample2.i"
+	@echo "... CppModule/23-optimize-target/Sample2.s"
+	@echo "... CppModule/23-optimize-target/Sample3.o"
+	@echo "... CppModule/23-optimize-target/Sample3.i"
+	@echo "... CppModule/23-optimize-target/Sample3.s"
+	@echo "... CppModule/23-optimize-target/Sample4.o"
+	@echo "... CppModule/23-optimize-target/Sample4.i"
+	@echo "... CppModule/23-optimize-target/Sample4.s"
 .PHONY : help
 
 
