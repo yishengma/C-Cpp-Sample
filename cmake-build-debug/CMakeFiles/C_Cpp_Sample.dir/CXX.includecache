@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/21-thread/Sample.cpp
-thread
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/22-pthread/Sample.cpp
+pthread.h
+-
+zconf.h
 -
 iostream
--
-mutex
--
-stdlib.h
 -
 

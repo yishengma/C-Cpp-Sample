@@ -123,32 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/21-thread/Sample.o: CppModule/21-thread/Sample.cpp.o
+CppModule/22-pthread/Sample.o: CppModule/22-pthread/Sample.cpp.o
 
-.PHONY : CppModule/21-thread/Sample.o
+.PHONY : CppModule/22-pthread/Sample.o
 
 # target to build an object file
-CppModule/21-thread/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/21-thread/Sample.cpp.o
-.PHONY : CppModule/21-thread/Sample.cpp.o
+CppModule/22-pthread/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/22-pthread/Sample.cpp.o
+.PHONY : CppModule/22-pthread/Sample.cpp.o
 
-CppModule/21-thread/Sample.i: CppModule/21-thread/Sample.cpp.i
+CppModule/22-pthread/Sample.i: CppModule/22-pthread/Sample.cpp.i
 
-.PHONY : CppModule/21-thread/Sample.i
+.PHONY : CppModule/22-pthread/Sample.i
 
 # target to preprocess a source file
-CppModule/21-thread/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/21-thread/Sample.cpp.i
-.PHONY : CppModule/21-thread/Sample.cpp.i
+CppModule/22-pthread/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/22-pthread/Sample.cpp.i
+.PHONY : CppModule/22-pthread/Sample.cpp.i
 
-CppModule/21-thread/Sample.s: CppModule/21-thread/Sample.cpp.s
+CppModule/22-pthread/Sample.s: CppModule/22-pthread/Sample.cpp.s
 
-.PHONY : CppModule/21-thread/Sample.s
+.PHONY : CppModule/22-pthread/Sample.s
 
 # target to generate assembly for a file
-CppModule/21-thread/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/21-thread/Sample.cpp.s
-.PHONY : CppModule/21-thread/Sample.cpp.s
+CppModule/22-pthread/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/22-pthread/Sample.cpp.s
+.PHONY : CppModule/22-pthread/Sample.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/21-thread/Sample.o"
-	@echo "... CppModule/21-thread/Sample.i"
-	@echo "... CppModule/21-thread/Sample.s"
+	@echo "... CppModule/22-pthread/Sample.o"
+	@echo "... CppModule/22-pthread/Sample.i"
+	@echo "... CppModule/22-pthread/Sample.s"
 .PHONY : help
 
 

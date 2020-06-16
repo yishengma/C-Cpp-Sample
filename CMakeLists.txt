@@ -13,4 +13,5 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(C_Cpp_Sample CppModule/16-string/Sample.cpp CppModule/17-register/Sample.cpp CppModule/18-stl/Sample.cpp)
 #add_executable(C_Cpp_Sample CppModule/18-stl/Sample.cpp CppModule/19-predicate/Sample.cpp)
 # CppModule/20-func-adapter/Sample.cpp
-add_executable(C_Cpp_Sample  CppModule/21-thread/Sample.cpp)
+#CppModule/21-thread/Sample.cpp
+add_executable(C_Cpp_Sample   CppModule/22-pthread/Sample.cpp)
