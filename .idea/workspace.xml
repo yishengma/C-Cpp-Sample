@@ -35,8 +35,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ forward类型转发函数">
-      <change afterPath="$PROJECT_DIR$/CppModule/25-intelligent-pointer/Sample.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 不带引用计数的智能指针的拷贝">
+      <change afterPath="$PROJECT_DIR$/CppModule/25-intelligent-pointer/Sample2.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
@@ -121,14 +121,7 @@
       <workItem from="1591362580463" duration="826000" />
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
-      <workItem from="1592291422382" duration="14358000" />
-    </task>
-    <task id="LOCAL-00002" summary="C 6个基本数据类型和占位符">
-      <created>1590668404314</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1590668404314</updated>
+      <workItem from="1592291422382" duration="16359000" />
     </task>
     <task id="LOCAL-00003" summary="C 指针变量和地址，%p打印地址">
       <created>1590669219158</created>
@@ -466,7 +459,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592365969496</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="c++ 不带引用计数的智能指针的拷贝">
+      <created>1592379554464</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1592379554464</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -485,7 +485,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C++ 类的构造函数" />
     <MESSAGE value="C++ 类的析构函数" />
     <MESSAGE value="C++ new/delete和malloc/free" />
     <MESSAGE value="C++ 拷贝构造函数" />
@@ -510,15 +509,16 @@
     <MESSAGE value="c++左值引用和右值引用构造器" />
     <MESSAGE value="c++ move 移动语义， std::move 强转 为右值" />
     <MESSAGE value="c++ forward类型转发函数" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++ forward类型转发函数" />
+    <MESSAGE value="c++ 不带引用计数的智能指针的拷贝" />
+    <option name="LAST_COMMIT_MESSAGE" value="c++ 不带引用计数的智能指针的拷贝" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592373089522">
+    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592380069764">
       <screen x="0" y="23" width="1388" height="877" />
     </state>
     <state x="479" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1378.877@0.23.1378.877" timestamp="1592309623290" />
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1386.877@0.23.1386.877" timestamp="1590980859286" />
-    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1388.877@0.23.1388.877" timestamp="1592373089522" />
+    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1388.877@0.23.1388.877" timestamp="1592380069764" />
     <state x="124" y="124" width="1151" height="637" key="DiffContextDialog" timestamp="1590912087564">
       <screen x="0" y="23" width="1378" height="877" />
     </state>
