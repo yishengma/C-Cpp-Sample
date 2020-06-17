@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o"
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o"
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.o"
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o"
   "C_Cpp_Sample"
   "C_Cpp_Sample.pdb"
 )

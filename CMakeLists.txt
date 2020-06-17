@@ -16,4 +16,5 @@ set(CMAKE_CXX_STANDARD 11)
 #CppModule/21-thread/Sample.cpp
 #add_executable(C_Cpp_Sample   CppModule/23-optimize-target/Sample.cpp CppModule/23-optimize-target/Sample2.cpp CppModule/23-optimize-target/Sample3.cpp CppModule/23-optimize-target/Sample4.cpp )
 
-add_executable(C_Cpp_Sample CppModule/24-move-forward/Sample.cpp CppModule/25-intelligent-pointer/Sample.cpp CppModule/25-intelligent-pointer/Sample2.cpp CppModule/25-intelligent-pointer/Sample3.cpp)
+#add_executable(C_Cpp_Sample CppModule/24-move-forward/Sample.cpp CppModule/25-intelligent-pointer/Sample.cpp CppModule/25-intelligent-pointer/Sample2.cpp CppModule/25-intelligent-pointer/Sample3.cpp )
+add_executable(C_Cpp_Sample CppModule/26-bind-function/Sample.cpp)

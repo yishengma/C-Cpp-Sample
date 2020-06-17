@@ -57,75 +57,30 @@ include CMakeFiles/C_Cpp_Sample.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_Cpp_Sample.dir/flags.make
 
-CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o: ../CppModule/24-move-forward/Sample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/24-move-forward/Sample.cpp
+CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
+CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o: ../CppModule/26-bind-function/Sample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/26-bind-function/Sample.cpp
 
-CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/24-move-forward/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.i
+CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/26-bind-function/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.i
 
-CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/24-move-forward/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.s
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o: ../CppModule/25-intelligent-pointer/Sample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample.cpp
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.i
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.s
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.o: ../CppModule/25-intelligent-pointer/Sample2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample2.cpp
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample2.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.i
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample2.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.s
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o: ../CppModule/25-intelligent-pointer/Sample3.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample3.cpp
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample3.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.i
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample3.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.s
+CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/26-bind-function/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.s
 
 # Object files for target C_Cpp_Sample
 C_Cpp_Sample_OBJECTS = \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o" \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o" \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.o" \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o"
+"CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o"
 
 # External object files for target C_Cpp_Sample
 C_Cpp_Sample_EXTERNAL_OBJECTS =
 
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.o
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o
+C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o
 C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/build.make
 C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable C_Cpp_Sample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C_Cpp_Sample"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C_Cpp_Sample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

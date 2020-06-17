@@ -123,113 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/24-move-forward/Sample.o: CppModule/24-move-forward/Sample.cpp.o
+CppModule/26-bind-function/Sample.o: CppModule/26-bind-function/Sample.cpp.o
 
-.PHONY : CppModule/24-move-forward/Sample.o
-
-# target to build an object file
-CppModule/24-move-forward/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o
-.PHONY : CppModule/24-move-forward/Sample.cpp.o
-
-CppModule/24-move-forward/Sample.i: CppModule/24-move-forward/Sample.cpp.i
-
-.PHONY : CppModule/24-move-forward/Sample.i
-
-# target to preprocess a source file
-CppModule/24-move-forward/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.i
-.PHONY : CppModule/24-move-forward/Sample.cpp.i
-
-CppModule/24-move-forward/Sample.s: CppModule/24-move-forward/Sample.cpp.s
-
-.PHONY : CppModule/24-move-forward/Sample.s
-
-# target to generate assembly for a file
-CppModule/24-move-forward/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.s
-.PHONY : CppModule/24-move-forward/Sample.cpp.s
-
-CppModule/25-intelligent-pointer/Sample.o: CppModule/25-intelligent-pointer/Sample.cpp.o
-
-.PHONY : CppModule/25-intelligent-pointer/Sample.o
+.PHONY : CppModule/26-bind-function/Sample.o
 
 # target to build an object file
-CppModule/25-intelligent-pointer/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o
-.PHONY : CppModule/25-intelligent-pointer/Sample.cpp.o
+CppModule/26-bind-function/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o
+.PHONY : CppModule/26-bind-function/Sample.cpp.o
 
-CppModule/25-intelligent-pointer/Sample.i: CppModule/25-intelligent-pointer/Sample.cpp.i
+CppModule/26-bind-function/Sample.i: CppModule/26-bind-function/Sample.cpp.i
 
-.PHONY : CppModule/25-intelligent-pointer/Sample.i
-
-# target to preprocess a source file
-CppModule/25-intelligent-pointer/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.i
-.PHONY : CppModule/25-intelligent-pointer/Sample.cpp.i
-
-CppModule/25-intelligent-pointer/Sample.s: CppModule/25-intelligent-pointer/Sample.cpp.s
-
-.PHONY : CppModule/25-intelligent-pointer/Sample.s
-
-# target to generate assembly for a file
-CppModule/25-intelligent-pointer/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.s
-.PHONY : CppModule/25-intelligent-pointer/Sample.cpp.s
-
-CppModule/25-intelligent-pointer/Sample2.o: CppModule/25-intelligent-pointer/Sample2.cpp.o
-
-.PHONY : CppModule/25-intelligent-pointer/Sample2.o
-
-# target to build an object file
-CppModule/25-intelligent-pointer/Sample2.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.o
-.PHONY : CppModule/25-intelligent-pointer/Sample2.cpp.o
-
-CppModule/25-intelligent-pointer/Sample2.i: CppModule/25-intelligent-pointer/Sample2.cpp.i
-
-.PHONY : CppModule/25-intelligent-pointer/Sample2.i
+.PHONY : CppModule/26-bind-function/Sample.i
 
 # target to preprocess a source file
-CppModule/25-intelligent-pointer/Sample2.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.i
-.PHONY : CppModule/25-intelligent-pointer/Sample2.cpp.i
+CppModule/26-bind-function/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.i
+.PHONY : CppModule/26-bind-function/Sample.cpp.i
 
-CppModule/25-intelligent-pointer/Sample2.s: CppModule/25-intelligent-pointer/Sample2.cpp.s
+CppModule/26-bind-function/Sample.s: CppModule/26-bind-function/Sample.cpp.s
 
-.PHONY : CppModule/25-intelligent-pointer/Sample2.s
-
-# target to generate assembly for a file
-CppModule/25-intelligent-pointer/Sample2.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.s
-.PHONY : CppModule/25-intelligent-pointer/Sample2.cpp.s
-
-CppModule/25-intelligent-pointer/Sample3.o: CppModule/25-intelligent-pointer/Sample3.cpp.o
-
-.PHONY : CppModule/25-intelligent-pointer/Sample3.o
-
-# target to build an object file
-CppModule/25-intelligent-pointer/Sample3.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o
-.PHONY : CppModule/25-intelligent-pointer/Sample3.cpp.o
-
-CppModule/25-intelligent-pointer/Sample3.i: CppModule/25-intelligent-pointer/Sample3.cpp.i
-
-.PHONY : CppModule/25-intelligent-pointer/Sample3.i
-
-# target to preprocess a source file
-CppModule/25-intelligent-pointer/Sample3.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.i
-.PHONY : CppModule/25-intelligent-pointer/Sample3.cpp.i
-
-CppModule/25-intelligent-pointer/Sample3.s: CppModule/25-intelligent-pointer/Sample3.cpp.s
-
-.PHONY : CppModule/25-intelligent-pointer/Sample3.s
+.PHONY : CppModule/26-bind-function/Sample.s
 
 # target to generate assembly for a file
-CppModule/25-intelligent-pointer/Sample3.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.s
-.PHONY : CppModule/25-intelligent-pointer/Sample3.cpp.s
+CppModule/26-bind-function/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.s
+.PHONY : CppModule/26-bind-function/Sample.cpp.s
 
 # Help Target
 help:
@@ -240,18 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/24-move-forward/Sample.o"
-	@echo "... CppModule/24-move-forward/Sample.i"
-	@echo "... CppModule/24-move-forward/Sample.s"
-	@echo "... CppModule/25-intelligent-pointer/Sample.o"
-	@echo "... CppModule/25-intelligent-pointer/Sample.i"
-	@echo "... CppModule/25-intelligent-pointer/Sample.s"
-	@echo "... CppModule/25-intelligent-pointer/Sample2.o"
-	@echo "... CppModule/25-intelligent-pointer/Sample2.i"
-	@echo "... CppModule/25-intelligent-pointer/Sample2.s"
-	@echo "... CppModule/25-intelligent-pointer/Sample3.o"
-	@echo "... CppModule/25-intelligent-pointer/Sample3.i"
-	@echo "... CppModule/25-intelligent-pointer/Sample3.s"
+	@echo "... CppModule/26-bind-function/Sample.o"
+	@echo "... CppModule/26-bind-function/Sample.i"
+	@echo "... CppModule/26-bind-function/Sample.s"
 .PHONY : help
 
 
