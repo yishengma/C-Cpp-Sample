@@ -150,6 +150,33 @@ CppModule/24-move-forward/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.s
 .PHONY : CppModule/24-move-forward/Sample.cpp.s
 
+CppModule/25-intelligent-pointer/Sample.o: CppModule/25-intelligent-pointer/Sample.cpp.o
+
+.PHONY : CppModule/25-intelligent-pointer/Sample.o
+
+# target to build an object file
+CppModule/25-intelligent-pointer/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o
+.PHONY : CppModule/25-intelligent-pointer/Sample.cpp.o
+
+CppModule/25-intelligent-pointer/Sample.i: CppModule/25-intelligent-pointer/Sample.cpp.i
+
+.PHONY : CppModule/25-intelligent-pointer/Sample.i
+
+# target to preprocess a source file
+CppModule/25-intelligent-pointer/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.i
+.PHONY : CppModule/25-intelligent-pointer/Sample.cpp.i
+
+CppModule/25-intelligent-pointer/Sample.s: CppModule/25-intelligent-pointer/Sample.cpp.s
+
+.PHONY : CppModule/25-intelligent-pointer/Sample.s
+
+# target to generate assembly for a file
+CppModule/25-intelligent-pointer/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.s
+.PHONY : CppModule/25-intelligent-pointer/Sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... CppModule/24-move-forward/Sample.o"
 	@echo "... CppModule/24-move-forward/Sample.i"
 	@echo "... CppModule/24-move-forward/Sample.s"
+	@echo "... CppModule/25-intelligent-pointer/Sample.o"
+	@echo "... CppModule/25-intelligent-pointer/Sample.i"
+	@echo "... CppModule/25-intelligent-pointer/Sample.s"
 .PHONY : help
 
 
