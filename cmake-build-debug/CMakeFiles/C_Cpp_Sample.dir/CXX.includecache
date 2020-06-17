@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/23-optimize-target/Sample.cpp
-ostream
--
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/24-move-forward/Sample.cpp
 iostream
 -
 

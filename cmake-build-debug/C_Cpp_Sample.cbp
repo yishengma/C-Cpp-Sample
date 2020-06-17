@@ -80,16 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/23-optimize-target/Sample.cpp">
-			<Option target="C_Cpp_Sample"/>
-		</Unit>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/23-optimize-target/Sample2.cpp">
-			<Option target="C_Cpp_Sample"/>
-		</Unit>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/23-optimize-target/Sample3.cpp">
-			<Option target="C_Cpp_Sample"/>
-		</Unit>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/23-optimize-target/Sample4.cpp">
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/24-move-forward/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CMakeLists.txt">
