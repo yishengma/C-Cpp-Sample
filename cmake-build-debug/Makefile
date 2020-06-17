@@ -150,6 +150,33 @@ CppModule/26-bind-function/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.s
 .PHONY : CppModule/26-bind-function/Sample.cpp.s
 
+CppModule/27-function-target.o: CppModule/27-function-target.cpp.o
+
+.PHONY : CppModule/27-function-target.o
+
+# target to build an object file
+CppModule/27-function-target.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target.cpp.o
+.PHONY : CppModule/27-function-target.cpp.o
+
+CppModule/27-function-target.i: CppModule/27-function-target.cpp.i
+
+.PHONY : CppModule/27-function-target.i
+
+# target to preprocess a source file
+CppModule/27-function-target.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target.cpp.i
+.PHONY : CppModule/27-function-target.cpp.i
+
+CppModule/27-function-target.s: CppModule/27-function-target.cpp.s
+
+.PHONY : CppModule/27-function-target.s
+
+# target to generate assembly for a file
+CppModule/27-function-target.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target.cpp.s
+.PHONY : CppModule/27-function-target.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... CppModule/26-bind-function/Sample.o"
 	@echo "... CppModule/26-bind-function/Sample.i"
 	@echo "... CppModule/26-bind-function/Sample.s"
+	@echo "... CppModule/27-function-target.o"
+	@echo "... CppModule/27-function-target.i"
+	@echo "... CppModule/27-function-target.s"
 .PHONY : help
 
 
