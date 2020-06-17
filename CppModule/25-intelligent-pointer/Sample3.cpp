@@ -35,7 +35,26 @@ int main() {
         thread t1(handle_B, weak_ptr<A>(p));
         t1.detach();
     }
+}
 
+//智能指针的删除器 deletor
+//unique_ptr  shared_ptr
+//
 
+//自定义删除器
+template<typename T>
+class Deletor {
+public:
+    void operator() (T* ptr) const {
+        delete [] ptr;
+    }
+};
+int test() {
+    unique_ptr<int,Deletor<int>>(new int[100]);
+
+    //lambda 表达式 函数对象
+    unique_ptr<int,function<void(int*)>> ptr1 (new int [100],[](int*p)->void{
+        delete[] p;
+    });
 
 }
