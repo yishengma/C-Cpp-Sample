@@ -96,14 +96,20 @@ struct Allocator
     {
         free(p);
     }
-    void construct(T *p, const T &val)
-    {
-        new (p) T(val);
+//    void construct(T *p, const T &val)
+//    {
+//        new (p) T(val);
+//    }
+//    void construct(T *p, T &&val)
+//    {
+//        new (p) T(std::move(val));
+//    }
+
+    template<typename Ty>
+    void construct(T *p, Ty &&val) {
+        new (p) T(std::forward<Ty>(val));
     }
-    void construct(T *p, T &&val)
-    {
-        new (p) T(std::move(val));
-    }
+
 
     void destroy(T *p)
     {
@@ -182,23 +188,37 @@ public:
     bool empty()const { return _first == _last; }
     int size()const { return _last - _first; }
 
-    void push_back(const T &val)
-    {
-        if (full())
+//    void push_back(const T &val)
+//    {
+//        if (full())
+//            expand();
+//
+//        _allocator.construct(_last, val);
+//        _last++;
+//    }
+//
+//    void push_back(T &&val)
+//    {
+//        if (full())
+//            expand();
+//
+//        //因为一个右值引用变量本身是一个左值，所以这里 construct 还是使用的左值引用
+//        //使用std::move 强转 为右值
+//        _allocator.construct(_last,std::move(val));
+//        _last++;
+//    }
+
+//引用折叠
+//右值&& + && = 右值&&
+//左值& + && = 左值
+//因此可以一个模版函数代替上述两个
+//forward 类型完美转发，能够识别左值和右值
+    template<typename Ty>
+    void push_back(Ty &&val) {
+        if(full())
             expand();
 
-        _allocator.construct(_last, val);
-        _last++;
-    }
-
-    void push_back(T &&val)
-    {
-        if (full())
-            expand();
-
-        //因为一个右值引用变量本身是一个左值，所以这里 construct 还是使用的左值引用
-        //使用std::move 强转 为右值
-        _allocator.construct(_last,std::move(val));
+        _allocator.construct(_last,std::forward<Ty>(val));
         _last++;
     }
 

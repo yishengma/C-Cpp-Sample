@@ -35,10 +35,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++左值引用和右值引用构造器">
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ move 移动语义， std::move 强转 为右值">
       <change beforePath="$PROJECT_DIR$/CppModule/24-move-forward/Sample.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CppModule/24-move-forward/Sample.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +110,7 @@
       <workItem from="1591362580463" duration="826000" />
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
-      <workItem from="1592291422382" duration="9719000" />
+      <workItem from="1592291422382" duration="10046000" />
     </task>
     <task id="LOCAL-00001" summary="C and Cpp Sample">
       <created>1590668242386</created>
@@ -450,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592365164083</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="c++ move 移动语义， std::move 强转 为右值">
+      <created>1592365437720</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1592365437720</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +474,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C++ 常量，引用和函数" />
     <MESSAGE value="C++ 类的基础" />
     <MESSAGE value="C++ 类的构造函数" />
     <MESSAGE value="C++ 类的析构函数" />
@@ -494,7 +498,8 @@
     <MESSAGE value="C++Thread补充" />
     <MESSAGE value="构造函数的优化，右值引用，拷贝构造" />
     <MESSAGE value="c++左值引用和右值引用构造器" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++左值引用和右值引用构造器" />
+    <MESSAGE value="c++ move 移动语义， std::move 强转 为右值" />
+    <option name="LAST_COMMIT_MESSAGE" value="c++ move 移动语义， std::move 强转 为右值" />
   </component>
   <component name="WindowStateProjectService">
     <state x="479" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592309623290">
@@ -514,7 +519,7 @@
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1378.877@0.23.1378.877" timestamp="1592307293008" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1380.877@0.23.1380.877" timestamp="1590806991560" />
     <state x="187" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1388.877@0.23.1388.877" timestamp="1592365187137" />
-    <state width="1310" height="303" key="GridCell.Tab.0.bottom" timestamp="1592365272116">
+    <state width="1310" height="303" key="GridCell.Tab.0.bottom" timestamp="1592365434972">
       <screen x="0" y="23" width="1388" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.bottom/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
@@ -522,8 +527,8 @@
     <state width="1310" height="303" key="GridCell.Tab.0.bottom/0.23.1378.877@0.23.1378.877" timestamp="1592308520167" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1386.877@0.23.1386.877" timestamp="1591066746932" />
-    <state width="1310" height="303" key="GridCell.Tab.0.bottom/0.23.1388.877@0.23.1388.877" timestamp="1592365272116" />
-    <state width="1310" height="303" key="GridCell.Tab.0.center" timestamp="1592365272115">
+    <state width="1310" height="303" key="GridCell.Tab.0.bottom/0.23.1388.877@0.23.1388.877" timestamp="1592365434972" />
+    <state width="1310" height="303" key="GridCell.Tab.0.center" timestamp="1592365434972">
       <screen x="0" y="23" width="1388" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.center/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
@@ -531,8 +536,8 @@
     <state width="1310" height="303" key="GridCell.Tab.0.center/0.23.1378.877@0.23.1378.877" timestamp="1592308520166" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1386.877@0.23.1386.877" timestamp="1591066746931" />
-    <state width="1310" height="303" key="GridCell.Tab.0.center/0.23.1388.877@0.23.1388.877" timestamp="1592365272115" />
-    <state width="1310" height="303" key="GridCell.Tab.0.left" timestamp="1592365272115">
+    <state width="1310" height="303" key="GridCell.Tab.0.center/0.23.1388.877@0.23.1388.877" timestamp="1592365434972" />
+    <state width="1310" height="303" key="GridCell.Tab.0.left" timestamp="1592365434971">
       <screen x="0" y="23" width="1388" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.left/0.23.1372.877@0.23.1372.877" timestamp="1590844952333" />
@@ -540,8 +545,8 @@
     <state width="1310" height="303" key="GridCell.Tab.0.left/0.23.1378.877@0.23.1378.877" timestamp="1592308520165" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1386.877@0.23.1386.877" timestamp="1591066746930" />
-    <state width="1310" height="303" key="GridCell.Tab.0.left/0.23.1388.877@0.23.1388.877" timestamp="1592365272115" />
-    <state width="1310" height="303" key="GridCell.Tab.0.right" timestamp="1592365272116">
+    <state width="1310" height="303" key="GridCell.Tab.0.left/0.23.1388.877@0.23.1388.877" timestamp="1592365434971" />
+    <state width="1310" height="303" key="GridCell.Tab.0.right" timestamp="1592365434972">
       <screen x="0" y="23" width="1388" height="877" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.right/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
@@ -549,7 +554,7 @@
     <state width="1310" height="303" key="GridCell.Tab.0.right/0.23.1378.877@0.23.1378.877" timestamp="1592308520166" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1386.877@0.23.1386.877" timestamp="1591066746931" />
-    <state width="1310" height="303" key="GridCell.Tab.0.right/0.23.1388.877@0.23.1388.877" timestamp="1592365272116" />
+    <state width="1310" height="303" key="GridCell.Tab.0.right/0.23.1388.877@0.23.1388.877" timestamp="1592365434972" />
     <state width="1310" height="270" key="GridCell.Tab.1.bottom" timestamp="1590844952337">
       <screen x="0" y="23" width="1372" height="877" />
     </state>
