@@ -204,6 +204,33 @@ CppModule/25-intelligent-pointer/Sample2.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.s
 .PHONY : CppModule/25-intelligent-pointer/Sample2.cpp.s
 
+CppModule/25-intelligent-pointer/Sample3.o: CppModule/25-intelligent-pointer/Sample3.cpp.o
+
+.PHONY : CppModule/25-intelligent-pointer/Sample3.o
+
+# target to build an object file
+CppModule/25-intelligent-pointer/Sample3.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o
+.PHONY : CppModule/25-intelligent-pointer/Sample3.cpp.o
+
+CppModule/25-intelligent-pointer/Sample3.i: CppModule/25-intelligent-pointer/Sample3.cpp.i
+
+.PHONY : CppModule/25-intelligent-pointer/Sample3.i
+
+# target to preprocess a source file
+CppModule/25-intelligent-pointer/Sample3.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.i
+.PHONY : CppModule/25-intelligent-pointer/Sample3.cpp.i
+
+CppModule/25-intelligent-pointer/Sample3.s: CppModule/25-intelligent-pointer/Sample3.cpp.s
+
+.PHONY : CppModule/25-intelligent-pointer/Sample3.s
+
+# target to generate assembly for a file
+CppModule/25-intelligent-pointer/Sample3.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.s
+.PHONY : CppModule/25-intelligent-pointer/Sample3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... CppModule/25-intelligent-pointer/Sample2.o"
 	@echo "... CppModule/25-intelligent-pointer/Sample2.i"
 	@echo "... CppModule/25-intelligent-pointer/Sample2.s"
+	@echo "... CppModule/25-intelligent-pointer/Sample3.o"
+	@echo "... CppModule/25-intelligent-pointer/Sample3.i"
+	@echo "... CppModule/25-intelligent-pointer/Sample3.s"
 .PHONY : help
 
 

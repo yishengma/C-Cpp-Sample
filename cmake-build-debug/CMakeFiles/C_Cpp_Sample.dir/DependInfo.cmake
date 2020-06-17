@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/24-move-forward/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/24-move-forward/Sample.cpp.o"
   "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample.cpp.o"
   "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample2.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample2.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/25-intelligent-pointer/Sample3.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/25-intelligent-pointer/Sample3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
