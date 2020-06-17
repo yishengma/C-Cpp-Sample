@@ -196,7 +196,9 @@ public:
         if (full())
             expand();
 
-        _allocator.construct(_last,val);
+        //因为一个右值引用变量本身是一个左值，所以这里 construct 还是使用的左值引用
+        //使用std::move 强转 为右值
+        _allocator.construct(_last,std::move(val));
         _last++;
     }
 
