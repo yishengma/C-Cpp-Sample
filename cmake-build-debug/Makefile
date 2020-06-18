@@ -123,113 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/26-bind-function/Sample.o: CppModule/26-bind-function/Sample.cpp.o
+CppModule/30-function-bind/Sample.o: CppModule/30-function-bind/Sample.cpp.o
 
-.PHONY : CppModule/26-bind-function/Sample.o
-
-# target to build an object file
-CppModule/26-bind-function/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o
-.PHONY : CppModule/26-bind-function/Sample.cpp.o
-
-CppModule/26-bind-function/Sample.i: CppModule/26-bind-function/Sample.cpp.i
-
-.PHONY : CppModule/26-bind-function/Sample.i
-
-# target to preprocess a source file
-CppModule/26-bind-function/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.i
-.PHONY : CppModule/26-bind-function/Sample.cpp.i
-
-CppModule/26-bind-function/Sample.s: CppModule/26-bind-function/Sample.cpp.s
-
-.PHONY : CppModule/26-bind-function/Sample.s
-
-# target to generate assembly for a file
-CppModule/26-bind-function/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.s
-.PHONY : CppModule/26-bind-function/Sample.cpp.s
-
-CppModule/27-function-target/27-function-target.o: CppModule/27-function-target/27-function-target.cpp.o
-
-.PHONY : CppModule/27-function-target/27-function-target.o
+.PHONY : CppModule/30-function-bind/Sample.o
 
 # target to build an object file
-CppModule/27-function-target/27-function-target.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.o
-.PHONY : CppModule/27-function-target/27-function-target.cpp.o
+CppModule/30-function-bind/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.o
+.PHONY : CppModule/30-function-bind/Sample.cpp.o
 
-CppModule/27-function-target/27-function-target.i: CppModule/27-function-target/27-function-target.cpp.i
+CppModule/30-function-bind/Sample.i: CppModule/30-function-bind/Sample.cpp.i
 
-.PHONY : CppModule/27-function-target/27-function-target.i
-
-# target to preprocess a source file
-CppModule/27-function-target/27-function-target.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.i
-.PHONY : CppModule/27-function-target/27-function-target.cpp.i
-
-CppModule/27-function-target/27-function-target.s: CppModule/27-function-target/27-function-target.cpp.s
-
-.PHONY : CppModule/27-function-target/27-function-target.s
-
-# target to generate assembly for a file
-CppModule/27-function-target/27-function-target.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.s
-.PHONY : CppModule/27-function-target/27-function-target.cpp.s
-
-CppModule/28-template-special/Sample.o: CppModule/28-template-special/Sample.cpp.o
-
-.PHONY : CppModule/28-template-special/Sample.o
-
-# target to build an object file
-CppModule/28-template-special/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.o
-.PHONY : CppModule/28-template-special/Sample.cpp.o
-
-CppModule/28-template-special/Sample.i: CppModule/28-template-special/Sample.cpp.i
-
-.PHONY : CppModule/28-template-special/Sample.i
+.PHONY : CppModule/30-function-bind/Sample.i
 
 # target to preprocess a source file
-CppModule/28-template-special/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.i
-.PHONY : CppModule/28-template-special/Sample.cpp.i
+CppModule/30-function-bind/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.i
+.PHONY : CppModule/30-function-bind/Sample.cpp.i
 
-CppModule/28-template-special/Sample.s: CppModule/28-template-special/Sample.cpp.s
+CppModule/30-function-bind/Sample.s: CppModule/30-function-bind/Sample.cpp.s
 
-.PHONY : CppModule/28-template-special/Sample.s
-
-# target to generate assembly for a file
-CppModule/28-template-special/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.s
-.PHONY : CppModule/28-template-special/Sample.cpp.s
-
-CppModule/29-function-orig/Sample.o: CppModule/29-function-orig/Sample.cpp.o
-
-.PHONY : CppModule/29-function-orig/Sample.o
-
-# target to build an object file
-CppModule/29-function-orig/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.o
-.PHONY : CppModule/29-function-orig/Sample.cpp.o
-
-CppModule/29-function-orig/Sample.i: CppModule/29-function-orig/Sample.cpp.i
-
-.PHONY : CppModule/29-function-orig/Sample.i
-
-# target to preprocess a source file
-CppModule/29-function-orig/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.i
-.PHONY : CppModule/29-function-orig/Sample.cpp.i
-
-CppModule/29-function-orig/Sample.s: CppModule/29-function-orig/Sample.cpp.s
-
-.PHONY : CppModule/29-function-orig/Sample.s
+.PHONY : CppModule/30-function-bind/Sample.s
 
 # target to generate assembly for a file
-CppModule/29-function-orig/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.s
-.PHONY : CppModule/29-function-orig/Sample.cpp.s
+CppModule/30-function-bind/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.s
+.PHONY : CppModule/30-function-bind/Sample.cpp.s
 
 # Help Target
 help:
@@ -240,18 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/26-bind-function/Sample.o"
-	@echo "... CppModule/26-bind-function/Sample.i"
-	@echo "... CppModule/26-bind-function/Sample.s"
-	@echo "... CppModule/27-function-target/27-function-target.o"
-	@echo "... CppModule/27-function-target/27-function-target.i"
-	@echo "... CppModule/27-function-target/27-function-target.s"
-	@echo "... CppModule/28-template-special/Sample.o"
-	@echo "... CppModule/28-template-special/Sample.i"
-	@echo "... CppModule/28-template-special/Sample.s"
-	@echo "... CppModule/29-function-orig/Sample.o"
-	@echo "... CppModule/29-function-orig/Sample.i"
-	@echo "... CppModule/29-function-orig/Sample.s"
+	@echo "... CppModule/30-function-bind/Sample.o"
+	@echo "... CppModule/30-function-bind/Sample.i"
+	@echo "... CppModule/30-function-bind/Sample.s"
 .PHONY : help
 
 

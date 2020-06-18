@@ -57,75 +57,30 @@ include CMakeFiles/C_Cpp_Sample.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/C_Cpp_Sample.dir/flags.make
 
-CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o: ../CppModule/26-bind-function/Sample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/26-bind-function/Sample.cpp
+CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
+CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.o: ../CppModule/30-function-bind/Sample.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/30-function-bind/Sample.cpp
 
-CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/26-bind-function/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.i
+CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/30-function-bind/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.i
 
-CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/26-bind-function/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.s
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.o: ../CppModule/27-function-target/27-function-target.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/27-function-target/27-function-target.cpp
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/27-function-target/27-function-target.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.i
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/27-function-target/27-function-target.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.s
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.o: ../CppModule/28-template-special/Sample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/28-template-special/Sample.cpp
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/28-template-special/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.i
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/28-template-special/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.s
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.o: CMakeFiles/C_Cpp_Sample.dir/flags.make
-CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.o: ../CppModule/29-function-orig/Sample.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.o -c /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/29-function-orig/Sample.cpp
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/29-function-orig/Sample.cpp > CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.i
-
-CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/29-function-orig/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.s
+CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/30-function-bind/Sample.cpp -o CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.s
 
 # Object files for target C_Cpp_Sample
 C_Cpp_Sample_OBJECTS = \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o" \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.o" \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.o" \
-"CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.o"
+"CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.o"
 
 # External object files for target C_Cpp_Sample
 C_Cpp_Sample_EXTERNAL_OBJECTS =
 
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.o
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.o
-C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.o
+C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.o
 C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/build.make
 C_Cpp_Sample: CMakeFiles/C_Cpp_Sample.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable C_Cpp_Sample"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable C_Cpp_Sample"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/C_Cpp_Sample.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

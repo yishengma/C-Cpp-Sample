@@ -35,8 +35,8 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 模版的完全特例化和不完全特例化">
-      <change afterPath="$PROJECT_DIR$/CppModule/29-function-orig/Sample.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ function实现原理">
+      <change afterPath="$PROJECT_DIR$/CppModule/30-function-bind/Sample.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
@@ -122,14 +122,7 @@
       <workItem from="1591362580463" duration="826000" />
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
-      <workItem from="1592291422382" duration="27885000" />
-    </task>
-    <task id="LOCAL-00011" summary="C 字符串操作">
-      <created>1590740345770</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1590740345770</updated>
+      <workItem from="1592291422382" duration="28908000" />
     </task>
     <task id="LOCAL-00012" summary="C struct结构体">
       <created>1590754175828</created>
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592480610382</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="c++ function实现原理">
+      <created>1592482412574</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1592482412574</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +486,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C++ 类的各个方法" />
     <MESSAGE value="C++ 类的继承" />
     <MESSAGE value="C++ 多态" />
     <MESSAGE value="C++ 抽象类和接口" />
@@ -511,14 +510,15 @@
     <MESSAGE value="c++ 绑定器的原理" />
     <MESSAGE value="c++ function 的作用" />
     <MESSAGE value="c++ 模版的完全特例化和不完全特例化" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++ 模版的完全特例化和不完全特例化" />
+    <MESSAGE value="c++ function实现原理" />
+    <option name="LAST_COMMIT_MESSAGE" value="c++ function实现原理" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592481310348">
+    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592483806708">
       <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state x="479" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1378.877@0.23.1378.877" timestamp="1592309623290" />
-    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1386.877@0.23.1386.877" timestamp="1592481310348" />
+    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1386.877@0.23.1386.877" timestamp="1592483806708" />
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1388.877@0.23.1388.877" timestamp="1592399564879" />
     <state x="124" y="124" width="1151" height="637" key="DiffContextDialog" timestamp="1590912087564">
       <screen x="0" y="23" width="1378" height="877" />
