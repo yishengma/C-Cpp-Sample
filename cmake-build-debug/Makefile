@@ -150,6 +150,33 @@ CppModule/30-function-bind/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.s
 .PHONY : CppModule/30-function-bind/Sample.cpp.s
 
+CppModule/31-lambda/Sample.o: CppModule/31-lambda/Sample.cpp.o
+
+.PHONY : CppModule/31-lambda/Sample.o
+
+# target to build an object file
+CppModule/31-lambda/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/31-lambda/Sample.cpp.o
+.PHONY : CppModule/31-lambda/Sample.cpp.o
+
+CppModule/31-lambda/Sample.i: CppModule/31-lambda/Sample.cpp.i
+
+.PHONY : CppModule/31-lambda/Sample.i
+
+# target to preprocess a source file
+CppModule/31-lambda/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/31-lambda/Sample.cpp.i
+.PHONY : CppModule/31-lambda/Sample.cpp.i
+
+CppModule/31-lambda/Sample.s: CppModule/31-lambda/Sample.cpp.s
+
+.PHONY : CppModule/31-lambda/Sample.s
+
+# target to generate assembly for a file
+CppModule/31-lambda/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/31-lambda/Sample.cpp.s
+.PHONY : CppModule/31-lambda/Sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... CppModule/30-function-bind/Sample.o"
 	@echo "... CppModule/30-function-bind/Sample.i"
 	@echo "... CppModule/30-function-bind/Sample.s"
+	@echo "... CppModule/31-lambda/Sample.o"
+	@echo "... CppModule/31-lambda/Sample.i"
+	@echo "... CppModule/31-lambda/Sample.s"
 .PHONY : help
 
 
