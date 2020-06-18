@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/26-bind-function/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/26-bind-function/Sample.cpp.o"
-  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/27-function-target.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/27-function-target/27-function-target.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target/27-function-target.cpp.o"
+  "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/28-template-special/Sample.cpp" "/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

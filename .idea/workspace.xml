@@ -35,21 +35,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 绑定器的原理">
-      <change afterPath="$PROJECT_DIR$/CppModule/27-function-target.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ function 的作用">
+      <change afterPath="$PROJECT_DIR$/CppModule/28-template-special/Sample.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppModule/27-function-target.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CppModule/27-function-target/27-function-target.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
@@ -76,12 +73,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="c++左值引用和右值引用构造器" />
-        <option name="rewordedMessage" value="&#10;&#10;&#10;c++左值引用和右值引用构造器" />
+        <option name="originalMessage" value="c++ function 的作用" />
+        <option name="rewordedMessage" value="c++ function 的作用&#10;&#10;&#10;c++ function 的作用" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="98749c13731fdecd31791e57da61497f5888070d" />
+    <option name="onto" value="168105fbe490db9a342d1e5f3d76cc0e823d4111" />
   </component>
   <component name="ProjectId" id="1cXHqV6CArJATzkMaXhbfJcsAyd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -99,6 +96,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CppModule/27-function-target" />
       <recent name="$PROJECT_DIR$/CppModule/12-mutil-state" />
       <recent name="$PROJECT_DIR$/CppModule/2-class-basic" />
     </key>
@@ -125,21 +123,7 @@
       <workItem from="1591362580463" duration="826000" />
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
-      <workItem from="1592291422382" duration="23620000" />
-    </task>
-    <task id="LOCAL-00008" summary="C 函数指针">
-      <created>1590674582319</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1590674582319</updated>
-    </task>
-    <task id="LOCAL-00009" summary="C 随机数">
-      <created>1590718103005</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1590718103005</updated>
+      <workItem from="1592291422382" duration="26304000" />
     </task>
     <task id="LOCAL-00010" summary="C 动态内存开辟">
       <created>1590720722783</created>
@@ -470,7 +454,21 @@
       <option name="project" value="LOCAL" />
       <updated>1592400127791</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="c++ function 的作用">
+      <created>1592401721131</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1592401721131</updated>
+    </task>
+    <task id="LOCAL-00058" summary="c++ function 的作用">
+      <created>1592401728892</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1592401728892</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C++ const 修饰方法" />
     <MESSAGE value="C++ 友元" />
     <MESSAGE value="C++ 类的各个方法" />
     <MESSAGE value="C++ 类的继承" />
@@ -514,7 +511,8 @@
     <MESSAGE value="c++ 多线程访问共享对象的问题" />
     <MESSAGE value="c++ 智能指针的删除器" />
     <MESSAGE value="c++ 绑定器的原理" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++ 绑定器的原理" />
+    <MESSAGE value="c++ function 的作用" />
+    <option name="LAST_COMMIT_MESSAGE" value="c++ function 的作用" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592399564879">
@@ -528,13 +526,13 @@
     </state>
     <state x="124" y="124" width="1151" height="637" key="DiffContextDialog/0.23.1378.877@0.23.1378.877" timestamp="1590912087564" />
     <state x="124" y="124" width="1152" height="637" key="DiffContextDialog/0.23.1380.877@0.23.1380.877" timestamp="1590807007264" />
-    <state x="187" y="152" key="Git.Interactive.Rebase.Dialog" timestamp="1592365187137">
+    <state x="187" y="152" key="Git.Interactive.Rebase.Dialog" timestamp="1592401744337">
       <screen x="0" y="23" width="1388" height="877" />
     </state>
     <state x="185" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1375.877@0.23.1375.877" timestamp="1590673531669" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1378.877@0.23.1378.877" timestamp="1592307293008" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1380.877@0.23.1380.877" timestamp="1590806991560" />
-    <state x="187" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1388.877@0.23.1388.877" timestamp="1592365187137" />
+    <state x="187" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1388.877@0.23.1388.877" timestamp="1592401744337" />
     <state width="1310" height="303" key="GridCell.Tab.0.bottom" timestamp="1592400719650">
       <screen x="0" y="23" width="1388" height="877" />
     </state>
@@ -595,10 +593,10 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="265" y="89" key="SettingsEditor/0.23.1395.877@0.23.1395.877" timestamp="1591362907714" />
-    <state x="276" y="209" key="Vcs.Push.Dialog.v2" timestamp="1592365986477">
-      <screen x="0" y="23" width="1388" height="877" />
+    <state x="276" y="209" key="Vcs.Push.Dialog.v2" timestamp="1592473057172">
+      <screen x="0" y="23" width="1386" height="877" />
     </state>
-    <state x="276" y="209" key="Vcs.Push.Dialog.v2/0.23.1386.877@0.23.1386.877" timestamp="1592316233009" />
+    <state x="276" y="209" key="Vcs.Push.Dialog.v2/0.23.1386.877@0.23.1386.877" timestamp="1592473057172" />
     <state x="276" y="209" key="Vcs.Push.Dialog.v2/0.23.1388.877@0.23.1388.877" timestamp="1592365986477" />
     <state x="467" y="351" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1592307268347">
       <screen x="0" y="23" width="1378" height="877" />

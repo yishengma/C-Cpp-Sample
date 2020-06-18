@@ -83,7 +83,10 @@
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/26-bind-function/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/27-function-target.cpp">
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/27-function-target/27-function-target.cpp">
+			<Option target="C_Cpp_Sample"/>
+		</Unit>
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/28-template-special/Sample.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CMakeLists.txt">
