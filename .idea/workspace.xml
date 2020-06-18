@@ -35,11 +35,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ function 的作用">
-      <change afterPath="$PROJECT_DIR$/CppModule/28-template-special/Sample.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 模版的完全特例化和不完全特例化">
+      <change afterPath="$PROJECT_DIR$/CppModule/29-function-orig/Sample.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CppModule/27-function-target.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CppModule/27-function-target/27-function-target.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" afterDir="false" />
@@ -123,14 +122,7 @@
       <workItem from="1591362580463" duration="826000" />
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
-      <workItem from="1592291422382" duration="26304000" />
-    </task>
-    <task id="LOCAL-00010" summary="C 动态内存开辟">
-      <created>1590720722783</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1590720722783</updated>
+      <workItem from="1592291422382" duration="27885000" />
     </task>
     <task id="LOCAL-00011" summary="C 字符串操作">
       <created>1590740345770</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592401728892</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="c++ 模版的完全特例化和不完全特例化">
+      <created>1592480610381</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1592480610382</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +486,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C++ 友元" />
     <MESSAGE value="C++ 类的各个方法" />
     <MESSAGE value="C++ 类的继承" />
     <MESSAGE value="C++ 多态" />
@@ -512,14 +510,15 @@
     <MESSAGE value="c++ 智能指针的删除器" />
     <MESSAGE value="c++ 绑定器的原理" />
     <MESSAGE value="c++ function 的作用" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++ function 的作用" />
+    <MESSAGE value="c++ 模版的完全特例化和不完全特例化" />
+    <option name="LAST_COMMIT_MESSAGE" value="c++ 模版的完全特例化和不完全特例化" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592399564879">
-      <screen x="0" y="23" width="1388" height="877" />
+    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592481310348">
+      <screen x="0" y="23" width="1386" height="877" />
     </state>
     <state x="479" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1378.877@0.23.1378.877" timestamp="1592309623290" />
-    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1386.877@0.23.1386.877" timestamp="1590980859286" />
+    <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1386.877@0.23.1386.877" timestamp="1592481310348" />
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1388.877@0.23.1388.877" timestamp="1592399564879" />
     <state x="124" y="124" width="1151" height="637" key="DiffContextDialog" timestamp="1590912087564">
       <screen x="0" y="23" width="1378" height="877" />

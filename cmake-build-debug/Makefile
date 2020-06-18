@@ -204,6 +204,33 @@ CppModule/28-template-special/Sample.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/28-template-special/Sample.cpp.s
 .PHONY : CppModule/28-template-special/Sample.cpp.s
 
+CppModule/29-function-orig/Sample.o: CppModule/29-function-orig/Sample.cpp.o
+
+.PHONY : CppModule/29-function-orig/Sample.o
+
+# target to build an object file
+CppModule/29-function-orig/Sample.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.o
+.PHONY : CppModule/29-function-orig/Sample.cpp.o
+
+CppModule/29-function-orig/Sample.i: CppModule/29-function-orig/Sample.cpp.i
+
+.PHONY : CppModule/29-function-orig/Sample.i
+
+# target to preprocess a source file
+CppModule/29-function-orig/Sample.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.i
+.PHONY : CppModule/29-function-orig/Sample.cpp.i
+
+CppModule/29-function-orig/Sample.s: CppModule/29-function-orig/Sample.cpp.s
+
+.PHONY : CppModule/29-function-orig/Sample.s
+
+# target to generate assembly for a file
+CppModule/29-function-orig/Sample.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/29-function-orig/Sample.cpp.s
+.PHONY : CppModule/29-function-orig/Sample.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... CppModule/28-template-special/Sample.o"
 	@echo "... CppModule/28-template-special/Sample.i"
 	@echo "... CppModule/28-template-special/Sample.s"
+	@echo "... CppModule/29-function-orig/Sample.o"
+	@echo "... CppModule/29-function-orig/Sample.i"
+	@echo "... CppModule/29-function-orig/Sample.s"
 .PHONY : help
 
 
