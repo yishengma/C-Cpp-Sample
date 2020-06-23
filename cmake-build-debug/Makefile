@@ -123,59 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/30-function-bind/Sample.o: CppModule/30-function-bind/Sample.cpp.o
+CppModule/33-language-thread/Sample2.o: CppModule/33-language-thread/Sample2.cpp.o
 
-.PHONY : CppModule/30-function-bind/Sample.o
-
-# target to build an object file
-CppModule/30-function-bind/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.o
-.PHONY : CppModule/30-function-bind/Sample.cpp.o
-
-CppModule/30-function-bind/Sample.i: CppModule/30-function-bind/Sample.cpp.i
-
-.PHONY : CppModule/30-function-bind/Sample.i
-
-# target to preprocess a source file
-CppModule/30-function-bind/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.i
-.PHONY : CppModule/30-function-bind/Sample.cpp.i
-
-CppModule/30-function-bind/Sample.s: CppModule/30-function-bind/Sample.cpp.s
-
-.PHONY : CppModule/30-function-bind/Sample.s
-
-# target to generate assembly for a file
-CppModule/30-function-bind/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.s
-.PHONY : CppModule/30-function-bind/Sample.cpp.s
-
-CppModule/31-lambda/Sample.o: CppModule/31-lambda/Sample.cpp.o
-
-.PHONY : CppModule/31-lambda/Sample.o
+.PHONY : CppModule/33-language-thread/Sample2.o
 
 # target to build an object file
-CppModule/31-lambda/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/31-lambda/Sample.cpp.o
-.PHONY : CppModule/31-lambda/Sample.cpp.o
+CppModule/33-language-thread/Sample2.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample2.cpp.o
+.PHONY : CppModule/33-language-thread/Sample2.cpp.o
 
-CppModule/31-lambda/Sample.i: CppModule/31-lambda/Sample.cpp.i
+CppModule/33-language-thread/Sample2.i: CppModule/33-language-thread/Sample2.cpp.i
 
-.PHONY : CppModule/31-lambda/Sample.i
+.PHONY : CppModule/33-language-thread/Sample2.i
 
 # target to preprocess a source file
-CppModule/31-lambda/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/31-lambda/Sample.cpp.i
-.PHONY : CppModule/31-lambda/Sample.cpp.i
+CppModule/33-language-thread/Sample2.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample2.cpp.i
+.PHONY : CppModule/33-language-thread/Sample2.cpp.i
 
-CppModule/31-lambda/Sample.s: CppModule/31-lambda/Sample.cpp.s
+CppModule/33-language-thread/Sample2.s: CppModule/33-language-thread/Sample2.cpp.s
 
-.PHONY : CppModule/31-lambda/Sample.s
+.PHONY : CppModule/33-language-thread/Sample2.s
 
 # target to generate assembly for a file
-CppModule/31-lambda/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/31-lambda/Sample.cpp.s
-.PHONY : CppModule/31-lambda/Sample.cpp.s
+CppModule/33-language-thread/Sample2.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample2.cpp.s
+.PHONY : CppModule/33-language-thread/Sample2.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/30-function-bind/Sample.o"
-	@echo "... CppModule/30-function-bind/Sample.i"
-	@echo "... CppModule/30-function-bind/Sample.s"
-	@echo "... CppModule/31-lambda/Sample.o"
-	@echo "... CppModule/31-lambda/Sample.i"
-	@echo "... CppModule/31-lambda/Sample.s"
+	@echo "... CppModule/33-language-thread/Sample2.o"
+	@echo "... CppModule/33-language-thread/Sample2.i"
+	@echo "... CppModule/33-language-thread/Sample2.s"
 .PHONY : help
 
 

@@ -80,10 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/30-function-bind/Sample.cpp">
-			<Option target="C_Cpp_Sample"/>
-		</Unit>
-		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/31-lambda/Sample.cpp">
+		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/33-language-thread/Sample2.cpp">
 			<Option target="C_Cpp_Sample"/>
 		</Unit>
 		<Unit filename="/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CMakeLists.txt">

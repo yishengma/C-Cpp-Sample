@@ -6,13 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/26-bind-function/Sample.cpp
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/33-language-thread/Sample2.cpp
 iostream
 -
-vector
+thread
 -
-
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/27-function-target.cpp
-iostream
+list
 -
 

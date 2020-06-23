@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/30-function-bind/Sample.cpp.o"
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/31-lambda/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample2.cpp.o"
   "C_Cpp_Sample"
   "C_Cpp_Sample.pdb"
 )

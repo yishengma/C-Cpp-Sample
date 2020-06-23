@@ -18,4 +18,7 @@ set(CMAKE_CXX_STANDARD 11)
 
 #add_executable(C_Cpp_Sample CppModule/24-move-forward/Sample.cpp CppModule/25-intelligent-pointer/Sample.cpp CppModule/25-intelligent-pointer/Sample2.cpp CppModule/25-intelligent-pointer/Sample3.cpp )
 #add_executable(C_Cpp_Sample CppModule/26-bind-function/Sample.cpp CppModule/27-function-target/27-function-target.cpp CppModule/28-template-special/Sample.cpp CppModule/29-function-orig/Sample.cpp )
-add_executable(C_Cpp_Sample CppModule/30-function-bind/Sample.cpp CppModule/31-lambda/Sample.cpp)
+#add_executable(C_Cpp_Sample CppModule/30-function-bind/Sample.cpp CppModule/31-lambda/Sample.cpp CppModule/32-c++11-standard/Sample.cpp)
+
+#CppModule/33-language-thread/Sample.cpp
+add_executable(C_Cpp_Sample CppModule/33-language-thread/Sample2.cpp)
