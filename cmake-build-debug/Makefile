@@ -150,6 +150,33 @@ CppModule/33-language-thread/Sample3.cpp.s:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample3.cpp.s
 .PHONY : CppModule/33-language-thread/Sample3.cpp.s
 
+CppModule/33-language-thread/Sample4.o: CppModule/33-language-thread/Sample4.cpp.o
+
+.PHONY : CppModule/33-language-thread/Sample4.o
+
+# target to build an object file
+CppModule/33-language-thread/Sample4.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample4.cpp.o
+.PHONY : CppModule/33-language-thread/Sample4.cpp.o
+
+CppModule/33-language-thread/Sample4.i: CppModule/33-language-thread/Sample4.cpp.i
+
+.PHONY : CppModule/33-language-thread/Sample4.i
+
+# target to preprocess a source file
+CppModule/33-language-thread/Sample4.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample4.cpp.i
+.PHONY : CppModule/33-language-thread/Sample4.cpp.i
+
+CppModule/33-language-thread/Sample4.s: CppModule/33-language-thread/Sample4.cpp.s
+
+.PHONY : CppModule/33-language-thread/Sample4.s
+
+# target to generate assembly for a file
+CppModule/33-language-thread/Sample4.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample4.cpp.s
+.PHONY : CppModule/33-language-thread/Sample4.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... CppModule/33-language-thread/Sample3.o"
 	@echo "... CppModule/33-language-thread/Sample3.i"
 	@echo "... CppModule/33-language-thread/Sample3.s"
+	@echo "... CppModule/33-language-thread/Sample4.o"
+	@echo "... CppModule/33-language-thread/Sample4.i"
+	@echo "... CppModule/33-language-thread/Sample4.s"
 .PHONY : help
 
 

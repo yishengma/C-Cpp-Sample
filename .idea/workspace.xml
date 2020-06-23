@@ -35,18 +35,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 语言级别线程和互斥锁">
-      <change afterPath="$PROJECT_DIR$/CppModule/33-language-thread/Sample3.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 线程互斥和同步通信">
+      <change afterPath="$PROJECT_DIR$/CppModule/33-language-thread/Sample4.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
@@ -124,14 +122,7 @@
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
       <workItem from="1592291422382" duration="31287000" />
-      <workItem from="1592908757767" duration="6869000" />
-    </task>
-    <task id="LOCAL-00017" summary="C 野指针和NULL">
-      <created>1590826760270</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1590826760270</updated>
+      <workItem from="1592908757767" duration="7339000" />
     </task>
     <task id="LOCAL-00018" summary="C 指针和字符串">
       <created>1590843911577</created>
@@ -469,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592912986270</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="c++ 线程互斥和同步通信">
+      <created>1592916900537</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1592916900537</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +486,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C++ 模板类" />
     <MESSAGE value="C++ 类型转换cast" />
     <MESSAGE value="C++ string" />
     <MESSAGE value="C++ 基础加强" />
@@ -513,7 +510,8 @@
     <MESSAGE value="c++ lambda表达式" />
     <MESSAGE value="c++ 11 新特性" />
     <MESSAGE value="c++ 语言级别线程和互斥锁" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++ 语言级别线程和互斥锁" />
+    <MESSAGE value="c++ 线程互斥和同步通信" />
+    <option name="LAST_COMMIT_MESSAGE" value="c++ 线程互斥和同步通信" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592483806708">
