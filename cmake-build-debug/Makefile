@@ -123,32 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/33-language-thread/Sample2.o: CppModule/33-language-thread/Sample2.cpp.o
+CppModule/33-language-thread/Sample3.o: CppModule/33-language-thread/Sample3.cpp.o
 
-.PHONY : CppModule/33-language-thread/Sample2.o
+.PHONY : CppModule/33-language-thread/Sample3.o
 
 # target to build an object file
-CppModule/33-language-thread/Sample2.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample2.cpp.o
-.PHONY : CppModule/33-language-thread/Sample2.cpp.o
+CppModule/33-language-thread/Sample3.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample3.cpp.o
+.PHONY : CppModule/33-language-thread/Sample3.cpp.o
 
-CppModule/33-language-thread/Sample2.i: CppModule/33-language-thread/Sample2.cpp.i
+CppModule/33-language-thread/Sample3.i: CppModule/33-language-thread/Sample3.cpp.i
 
-.PHONY : CppModule/33-language-thread/Sample2.i
+.PHONY : CppModule/33-language-thread/Sample3.i
 
 # target to preprocess a source file
-CppModule/33-language-thread/Sample2.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample2.cpp.i
-.PHONY : CppModule/33-language-thread/Sample2.cpp.i
+CppModule/33-language-thread/Sample3.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample3.cpp.i
+.PHONY : CppModule/33-language-thread/Sample3.cpp.i
 
-CppModule/33-language-thread/Sample2.s: CppModule/33-language-thread/Sample2.cpp.s
+CppModule/33-language-thread/Sample3.s: CppModule/33-language-thread/Sample3.cpp.s
 
-.PHONY : CppModule/33-language-thread/Sample2.s
+.PHONY : CppModule/33-language-thread/Sample3.s
 
 # target to generate assembly for a file
-CppModule/33-language-thread/Sample2.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample2.cpp.s
-.PHONY : CppModule/33-language-thread/Sample2.cpp.s
+CppModule/33-language-thread/Sample3.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample3.cpp.s
+.PHONY : CppModule/33-language-thread/Sample3.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/33-language-thread/Sample2.o"
-	@echo "... CppModule/33-language-thread/Sample2.i"
-	@echo "... CppModule/33-language-thread/Sample2.s"
+	@echo "... CppModule/33-language-thread/Sample3.o"
+	@echo "... CppModule/33-language-thread/Sample3.i"
+	@echo "... CppModule/33-language-thread/Sample3.s"
 .PHONY : help
 
 

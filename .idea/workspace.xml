@@ -35,27 +35,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ lambda表达式">
-      <change afterPath="$PROJECT_DIR$/CppModule/32-c++11-standard/Sample.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CppModule/33-language-thread/Sample.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CppModule/33-language-thread/Sample2.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 语言级别线程和互斥锁">
+      <change afterPath="$PROJECT_DIR$/CppModule/33-language-thread/Sample3.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CppModule/27-function-target.cpp.o" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
@@ -82,12 +73,12 @@
   <component name="GitRewordedCommitMessages">
     <option name="commitMessagesMapping">
       <RewordedCommitMessageMapping>
-        <option name="originalMessage" value="c++ function 的作用" />
-        <option name="rewordedMessage" value="c++ function 的作用&#10;&#10;&#10;c++ function 的作用" />
+        <option name="originalMessage" value="c++ 语言级别线程和互斥锁" />
+        <option name="rewordedMessage" value="c++ 语言级别线程和互斥锁&#10;&#10;&#10;c++ 语言级别线程和互斥锁" />
       </RewordedCommitMessageMapping>
     </option>
     <option name="currentCommit" value="1" />
-    <option name="onto" value="168105fbe490db9a342d1e5f3d76cc0e823d4111" />
+    <option name="onto" value="f6da34b665fcf9161fd1b06ce29c5d0ca80d0752" />
   </component>
   <component name="ProjectId" id="1cXHqV6CArJATzkMaXhbfJcsAyd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -133,28 +124,7 @@
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
       <workItem from="1592291422382" duration="31287000" />
-      <workItem from="1592908757767" duration="4071000" />
-    </task>
-    <task id="LOCAL-00014" summary="C 数组作为参数传递，退化为指针">
-      <created>1590808052937</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1590808052937</updated>
-    </task>
-    <task id="LOCAL-00015" summary="C 变量本质和别名">
-      <created>1590822627430</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1590822627430</updated>
-    </task>
-    <task id="LOCAL-00016" summary="C 四驱内存模型">
-      <created>1590824628154</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1590824628154</updated>
+      <workItem from="1592908757767" duration="6869000" />
     </task>
     <task id="LOCAL-00017" summary="C 野指针和NULL">
       <created>1590826760270</created>
@@ -478,7 +448,28 @@
       <option name="project" value="LOCAL" />
       <updated>1592486225507</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="c++ 11 新特性">
+      <created>1592912945931</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1592912945931</updated>
+    </task>
+    <task id="LOCAL-00064" summary="c++ 语言级别线程和互斥锁">
+      <created>1592912978113</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1592912978113</updated>
+    </task>
+    <task id="LOCAL-00065" summary="c++ 语言级别线程和互斥锁">
+      <created>1592912986270</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1592912986270</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,8 +488,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C++ 抽象类和接口" />
-    <MESSAGE value="C++ 模板函数" />
     <MESSAGE value="C++ 模板类" />
     <MESSAGE value="C++ 类型转换cast" />
     <MESSAGE value="C++ string" />
@@ -522,7 +511,9 @@
     <MESSAGE value="c++ function实现原理" />
     <MESSAGE value="c++ function+bind实现线程池" />
     <MESSAGE value="c++ lambda表达式" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++ lambda表达式" />
+    <MESSAGE value="c++ 11 新特性" />
+    <MESSAGE value="c++ 语言级别线程和互斥锁" />
+    <option name="LAST_COMMIT_MESSAGE" value="c++ 语言级别线程和互斥锁" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser" timestamp="1592483806708">
@@ -536,14 +527,15 @@
     </state>
     <state x="124" y="124" width="1151" height="637" key="DiffContextDialog/0.23.1378.877@0.23.1378.877" timestamp="1590912087564" />
     <state x="124" y="124" width="1152" height="637" key="DiffContextDialog/0.23.1380.877@0.23.1380.877" timestamp="1590807007264" />
-    <state x="187" y="152" key="Git.Interactive.Rebase.Dialog" timestamp="1592401744337">
-      <screen x="0" y="23" width="1388" height="877" />
+    <state x="39" y="-902" key="Git.Interactive.Rebase.Dialog" timestamp="1592912998623">
+      <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state x="185" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1375.877@0.23.1375.877" timestamp="1590673531669" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1378.877@0.23.1378.877" timestamp="1592307293008" />
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1380.877@0.23.1380.877" timestamp="1590806991560" />
     <state x="187" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1388.877@0.23.1388.877" timestamp="1592401744337" />
-    <state width="1052" height="548" key="GridCell.Tab.0.bottom" timestamp="1592912562343">
+    <state x="39" y="-902" key="Git.Interactive.Rebase.Dialog/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912998623" />
+    <state width="1052" height="292" key="GridCell.Tab.0.bottom" timestamp="1592916368767">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.bottom/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
@@ -552,8 +544,9 @@
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.bottom/0.23.1386.877@0.23.1386.877" timestamp="1591066746932" />
     <state width="1310" height="303" key="GridCell.Tab.0.bottom/0.23.1388.877@0.23.1388.877" timestamp="1592787448783" />
-    <state width="1052" height="548" key="GridCell.Tab.0.bottom/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912562343" />
-    <state width="1052" height="548" key="GridCell.Tab.0.center" timestamp="1592912562342">
+    <state width="1052" height="292" key="GridCell.Tab.0.bottom/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912987840" />
+    <state width="1052" height="292" key="GridCell.Tab.0.bottom/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592916368767" />
+    <state width="1052" height="292" key="GridCell.Tab.0.center" timestamp="1592916368767">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.center/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
@@ -562,8 +555,9 @@
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.center/0.23.1386.877@0.23.1386.877" timestamp="1591066746931" />
     <state width="1310" height="303" key="GridCell.Tab.0.center/0.23.1388.877@0.23.1388.877" timestamp="1592787448781" />
-    <state width="1052" height="548" key="GridCell.Tab.0.center/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912562342" />
-    <state width="1052" height="548" key="GridCell.Tab.0.left" timestamp="1592912562341">
+    <state width="1052" height="292" key="GridCell.Tab.0.center/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912987839" />
+    <state width="1052" height="292" key="GridCell.Tab.0.center/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592916368767" />
+    <state width="1052" height="292" key="GridCell.Tab.0.left" timestamp="1592916368766">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.left/0.23.1372.877@0.23.1372.877" timestamp="1590844952333" />
@@ -572,8 +566,9 @@
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.left/0.23.1386.877@0.23.1386.877" timestamp="1591066746930" />
     <state width="1310" height="303" key="GridCell.Tab.0.left/0.23.1388.877@0.23.1388.877" timestamp="1592787448778" />
-    <state width="1052" height="548" key="GridCell.Tab.0.left/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912562341" />
-    <state width="1052" height="548" key="GridCell.Tab.0.right" timestamp="1592912562342">
+    <state width="1052" height="292" key="GridCell.Tab.0.left/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912987838" />
+    <state width="1052" height="292" key="GridCell.Tab.0.left/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592916368766" />
+    <state width="1052" height="292" key="GridCell.Tab.0.right" timestamp="1592916368767">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.right/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
@@ -582,7 +577,8 @@
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1380.877@0.23.1380.877" timestamp="1590757003966" />
     <state width="1310" height="217" key="GridCell.Tab.0.right/0.23.1386.877@0.23.1386.877" timestamp="1591066746931" />
     <state width="1310" height="303" key="GridCell.Tab.0.right/0.23.1388.877@0.23.1388.877" timestamp="1592787448782" />
-    <state width="1052" height="548" key="GridCell.Tab.0.right/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912562342" />
+    <state width="1052" height="292" key="GridCell.Tab.0.right/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912987839" />
+    <state width="1052" height="292" key="GridCell.Tab.0.right/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592916368767" />
     <state width="1310" height="270" key="GridCell.Tab.1.bottom" timestamp="1590844952337">
       <screen x="0" y="23" width="1372" height="877" />
     </state>

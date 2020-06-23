@@ -21,4 +21,5 @@ set(CMAKE_CXX_STANDARD 11)
 #add_executable(C_Cpp_Sample CppModule/30-function-bind/Sample.cpp CppModule/31-lambda/Sample.cpp CppModule/32-c++11-standard/Sample.cpp)
 
 #CppModule/33-language-thread/Sample.cpp
-add_executable(C_Cpp_Sample CppModule/33-language-thread/Sample2.cpp)
+#CppModule/33-language-thread/Sample2.cpp
+add_executable(C_Cpp_Sample  CppModule/33-language-thread/Sample3.cpp)

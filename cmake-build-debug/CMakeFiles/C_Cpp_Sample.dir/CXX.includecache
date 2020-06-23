@@ -6,11 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/33-language-thread/Sample2.cpp
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/33-language-thread/Sample3.cpp
 iostream
 -
 thread
 -
-list
+condition_variable
+-
+queue
 -
 
