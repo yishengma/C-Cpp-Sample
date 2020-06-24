@@ -123,59 +123,32 @@ C_Cpp_Sample/fast:
 	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/build
 .PHONY : C_Cpp_Sample/fast
 
-CppModule/33-language-thread/Sample4.o: CppModule/33-language-thread/Sample4.cpp.o
+CppModule/34-design-pattern/Sample2.o: CppModule/34-design-pattern/Sample2.cpp.o
 
-.PHONY : CppModule/33-language-thread/Sample4.o
-
-# target to build an object file
-CppModule/33-language-thread/Sample4.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample4.cpp.o
-.PHONY : CppModule/33-language-thread/Sample4.cpp.o
-
-CppModule/33-language-thread/Sample4.i: CppModule/33-language-thread/Sample4.cpp.i
-
-.PHONY : CppModule/33-language-thread/Sample4.i
-
-# target to preprocess a source file
-CppModule/33-language-thread/Sample4.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample4.cpp.i
-.PHONY : CppModule/33-language-thread/Sample4.cpp.i
-
-CppModule/33-language-thread/Sample4.s: CppModule/33-language-thread/Sample4.cpp.s
-
-.PHONY : CppModule/33-language-thread/Sample4.s
-
-# target to generate assembly for a file
-CppModule/33-language-thread/Sample4.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample4.cpp.s
-.PHONY : CppModule/33-language-thread/Sample4.cpp.s
-
-CppModule/34-design-pattern/Sample.o: CppModule/34-design-pattern/Sample.cpp.o
-
-.PHONY : CppModule/34-design-pattern/Sample.o
+.PHONY : CppModule/34-design-pattern/Sample2.o
 
 # target to build an object file
-CppModule/34-design-pattern/Sample.cpp.o:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/34-design-pattern/Sample.cpp.o
-.PHONY : CppModule/34-design-pattern/Sample.cpp.o
+CppModule/34-design-pattern/Sample2.cpp.o:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/34-design-pattern/Sample2.cpp.o
+.PHONY : CppModule/34-design-pattern/Sample2.cpp.o
 
-CppModule/34-design-pattern/Sample.i: CppModule/34-design-pattern/Sample.cpp.i
+CppModule/34-design-pattern/Sample2.i: CppModule/34-design-pattern/Sample2.cpp.i
 
-.PHONY : CppModule/34-design-pattern/Sample.i
+.PHONY : CppModule/34-design-pattern/Sample2.i
 
 # target to preprocess a source file
-CppModule/34-design-pattern/Sample.cpp.i:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/34-design-pattern/Sample.cpp.i
-.PHONY : CppModule/34-design-pattern/Sample.cpp.i
+CppModule/34-design-pattern/Sample2.cpp.i:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/34-design-pattern/Sample2.cpp.i
+.PHONY : CppModule/34-design-pattern/Sample2.cpp.i
 
-CppModule/34-design-pattern/Sample.s: CppModule/34-design-pattern/Sample.cpp.s
+CppModule/34-design-pattern/Sample2.s: CppModule/34-design-pattern/Sample2.cpp.s
 
-.PHONY : CppModule/34-design-pattern/Sample.s
+.PHONY : CppModule/34-design-pattern/Sample2.s
 
 # target to generate assembly for a file
-CppModule/34-design-pattern/Sample.cpp.s:
-	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/34-design-pattern/Sample.cpp.s
-.PHONY : CppModule/34-design-pattern/Sample.cpp.s
+CppModule/34-design-pattern/Sample2.cpp.s:
+	$(MAKE) -f CMakeFiles/C_Cpp_Sample.dir/build.make CMakeFiles/C_Cpp_Sample.dir/CppModule/34-design-pattern/Sample2.cpp.s
+.PHONY : CppModule/34-design-pattern/Sample2.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... C_Cpp_Sample"
-	@echo "... CppModule/33-language-thread/Sample4.o"
-	@echo "... CppModule/33-language-thread/Sample4.i"
-	@echo "... CppModule/33-language-thread/Sample4.s"
-	@echo "... CppModule/34-design-pattern/Sample.o"
-	@echo "... CppModule/34-design-pattern/Sample.i"
-	@echo "... CppModule/34-design-pattern/Sample.s"
+	@echo "... CppModule/34-design-pattern/Sample2.o"
+	@echo "... CppModule/34-design-pattern/Sample2.i"
+	@echo "... CppModule/34-design-pattern/Sample2.s"
 .PHONY : help
 
 

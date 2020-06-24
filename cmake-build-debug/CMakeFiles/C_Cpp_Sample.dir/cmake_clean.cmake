@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/33-language-thread/Sample4.cpp.o"
-  "CMakeFiles/C_Cpp_Sample.dir/CppModule/34-design-pattern/Sample.cpp.o"
+  "CMakeFiles/C_Cpp_Sample.dir/CppModule/34-design-pattern/Sample2.cpp.o"
   "C_Cpp_Sample"
   "C_Cpp_Sample.pdb"
 )

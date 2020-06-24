@@ -23,4 +23,5 @@ set(CMAKE_CXX_STANDARD 11)
 #CppModule/33-language-thread/Sample.cpp
 #CppModule/33-language-thread/Sample2.cpp
 #CppModule/33-language-thread/Sample3.cpp
-add_executable(C_Cpp_Sample   CppModule/33-language-thread/Sample4.cpp CppModule/34-design-pattern/Sample.cpp)
+#CppModule/34-design-pattern/Sample.cpp
+add_executable(C_Cpp_Sample     CppModule/34-design-pattern/Sample2.cpp)

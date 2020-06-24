@@ -6,15 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/33-language-thread/Sample4.cpp
+/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/34-design-pattern/Sample2.cpp
+string
+-
 iostream
--
-thread
--
-atomic
--
-
-/Users/mayisheng/mayisheng/CLionProjects/C-Cpp-Sample/CppModule/34-design-pattern/Sample.cpp
-mutex
 -
 
