@@ -35,21 +35,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 设计模式-单例模式">
-      <change afterPath="$PROJECT_DIR$/CppModule/34-design-pattern/Sample2.cpp" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 设计模式-工厂模式">
+      <change afterPath="$PROJECT_DIR$/CppModule/34-design-pattern/Sample3.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/C_Cpp_Sample.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/C_Cpp_Sample.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
@@ -127,14 +123,7 @@
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
       <workItem from="1592291422382" duration="31287000" />
-      <workItem from="1592908757767" duration="11527000" />
-    </task>
-    <task id="LOCAL-00020" summary="C++ 常量，引用和函数">
-      <created>1590893730790</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1590893730790</updated>
+      <workItem from="1592908757767" duration="12366000" />
     </task>
     <task id="LOCAL-00021" summary="C++ 类的基础">
       <created>1590909852561</created>
@@ -472,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592962777135</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="c++ 设计模式-工厂模式">
+      <created>1592965015893</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1592965015893</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,7 +487,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C++ 基础加强" />
     <MESSAGE value="C++ 集合" />
     <MESSAGE value="C++ 谓词" />
     <MESSAGE value="C++ 线程" />
@@ -516,20 +511,21 @@
     <MESSAGE value="c++ 线程互斥和同步通信" />
     <MESSAGE value="c++ atomic原子操作" />
     <MESSAGE value="c++ 设计模式-单例模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++ 设计模式-单例模式" />
+    <MESSAGE value="c++ 设计模式-工厂模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="c++ 设计模式-工厂模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="904" y="-720" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592962934006">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state x="904" y="-720" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592962934006" />
-    <state x="448" y="-864" key="#com.intellij.ide.util.MemberChooser" timestamp="1592964085897">
+    <state x="448" y="-864" key="#com.intellij.ide.util.MemberChooser" timestamp="1592965734907">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state x="479" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1378.877@0.23.1378.877" timestamp="1592309623290" />
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1386.877@0.23.1386.877" timestamp="1592483806708" />
     <state x="482" y="183" key="#com.intellij.ide.util.MemberChooser/0.23.1388.877@0.23.1388.877" timestamp="1592399564879" />
-    <state x="448" y="-864" key="#com.intellij.ide.util.MemberChooser/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592964085897" />
+    <state x="448" y="-864" key="#com.intellij.ide.util.MemberChooser/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592965734907" />
     <state x="124" y="124" width="1151" height="637" key="DiffContextDialog" timestamp="1590912087564">
       <screen x="0" y="23" width="1378" height="877" />
     </state>
