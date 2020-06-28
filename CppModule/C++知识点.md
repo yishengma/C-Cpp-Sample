@@ -131,3 +131,49 @@ int &b = a;
 ####### 重载的底层实现，虚函数的底层实现
 - 重载，函数名+参数
 - 虚函数->虚函数表
+####### #define和type的区别
+```
+
+#define PIN1 int *
+typedef (int *) PIN2;
+
+int * a,b;
+表示a是指向整型的指针变量，而b是整型变量。
+
+PIN2 a,b;
+表示a,b都是指向整型的指针变量。
+
+#define 仅仅是字符串替换
+```
+####### 在成员函数末尾使用 const 关键字
+如果函数不打算更改它们绑定到的对象的状态，那么把他们申明为常量函数就是一种十分良好的“防御性编程”实践。通过这样做，您可以获得来自编译器的额外帮助，它将因此而禁止在函数中添加将更改对象状态的代码。
+####### 数组传递给函数
+```
+void sort(double a[], int size);
+void sort(double* a, int size);
+在c++中，数组名称实际上是指向它的第一个元素的常量指针。因此这两种形式是等价的。
+
+```
+###### 类的复制构造函数，析构函数
+```
+X(const X&);    //copy constructor
+~X();    //destructor
+X& operator=(const X&);    //assignment operator
+如果没有在类定义中显式声明他们或默认构造函数，编译器将自动为类X创建它们。
+
+```
+###### c++ ofstream 的文件打开方式
+｜模式｜含义｜
+｜-｜-｜
+｜in｜打开文件用于读取｜
+｜out｜打开文件用于写入｜
+｜ate｜打开文件并移到末尾｜
+｜app｜打开文件用于追加｜
+｜trunc｜若文件已存在，打开文件并截  取流（清除原有数据）｜  
+｜binary｜以二进制流方式打开文件｜
+####### 帮 C/C++ 程序员彻底了解链接器
+```
+原翻译表示禁止转载,但是这篇文章太好了,所以厚着脸皮转载过来了.
+英文出处:http://www.lurklurk.org/linkers/linkers.html
+中文伯乐翻译:http://blog.jobbole.com/96225/?utm_source=tuicool&utm_medium=referral#article-comment
+```

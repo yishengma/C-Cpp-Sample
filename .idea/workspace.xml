@@ -35,10 +35,48 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 设计模式-代理模式">
-      <change afterPath="$PROJECT_DIR$/CppModule/C++知识点.md" afterDir="false" />
+    <list default="true" id="5ddac523-0883-4ba0-8f1c-e4409d9f5524" name="Default Changelist" comment="c++ 知识点整理">
+      <change afterPath="$PROJECT_DIR$/CppModule/帮 C:C++ 程序员彻底了解链接器 .md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/571593343373_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/571593343373_.pic_hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/571593343373_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/581593343424_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/581593343424_.pic_hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/581593343424_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/591593343501_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/591593343501_.pic_P.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/591593343501_.pic_hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/591593343501_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/601593343587_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/601593343587_.pic_hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/601593343587_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/611593343620_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/611593343620_.pic_P.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/611593343620_.pic_hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/611593343620_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/621593343637_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/621593343637_.pic_P.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/621593343637_.pic_hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/621593343637_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/631593343684_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/631593343684_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/641593343723_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/641593343723_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/651593343727_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/651593343727_.pic_hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/651593343727_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/661593343760_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/661593343760_.pic_hd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/661593343760_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/671593343783_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/671593343783_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/681593343810_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/681593343810_.pic_thumb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/691593343857_.pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CppModule/彻底理解链接器/691593343857_.pic_thumb.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CppModule/34-design-pattern/Sample3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/CppModule/34-design-pattern/Sample3.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CppModule/C++知识点.md" beforeDir="false" afterPath="$PROJECT_DIR$/CppModule/C++知识点.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +120,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CppModule/彻底理解链接器" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/CppModule/彻底理解链接器" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/CppModule/27-function-target" />
       <recent name="$PROJECT_DIR$/CppModule/12-mutil-state" />
@@ -114,14 +156,8 @@
       <workItem from="1591766607900" duration="4047000" />
       <workItem from="1591775546969" duration="3000" />
       <workItem from="1592291422382" duration="31287000" />
-      <workItem from="1592908757767" duration="21148000" />
-    </task>
-    <task id="LOCAL-00022" summary="C++ 类的基础">
-      <created>1590909861731</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1590909861731</updated>
+      <workItem from="1592908757767" duration="21713000" />
+      <workItem from="1593330322465" duration="5687000" />
     </task>
     <task id="LOCAL-00023" summary="C++ 类的构造函数">
       <created>1590910680615</created>
@@ -459,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592965801849</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="c++ 知识点整理">
+      <created>1593059368249</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1593059368249</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -478,7 +521,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="C++ 谓词" />
     <MESSAGE value="C++ 线程" />
     <MESSAGE value="C++Thread补充" />
     <MESSAGE value="构造函数的优化，右值引用，拷贝构造" />
@@ -503,7 +545,8 @@
     <MESSAGE value="c++ 设计模式-单例模式" />
     <MESSAGE value="c++ 设计模式-工厂模式" />
     <MESSAGE value="c++ 设计模式-代理模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="c++ 设计模式-代理模式" />
+    <MESSAGE value="c++ 知识点整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="c++ 知识点整理" />
   </component>
   <component name="WindowStateProjectService">
     <state x="904" y="-720" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592962934006">
@@ -530,7 +573,7 @@
     <state x="186" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1380.877@0.23.1380.877" timestamp="1590806991560" />
     <state x="187" y="152" key="Git.Interactive.Rebase.Dialog/0.23.1388.877@0.23.1388.877" timestamp="1592401744337" />
     <state x="39" y="-902" key="Git.Interactive.Rebase.Dialog/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912998623" />
-    <state width="1004" height="365" key="GridCell.Tab.0.bottom" timestamp="1592997056954">
+    <state width="1004" height="365" key="GridCell.Tab.0.bottom" timestamp="1593072239293">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.bottom/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
@@ -542,7 +585,8 @@
     <state width="1052" height="292" key="GridCell.Tab.0.bottom/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912987840" />
     <state width="1004" height="365" key="GridCell.Tab.0.bottom/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592963927151" />
     <state width="1004" height="365" key="GridCell.Tab.0.bottom/0.23.1615.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592997056954" />
-    <state width="1004" height="365" key="GridCell.Tab.0.center" timestamp="1592997056953">
+    <state width="1004" height="365" key="GridCell.Tab.0.bottom/0.23.1620.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1593072239293" />
+    <state width="1004" height="365" key="GridCell.Tab.0.center" timestamp="1593072239293">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.center/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
@@ -554,7 +598,8 @@
     <state width="1052" height="292" key="GridCell.Tab.0.center/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912987839" />
     <state width="1004" height="365" key="GridCell.Tab.0.center/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592963927150" />
     <state width="1004" height="365" key="GridCell.Tab.0.center/0.23.1615.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592997056953" />
-    <state width="1004" height="365" key="GridCell.Tab.0.left" timestamp="1592997056952">
+    <state width="1004" height="365" key="GridCell.Tab.0.center/0.23.1620.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1593072239293" />
+    <state width="1004" height="365" key="GridCell.Tab.0.left" timestamp="1593072239292">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.left/0.23.1372.877@0.23.1372.877" timestamp="1590844952333" />
@@ -566,7 +611,8 @@
     <state width="1052" height="292" key="GridCell.Tab.0.left/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912987838" />
     <state width="1004" height="365" key="GridCell.Tab.0.left/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592963927149" />
     <state width="1004" height="365" key="GridCell.Tab.0.left/0.23.1615.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592997056952" />
-    <state width="1004" height="365" key="GridCell.Tab.0.right" timestamp="1592997056954">
+    <state width="1004" height="365" key="GridCell.Tab.0.left/0.23.1620.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1593072239292" />
+    <state width="1004" height="365" key="GridCell.Tab.0.right" timestamp="1593072239293">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state width="1310" height="270" key="GridCell.Tab.0.right/0.23.1372.877@0.23.1372.877" timestamp="1590844952334" />
@@ -578,6 +624,7 @@
     <state width="1052" height="292" key="GridCell.Tab.0.right/0.23.1609.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592912987839" />
     <state width="1004" height="365" key="GridCell.Tab.0.right/0.23.1612.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592963927150" />
     <state width="1004" height="365" key="GridCell.Tab.0.right/0.23.1615.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592997056954" />
+    <state width="1004" height="365" key="GridCell.Tab.0.right/0.23.1620.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1593072239293" />
     <state width="1310" height="270" key="GridCell.Tab.1.bottom" timestamp="1590844952337">
       <screen x="0" y="23" width="1372" height="877" />
     </state>
@@ -602,13 +649,13 @@
       <screen x="0" y="23" width="1395" height="877" />
     </state>
     <state x="265" y="89" key="SettingsEditor/0.23.1395.877@0.23.1395.877" timestamp="1591362907714" />
-    <state x="162" y="-833" key="Vcs.Push.Dialog.v2" timestamp="1593059345553">
+    <state x="162" y="-833" key="Vcs.Push.Dialog.v2" timestamp="1593059377676">
       <screen x="-220" y="-1057" width="1920" height="1057" />
     </state>
     <state x="276" y="209" key="Vcs.Push.Dialog.v2/0.23.1386.877@0.23.1386.877" timestamp="1592473057172" />
     <state x="276" y="209" key="Vcs.Push.Dialog.v2/0.23.1388.877@0.23.1388.877" timestamp="1592486386905" />
     <state x="162" y="-833" key="Vcs.Push.Dialog.v2/0.23.1615.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1592997065844" />
-    <state x="162" y="-833" key="Vcs.Push.Dialog.v2/0.23.1618.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1593059345553" />
+    <state x="162" y="-833" key="Vcs.Push.Dialog.v2/0.23.1618.1027/-220.-1057.1920.1057@-220.-1057.1920.1057" timestamp="1593059377676" />
     <state x="467" y="351" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1592307268347">
       <screen x="0" y="23" width="1378" height="877" />
     </state>
